@@ -15,3 +15,7 @@ _genonce.sh
 _updatePublisher.bat
 .fhir
 .npm
+.cache
+.dotnet
+.gnupg
+.vscode-server
