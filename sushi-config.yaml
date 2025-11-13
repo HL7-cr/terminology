@@ -101,8 +101,8 @@ pages:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-  Artifacts: artifacts.html
+  Inicio: index.html
+  Artefactos: artifacts.html
   Licencias: licenses.html
   Créditos: credits.html
 

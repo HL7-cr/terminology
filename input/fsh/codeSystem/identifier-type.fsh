@@ -18,11 +18,8 @@ Id:             identifier-type
 Title:          "Tipo de identificador"
 Description:    "Sistema de códigos para tipos de identificadores en Costa Rica."
 
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/standards-status"
-* ^extension[=].valueCode = #trial-use   // o #informative / #normative / #draft
-
 * ^version = "0.1.1"
-* ^status = #active
+* ^status = #draft
 * ^experimental = false
 * ^caseSensitive = false
 * ^publisher = "HL7 Costa Rica"

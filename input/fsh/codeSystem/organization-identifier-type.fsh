@@ -19,11 +19,8 @@ Id: organization-identifier-type
 Title: "Tipos de Identificadores de Organizaciones en Costa Rica"
 Description: "Tipos de identificadores de organizaciones utilizados en Costa Rica"
 
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/standards-status"
-* ^extension[=].valueCode = #trial-use   // o #informative / #normative / #draft
-
 * ^version = "0.1.1"
-* ^status = #active
+* ^status = #draft
 * ^experimental = false
 * ^publisher = "HL7 Costa Rica"
 * ^contact.name = "HL7 Costa Rica"

@@ -18,11 +18,8 @@ Id:             practitioner-role-code
 Title:          "Catálogo nacional de roles de los profesionales de la salud"
 Description:    "Código de roles de los profesionales de la salud"
 
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/standards-status"
-* ^extension[=].valueCode = #trial-use   // o #informative / #normative / #draft
-
 * ^version = "0.1.1"
-* ^status = #active
+* ^status = #draft
 * ^experimental = false
 * ^publisher = "HL7 Costa Rica"
 * ^contact.name = "HL7 Costa Rica"
