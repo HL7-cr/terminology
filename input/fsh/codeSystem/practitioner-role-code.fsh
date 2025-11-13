@@ -15,7 +15,7 @@
 
 CodeSystem:     PractitionerRoleCode
 Id:             practitioner-role-code
-Title:          "Catálogo nacional de roles de los profesionales de la salud"
+Title:          "Roles de los profesionales"
 Description:    "Código de roles de los profesionales de la salud"
 
 * ^version = "0.1.1"

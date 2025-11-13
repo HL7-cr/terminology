@@ -54,6 +54,11 @@ table.grid th {
     "Helvetica Neue", sans-serif;
 }
 
+table.grid th:first-child,
+table.grid td:first-child {
+  width: 30%;
+}
+
 table.grid td {
   font-size: 13px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
