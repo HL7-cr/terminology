@@ -23,7 +23,7 @@ status: draft
 version: 0.1.1-draft
 fhirVersion: 5.0.0
 copyrightYear: 2025+
-date: 2025-08-02
+date: 2025-11-12
 copyright: >-
   "Utilizado con permiso de HL7 International, todos los derechos reservados Licencia Creative Commons"
 
@@ -34,6 +34,16 @@ publisher:
   name: Iniciativa HL7 Costa Rica
   url: https://fhir.hl7.or.cr
   email: info@hl7.or.cr
+
+contact:
+  - name: Iniciativa HL7 Costa Rica
+    telecom:
+      - system: email
+        value: info@hl7.or.cr
+        use: work
+      - system: url
+        value: https://fhir.hl7.or.cr
+        use: work
 
 language: es
 
