@@ -15,8 +15,8 @@
 
 CodeSystem:     IdentifierType
 Id:             identifier-type
-Title:          "Tipo de identificador"
-Description:    "Sistema de códigos para tipos de identificadores en Costa Rica."
+Title:          "Identificador de Personas"
+Description:    "Sistema de códigos para tipos de identificadores para personas."
 
 * ^version = "0.1.1"
 * ^status = #draft

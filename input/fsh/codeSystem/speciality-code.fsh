@@ -16,7 +16,7 @@
 
 CodeSystem: SpecialityCode
 Id: speciality-code
-Title: "Cátalogo nacional de especialidades de profesionales de salud"
+Title: "Especialidades de profesionales"
 Description: "Código de especialidad de profesionales de salud en Costa Rica"
 
 * ^version = "0.1.1"

@@ -16,8 +16,8 @@
 
 CodeSystem: OrganizationIdentifierTypeCodeSystem
 Id: organization-identifier-type
-Title: "Tipos de Identificadores de Organizaciones en Costa Rica"
-Description: "Tipos de identificadores de organizaciones utilizados en Costa Rica"
+Title: "Identificadores para Organizaciones"
+Description: "Identificadores para organizaciones utilizados en Costa Rica"
 
 * ^version = "0.1.1"
 * ^status = #draft
