@@ -8,7 +8,7 @@ packageId: hl7.fhir.cr.terminology
 canonical: https://fhir.hl7.or.cr/ig/terminology
 name: CRTerminology
 
-title: "Guías de Implementación HL7 FHIR: CR Terminología"
+title: "Guía de Implementación HL7 FHIR: CR Terminología"
 description: "Esta guía de implementación define los recursos de terminología FHIR utilizados por la Iniciativa HL7 Costa Rica."
 
 extension:
@@ -23,7 +23,7 @@ status: draft
 version: 0.1.1-draft
 fhirVersion: 5.0.0
 copyrightYear: 2025+
-date: 2025-08-02
+date: 2025-11-12
 copyright: >-
   "Utilizado con permiso de HL7 International, todos los derechos reservados Licencia Creative Commons"
 
@@ -35,14 +35,24 @@ publisher:
   url: https://fhir.hl7.or.cr
   email: info@hl7.or.cr
 
+contact:
+  - name: Iniciativa HL7 Costa Rica
+    telecom:
+      - system: email
+        value: info@hl7.or.cr
+        use: work
+      - system: url
+        value: https://hl7.or.cr
+        use: work
+
 language: es
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-dependencies:
-  hl7.fhir.r5.core: 5.0.0
+# dependencies:
+#   hl7.terminology.r5: 1.0.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
@@ -73,7 +83,7 @@ pages:
 # than a list of code/value pairs (as in the ImplementationGuide
 # resource), the code is the YAML key. If a parameter allows repeating
 # values, the value in the YAML should be a sequence/array.
-# For parameters defined by core FHIR see:
+# For parameters defined by TERMINOLOGY FHIR see:
 # http://build.fhir.org/codesystem-guide-parameter-code.html
 # For parameters defined by the FHIR Tools IG see:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
@@ -91,8 +101,8 @@ pages:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-  Artifacts: artifacts.html
+  Inicio: index.html
+  Artefactos: artifacts.html
   Licencias: licenses.html
   Créditos: credits.html
 

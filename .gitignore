@@ -19,3 +19,5 @@ _updatePublisher.bat
 .dotnet
 .gnupg
 .vscode-server
+.bash_history
+.gitconfig
