@@ -42,7 +42,7 @@ contact:
         value: info@hl7.or.cr
         use: work
       - system: url
-        value: https://fhir.hl7.or.cr
+        value: https://hl7.or.cr
         use: work
 
 language: es
