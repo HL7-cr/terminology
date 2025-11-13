@@ -8,7 +8,7 @@ packageId: hl7.fhir.cr.terminology
 canonical: https://fhir.hl7.or.cr/ig/terminology
 name: CRTerminology
 
-title: "Guías de Implementación HL7 FHIR: CR Terminología"
+title: "Guía de Implementación HL7 FHIR: CR Terminología"
 description: "Esta guía de implementación define los recursos de terminología FHIR utilizados por la Iniciativa HL7 Costa Rica."
 
 extension:
