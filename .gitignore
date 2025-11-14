@@ -29,3 +29,4 @@ _updatePublisher.bat
 .vscode-server
 .bash_history
 .gitconfig
+re-build-sushi.sh
