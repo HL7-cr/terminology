@@ -43,6 +43,6 @@ Distribuido bajo la licencia [CC-BY 4.0](https://creativecommons.org/licenses/by
 
 ---
 
-**Iniciativa HL7 Costa Rica**  
-Contacto: [hl7cr@hl7.or.cr](mailto:hl7cr@hl7.or.cr)  
+**HL7 Costa Rica**  
+Contacto: [info@hl7.or.cr](mailto:info@hl7.or.cr)  
 Sitio web: [https://hl7.or.cr](https://hl7.or.cr)
