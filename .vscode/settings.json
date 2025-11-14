@@ -3,5 +3,15 @@
   "githubPullRequests.pullRequestDescription": "es",
   "git.inputValidationSubjectLength": 72,
   "git.inputValidationLength": 150,
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "conventionalCommits.scopes": [
+    "codesystem",
+    "valueset",
+    "profile",
+    "extension",
+    "example",
+    "ig",
+    "deploy",
+    "ci"
+  ]
 }
