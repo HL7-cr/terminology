@@ -129,25 +129,32 @@ git push origin develop
 
 ### Despliegue al Servidor
 
-Después de la publicación en GitHub:
+Después de la publicación en GitHub, usar los scripts de despliegue:
 
 ```bash
-# Descargar release
-wget https://github.com/HL7-cr/terminology/releases/download/v0.2.0/terminology-0.2.0.tar.gz
+# 1. Desplegar configuración nginx (primera vez o si cambió)
+./.deployment/_deploy-nginx.sh
 
-# Desplegar
-scp terminology-0.2.0.tar.gz hl7cr@fhir.hl7.or.cr:/tmp/
-ssh hl7cr@fhir.hl7.or.cr
-
-# En el servidor
-cd /home/hl7cr/ig/terminology
-tar -xzf /tmp/terminology-0.2.0.tar.gz -C 0.2.0/
-ln -sf 0.2.0 current
-chmod -R 755 0.2.0/
-
-# Publicar paquete (desde local)
+# 2. Publicar paquete FHIR al servidor
 ./.deployment/_publish-package.sh
 ```
+
+**Nota importante sobre SSH y sudo:**
+
+Los scripts usan `ssh -t` para ejecutar comandos con `sudo` correctamente. Esto requiere:
+- Acceso SSH al servidor con el usuario `hl7cr`
+- Permisos de sudo en el servidor
+- El flag `-t` asigna una pseudo-terminal para que sudo pueda pedir contraseña
+
+Si obtienes error `"sudo: a terminal is required to read the password"`, verifica que:
+1. El script use `ssh -t` (no solo `ssh`)
+2. Tengas permisos de sudo en el servidor
+3. No estés ejecutando desde un contexto sin terminal (ej: cron)
+
+**Scripts disponibles:**
+- `_deploy-nginx.sh`: Despliega nginx con backup automático y rollback
+- `_publish-package.sh`: Sube paquete FHIR al registro web
+- Ambos requieren ejecutarse desde máquina con SSH (no desde contenedor Docker sin configuración SSH)
 
 ## Monitoreo
 
