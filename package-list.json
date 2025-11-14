@@ -1,0 +1,24 @@
+{
+  "package-id": "hl7.fhir.cr.terminology",
+  "title": "HL7 FHIR Costa Rica Terminología",
+  "canonical": "https://fhir.hl7.or.cr/ig/terminology",
+  "introduction": "Esta guía de implementación define los recursos de terminología FHIR utilizados por la HL7 Costa Rica.",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "https://fhir.hl7.or.cr/ig/terminology",
+      "status": "ci-build",
+      "current": true
+    },
+    {
+      "version": "0.1.1",
+      "fhirversion": "5.0.0",
+      "date": "2025-11-12",
+      "desc": "Primera versión de desarrollo - CodeSystems base para Costa Rica",
+      "path": "https://fhir.hl7.or.cr/ig/terminology/0.1.1",
+      "status": "draft",
+      "sequence": "STU 1"
+    }
+  ]
+}

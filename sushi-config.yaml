@@ -20,14 +20,14 @@ extension:
     valueInteger: 0
 
 status: draft
-version: 0.1.1-draft
+version: 0.1.1
 fhirVersion: 5.0.0
 copyrightYear: 2025+
-date: 2025-11-12
+date: 2025-11-13
 copyright: >-
   Utilizado con permiso de HL7 International, todos los derechos reservados Licencia Creative Commons
 
-releaseLabel: ci-build
+releaseLabel: draft
 license: CC-BY-4.0
 jurisdiction: urn:iso:std:iso:3166#CR "Costa Rica" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
