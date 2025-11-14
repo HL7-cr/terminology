@@ -1,0 +1,84 @@
+Licencia CC-BY 4.0
+
+Atribución 4.0 Internacional (CC BY 4.0)
+
+Esta es una versión legible por humanos del texto legal de la licencia completa disponible en:
+https://creativecommons.org/licenses/by/4.0/legalcode.es
+
+================================================================================
+
+Usted es libre de:
+
+- Compartir: copiar y redistribuir el material en cualquier medio o formato
+- Adaptar: remezclar, transformar y construir a partir del material para cualquier propósito, incluso comercialmente
+
+El licenciante no puede revocar estas libertades en tanto usted siga los términos de la licencia.
+
+================================================================================
+
+Bajo los siguientes términos:
+
+Atribución: Usted debe dar crédito de manera adecuada, brindar un enlace a la licencia, e indicar si se han realizado cambios. Puede hacerlo en cualquier forma razonable, pero no de forma tal que sugiera que usted o su uso tienen el apoyo de la licenciante.
+
+Sin restricciones adicionales: No puede aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otras a hacer cualquier uso permitido por la licencia.
+
+================================================================================
+
+Avisos:
+
+No tiene que cumplir con la licencia para elementos del material en el dominio público o cuando su uso esté permitido por una excepción o limitación aplicable.
+
+No se dan garantías. La licencia podría no darle todos los permisos que necesita para el uso que tenga previsto. Por ejemplo, otros derechos como publicidad, privacidad, o derechos morales pueden limitar la forma en que utilice el material.
+
+================================================================================
+
+Descargo de responsabilidad y advertencia de uso
+
+El contenido terminológico de HL7® (Health Level Seven, Inc.) desarrollado por la Iniciativa HL7 Costa Rica se deriva de la experiencia colectiva de sus miembros y de la retroalimentación de la comunidad en el desarrollo y la aplicación de diversas soluciones de interoperabilidad sanitaria.
+
+Sin embargo, dado que la terminología de HL7 admite múltiples contextos de uso, es responsabilidad de las personas u organizaciones que utilizan este contenido garantizar que su uso sea adecuado para su propósito específico, incluyendo la validación para uso clínico y operativo.
+
+================================================================================
+
+Información adicional
+
+- El derecho a mantener la Terminología de la Iniciativa HL7 Costa Rica sigue siendo de la Iniciativa de HL7 Costa Rica.
+- Puede redistribuir la Terminología desarrollada por la Iniciativa HL7 Costa Rica.
+- Puede crear especificaciones derivadas o productos y servicios relacionados con la implementación.
+- No puede afirmar que la Iniciativa HL7 Costa Rica o alguno de sus miembros avala su obra derivada porque utiliza contenido de esta especificación.
+- Ni la Iniciativa de HL7 Costa Rica ni ninguno de los colaboradores de esta especificación aceptan responsabilidad alguna por el uso que usted haga de la Terminología.
+- No puede publicar una versión modificada de la Terminología de la Iniciativa de HL7 Costa Rica a menos que se identifique claramente que se trata de un trabajo derivado, no de la Terminología de la Iniciativa de HL7 Costa Rica en sí.
+- Los trabajos derivados no pueden redefinir el significado de la conformidad con los estándares HL7 (incluido FHIR).
+- La Iniciativa de HL7 Costa Rica no se responsabiliza de identificar las patentes que puedan requerir una licencia para implementar la Terminología ni de realizar investigaciones sobre la validez legal o el alcance de las patentes que se le notifiquen.
+
+================================================================================
+
+Marcas Registradas
+
+FHIR® es una marca registrada de Health Level Seven International (HL7).
+
+================================================================================
+
+Artefactos y terminologías de terceros
+
+La Terminología de HL7 Internacional como la utilizada en Costa Rica contiene y hace referencia a propiedad intelectual de terceros ("Third Party IP"). La aceptación de estos Términos de Licencia no otorga ningún derecho sobre la propiedad intelectual de terceros. El licenciatario es el único responsable de identificar y obtener las licencias o autorizaciones necesarias para utilizar la propiedad intelectual de terceros en relación con la especificación o de cualquier otra manera.
+
+Terminologías incluidas que requieren licencias separadas:
+
+- SNOMED CT: Copyright © International Health Terminology Standards Development Organisation (IHTSDO). El uso de SNOMED CT requiere licencia separada.
+
+- DICOM: Copyright National Electrical Manufacturers Association (NEMA). El uso de DICOM requiere acuerdo separado.
+
+- LOINC: Copyright © Regenstrief Institute, Inc. y LOINC Committee. Disponible sin costo bajo licencia en http://loinc.org/license. LOINC® es marca registrada de Regenstrief Institute, Inc.
+
+- ICD (Clasificación Internacional de Enfermedades): Consultar con la Organización Mundial de la Salud (OMS/WHO).
+
+================================================================================
+
+Contacto
+
+HL7 Costa Rica
+Email: info@hl7.or.cr
+Sitio web: https://hl7.or.cr
+Repositorio: https://github.com/HL7-cr/terminology
+
