@@ -6,6 +6,13 @@ Thumbs.db
 /output
 /temp
 /template
+
+# Build artifacts
+*.tar.gz
+*.tgz
+build.log
+
+# Publisher scripts (auto-generated)
 _updatePublisher.sh
 _build.bat
 _build.sh

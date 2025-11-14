@@ -1,0 +1,99 @@
+name: Publish Release
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+      
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install SUSHI
+        run: npm install -g fsh-sushi
+      
+      - name: Get version
+        id: version
+        run: |
+          VERSION=$(grep '^version:' sushi-config.yaml | awk '{print $2}')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Version: $VERSION"
+      
+      - name: Download IG Publisher
+        run: |
+          mkdir -p input-cache
+          curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar \
+            -o input-cache/publisher.jar
+      
+      - name: Build IG
+        run: |
+          echo "=== Generando IG Release ==="
+          sushi .
+          java -jar input-cache/publisher.jar -ig . -tx n/a
+      
+      - name: Create release tarball
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          tar -czf "terminology-${VERSION}.tar.gz" -C output .
+          echo "Created: terminology-${VERSION}.tar.gz"
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: Release ${{ steps.version.outputs.version }}
+          body: |
+            ## HL7 FHIR Costa Rica - Terminology IG
+            
+            Versión: ${{ steps.version.outputs.version }}
+            
+            ### Instalación del paquete
+            ```bash
+            fhir install hl7.fhir.cr.terminology@${{ steps.version.outputs.version }} --registry https://fhir.hl7.or.cr/packages/
+            ```
+            
+            ### Uso como dependencia
+            ```yaml
+            dependencies:
+              hl7.fhir.cr.terminology: ${{ steps.version.outputs.version }}
+            ```
+            
+            ### Archivos
+            - `terminology-${{ steps.version.outputs.version }}.tar.gz` - IG completa para desplegar
+            - `package.tgz` - Paquete FHIR para instalación
+          files: |
+            terminology-${{ steps.version.outputs.version }}.tar.gz
+            output/package.tgz
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Summary
+        run: |
+          echo "## 🚀 Release Publicado" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Versión **${{ steps.version.outputs.version }}** publicada exitosamente" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Próximos pasos" >> $GITHUB_STEP_SUMMARY
+          echo "1. Desplegar al servidor: \`scp terminology-${{ steps.version.outputs.version }}.tar.gz hl7cr@fhir.hl7.or.cr:/tmp/\`" >> $GITHUB_STEP_SUMMARY
+          echo "2. Publicar paquete: Ejecutar \`.deployment/_publish-package.sh\`" >> $GITHUB_STEP_SUMMARY
