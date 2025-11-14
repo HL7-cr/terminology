@@ -1,0 +1,173 @@
+name: Validate Develop Branch
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+      
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Setup Ruby and Jekyll
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: false
+      
+      - name: Install Jekyll
+        run: gem install jekyll bundler
+      
+      - name: Install SUSHI
+        run: npm install -g fsh-sushi
+      
+      - name: Validate sushi-config.yaml
+        run: |
+          echo "=== Validando configuración ==="
+          
+          # Verificar que version no sea 0.0.0
+          VERSION=$(grep '^version:' sushi-config.yaml | awk '{print $2}')
+          if [ "$VERSION" = "0.0.0" ]; then
+            echo "❌ ERROR: version debe ser diferente de 0.0.0"
+            exit 1
+          fi
+          echo "✓ Version válida: $VERSION"
+          
+          # Verificar que status no sea draft para PR a main
+          if [ "${{ github.event_name }}" = "pull_request" ] && [ "${{ github.base_ref }}" = "main" ]; then
+            STATUS=$(grep '^status:' sushi-config.yaml | awk '{print $2}')
+            if [ "$STATUS" = "draft" ]; then
+              echo "❌ ERROR: Para fusionar a main, status debe ser 'active'"
+              exit 1
+            fi
+            echo "✓ Status válido para main: $STATUS"
+            
+            # Verificar que releaseLabel no sea ci-build
+            RELEASE_LABEL=$(grep '^releaseLabel:' sushi-config.yaml | awk '{print $2}')
+            if [ "$RELEASE_LABEL" = "ci-build" ]; then
+              echo "❌ ERROR: Para fusionar a main, releaseLabel debe ser 'release', 'trial-use' o 'ballot'"
+              exit 1
+            fi
+            echo "✓ ReleaseLabel válido: $RELEASE_LABEL"
+          fi
+      
+      - name: Download IG Publisher
+        run: |
+          mkdir -p input-cache
+          if [ ! -f input-cache/publisher.jar ]; then
+            curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar \
+              -o input-cache/publisher.jar
+          fi
+      
+      - name: Run SUSHI
+        run: sushi .
+      
+      - name: Build IG and validate
+        id: build
+        run: |
+          echo "=== Generando IG on-the-fly ==="
+          
+          # Ejecutar IG Publisher y capturar salida
+          java -jar input-cache/publisher.jar -ig . -tx n/a 2>&1 | tee build.log
+          BUILD_EXIT_CODE=${PIPESTATUS[0]}
+          
+          echo "=== Analizando resultados ==="
+          
+          # Contar errores y warnings en el log
+          ERRORS=$(grep -i "error" build.log | grep -v "0 errors" | wc -l)
+          WARNINGS=$(grep -i "warning" build.log | grep -v "0 warnings" | wc -l)
+          
+          echo "errors=$ERRORS" >> $GITHUB_OUTPUT
+          echo "warnings=$WARNINGS" >> $GITHUB_OUTPUT
+          
+          echo "Errores encontrados: $ERRORS"
+          echo "Advertencias encontradas: $WARNINGS"
+          
+          # Validar que la compilación fue exitosa
+          if [ $BUILD_EXIT_CODE -ne 0 ]; then
+            echo "❌ ERROR: La compilación falló"
+            exit 1
+          fi
+          
+          # Para PR a main, ser más estricto
+          if [ "${{ github.event_name }}" = "pull_request" ] && [ "${{ github.base_ref }}" = "main" ]; then
+            if [ $ERRORS -gt 0 ]; then
+              echo "❌ ERROR: No se puede fusionar a main con errores"
+              exit 1
+            fi
+            
+            if [ $WARNINGS -gt 15 ]; then
+              echo "⚠️  ADVERTENCIA: Hay $WARNINGS advertencias"
+              echo "Se recomienda reducirlas antes de fusionar a main"
+              # No falla, solo advierte
+            fi
+          fi
+          
+          echo "✓ Validación completada exitosamente"
+      
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: build.log
+          retention-days: 7
+      
+      - name: Upload QA reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-reports
+          path: |
+            output/qa.html
+            output/qa.txt
+          retention-days: 7
+      
+      - name: Summary
+        if: always()
+        run: |
+          if [ "${{ steps.build.outcome }}" = "success" ]; then
+            echo "## ✅ Validación exitosa" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            if [ "${{ github.event_name }}" = "pull_request" ]; then
+              echo "La rama develop está lista para fusionarse a main" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "La rama develop compiló correctamente" >> $GITHUB_STEP_SUMMARY
+            fi
+            
+            echo "" >> $GITHUB_STEP_SUMMARY
+            VERSION=$(grep '^version:' sushi-config.yaml | awk '{print $2}')
+            echo "- **Versión**: $VERSION" >> $GITHUB_STEP_SUMMARY
+            STATUS=$(grep '^status:' sushi-config.yaml | awk '{print $2}')
+            echo "- **Status**: $STATUS" >> $GITHUB_STEP_SUMMARY
+            RELEASE=$(grep '^releaseLabel:' sushi-config.yaml | awk '{print $2}')
+            echo "- **Release Label**: $RELEASE" >> $GITHUB_STEP_SUMMARY
+            echo "- **Errores**: ${{ steps.build.outputs.errors }}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Advertencias**: ${{ steps.build.outputs.warnings }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## ❌ Validación falló" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Revisa el log de compilación para más detalles" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Descarga el artefacto \`build-log\` para ver los errores completos" >> $GITHUB_STEP_SUMMARY
+          fi

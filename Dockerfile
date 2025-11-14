@@ -16,7 +16,8 @@ RUN apt-get update && \
       tzdata ca-certificates curl git gnupg2 unzip \
       build-essential pkg-config locales \
       openjdk-21-jdk-headless \
-      ruby-full ruby-dev zlib1g-dev && \
+      ruby-full ruby-dev zlib1g-dev \
+      openssh-client && \
     ln -fs /usr/share/zoneinfo/$TZ /etc/localtime && dpkg-reconfigure -f noninteractive tzdata && \
     sed -i 's/^# *en_US.UTF-8/en_US.UTF-8/' /etc/locale.gen && locale-gen && \
     rm -rf /var/lib/apt/lists/*
@@ -32,7 +33,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
     npm config set fund false && npm config set audit false && \
     rm -rf /var/lib/apt/lists/*
 
-RUN npm i -g fsh-sushi
+RUN npm i -g fsh-sushi fhir
 
 # Jekyll/Bundler (si tu IG usa Jekyll)
 RUN gem install bundler jekyll --no-document
