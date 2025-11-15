@@ -537,7 +537,7 @@ Description:    "Código de especialidad de profesionales de salud en Costa Rica
 * #704 "Terapia Respiratoria con maestria en Administración (varios énfasis)" "Código de práctica: Terapia Respiratoria con maestria en Administración (varios énfasis)"
 * #706 "Terapia Respiratoria con maestria en Movimiento Humano" "Código de práctica: Terapia Respiratoria con maestria en Movimiento Humano"
 * #707 "Terapia Respiratoria con maestria en Salud Integral y Movimiento Humano" "Código de práctica: Terapia Respiratoria con maestria en Salud Integral y Movimiento Humano"
-* #708 "Terapia Respiratoria con maestria en Salud Públcia" "Código de práctica: Terapia Respiratoria con maestria en Salud Públcia"
+* #708 "Terapia Respiratoria con maestria en Salud Pública" "Código de práctica: Terapia Respiratoria con maestria en Salud Pública"
 * #710 "Terapia Respiratoria con maestria (otra no definida)" "Código de práctica: Terapia Respiratoria con maestria (otra no definida)"
 * #709 "Terapia Respiratoria con maestria profesional en Cuidados Paliativos" "Código de práctica: Terapia Respiratoria con maestria profesional en Cuidados Paliativos"
 * #703 "Terapia Respiratoria (licenciado)" "Código de práctica: Terapia Respiratoria (licenciado)"
