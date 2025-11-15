@@ -14,9 +14,9 @@
 
 /*
  @element: meta
- @concetp: Metadata
+ @concept: Metadata
  @type:    Meta
- @propuse: Metadata de la definición de la estructura
+ @purpose: Metadata de la definición de la estructura
  */
 RuleSet:            CodeSystemMeta
 
@@ -34,5 +34,4 @@ RuleSet:            CodeSystemMeta
 * ^contact.telecom.value = "info@hl7.or.cr"
 * ^date = "2025-03-03"
 * ^jurisdiction = urn:iso:std:iso:3166#CR "Costa Rica"
-* ^content = #complete
-* ^copyright = "Usado con el permiso de HL7 International, todos los derechos resevados en los Licencias de HL7 Internacional."
+* ^copyright = "Usado con el permiso de HL7 International, todos los derechos reservados en los Licencias de HL7 Internacional."
