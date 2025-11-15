@@ -1,4 +1,6 @@
 
+
+# ⚠️ IMPORTANTE: Escribe el mensaje de commit en ESPAÑOL
 # Resumen breve de los cambios (máximo 50 caracteres)
 
 # Explicación detallada (opcional)
@@ -14,3 +16,6 @@
 # refactor: Refactorización de código
 # test: Agregar o actualizar tests
 # chore: Tareas de mantenimiento
+# perf: Mejora de rendimiento
+# ci: Cambios en CI/CD
+
