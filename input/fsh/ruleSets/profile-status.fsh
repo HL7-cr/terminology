@@ -14,7 +14,7 @@
 
 /*
  @element: meta
- @concetp: Metadata
+ @concept: Metadata
  @type:    Meta
  @purpose: Metadata de la definición de la estructura
  */
