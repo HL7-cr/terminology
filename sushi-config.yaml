@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.cr.terminology
 packageId: hl7.fhir.cr.terminology
-canonical: https://fhir.hl7.or.cr/ig/terminology
+canonical: https://hl7.or.cr/fhir/ig/terminology
 name: CRTerminology
 
 title: HL7 FHIR Costa Rica Terminología
@@ -34,7 +34,7 @@ license: CC-BY-4.0
 jurisdiction: 'urn:iso:std:iso:3166#CR'
 publisher:
   name: Iniciativa HL7 Costa Rica
-  url: https://fhir.hl7.or.cr
+  url: https://hl7.or.cr
   email: info@hl7.or.cr
 
 contact:
