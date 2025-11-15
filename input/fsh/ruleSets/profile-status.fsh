@@ -16,7 +16,7 @@
  @element: meta
  @concetp: Metadata
  @type:    Meta
- @propuse: Metadata de la definición de la estructura
+ @purpose: Metadata de la definición de la estructura
  */
 RuleSet: RuleSetStatus (fmm, status, wg)
 
