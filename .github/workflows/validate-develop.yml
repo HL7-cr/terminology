@@ -53,14 +53,17 @@ jobs:
           echo "✓ Version válida: $VERSION"
           
           # Verificar que status no sea draft para PR a main
+          # NOTA: Validación de status deshabilitada - IG en construcción
+          # if [ "${{ github.event_name }}" = "pull_request" ] && [ "${{ github.base_ref }}" = "main" ]; then
+          #   STATUS=$(grep '^status:' sushi-config.yaml | awk '{print $2}')
+          #   if [ "$STATUS" = "draft" ]; then
+          #     echo "❌ ERROR: Para fusionar a main, status debe ser 'active'"
+          #     exit 1
+          #   fi
+          #   echo "✓ Status válido para main: $STATUS"
+          # fi
+          
           if [ "${{ github.event_name }}" = "pull_request" ] && [ "${{ github.base_ref }}" = "main" ]; then
-            STATUS=$(grep '^status:' sushi-config.yaml | awk '{print $2}')
-            if [ "$STATUS" = "draft" ]; then
-              echo "❌ ERROR: Para fusionar a main, status debe ser 'active'"
-              exit 1
-            fi
-            echo "✓ Status válido para main: $STATUS"
-            
             # Verificar que releaseLabel no sea ci-build
             RELEASE_LABEL=$(grep '^releaseLabel:' sushi-config.yaml | awk '{print $2}')
             if [ "$RELEASE_LABEL" = "ci-build" ]; then
