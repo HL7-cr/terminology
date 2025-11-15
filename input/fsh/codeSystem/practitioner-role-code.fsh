@@ -18,16 +18,7 @@ Id:             practitioner-role-code
 Title:          "Roles de los profesionales"
 Description:    "Código de roles de los profesionales de la salud"
 
-* ^version = "0.1.1"
-* ^status = #draft
-* ^experimental = false
-* ^publisher = "HL7 Costa Rica"
-* ^contact.name = "HL7 Costa Rica"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "info@hl7.or.cr"
-* ^jurisdiction = urn:iso:std:iso:3166#CR "Costa Rica"
-* ^caseSensitive = true
-* ^content = #complete
+* insert CodeSystemMeta
 
 * #2611 "Abogados" "Abogados"
 * #2522 "Administradores de sistemas" "Administradores de sistemas"

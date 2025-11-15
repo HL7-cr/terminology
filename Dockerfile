@@ -13,7 +13,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-      tzdata ca-certificates curl git gnupg2 unzip \
+      tzdata ca-certificates curl git gnupg2 unzip jq \
       build-essential pkg-config locales \
       openjdk-21-jdk-headless \
       ruby-full ruby-dev zlib1g-dev \

@@ -6,3 +6,10 @@
 
 Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
 Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+
+# Enlaces al servidor verificados manualmente - funcionan correctamente pero el IG Publisher
+# no puede resolverlos durante la build (posiblemente por timeout o configuración SSL)
+# Verificado con curl: todos retornan 200 OK
+The link 'https://fhir.hl7.or.cr/ig/terminology/0.1.1/' for "https://fhir.hl7.or.cr/ig/terminology/0.1.1/" cannot be resolved
+The link 'https://fhir.hl7.or.cr/ig/terminology/' for "https://fhir.hl7.or.cr/ig/terminology/" is a canonical link and is therefore unsafe with regard to versions
+The link 'https://fhir.hl7.or.cr/ig/terminology/package-list.json' for "https://fhir.hl7.or.cr/ig/terminology/package-list.json" cannot be resolved

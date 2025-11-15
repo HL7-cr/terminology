@@ -19,16 +19,7 @@ Id: organization-type-code
 Title: "Tipo de organización"
 Description: "Tipos de organizaciones de salud utilizados en Costa Rica basado en la clasificación del Ministerio de Salud"
 
-* ^version = "0.1.1"
-* ^status = #draft
-* ^experimental = false
-* ^publisher = "HL7 Costa Rica"
-* ^contact.name = "HL7 Costa Rica"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "info@hl7.or.cr"
-* ^jurisdiction = urn:iso:std:iso:3166#CR "Costa Rica"
-* ^caseSensitive = true
-* ^content = #complete
+* insert CodeSystemMeta
 
 // Centros de diagnóstico y tratamiento
 * #centro-diagnostico-tratamiento "Centros de Diagnóstico y Tratamiento" "Incluyen laboratorios clínicos, centros de imagenología, entre otros."

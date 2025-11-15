@@ -14,8 +14,8 @@
     {
       "version": "0.1.1",
       "fhirversion": "5.0.0",
-      "date": "2025-11-12",
-      "desc": "Primera versión de desarrollo - CodeSystems base para Costa Rica",
+      "date": "2025-12-14",
+      "desc": "Primera versión de desarrollo",
       "path": "https://fhir.hl7.or.cr/ig/terminology/0.1.1",
       "status": "draft",
       "sequence": "STU 1"

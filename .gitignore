@@ -30,3 +30,4 @@ _updatePublisher.bat
 .bash_history
 .gitconfig
 re-build-sushi.sh
+template-terminology/package/package-list.json.backup

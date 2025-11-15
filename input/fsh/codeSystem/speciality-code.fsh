@@ -19,16 +19,7 @@ Id: speciality-code
 Title: "Especialidades de profesionales"
 Description: "Código de especialidad de profesionales de salud en Costa Rica"
 
-* ^version = "0.1.1"
-* ^status = #draft
-* ^experimental = false
-* ^publisher = "HL7 Costa Rica"
-* ^contact.name = "HL7 Costa Rica"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "info@hl7.or.cr"
-* ^jurisdiction = urn:iso:std:iso:3166#CR "Costa Rica"
-* ^caseSensitive = true
-* ^content = #complete
+* insert CodeSystemMeta
 
 * #5 "Audiología (bachiller)" "Audiología (bachiller)"
   * ^definition = "Audiología (bachiller)"
