@@ -76,7 +76,7 @@ Los paquetes FHIR (.tgz) están disponibles en:
 
 ## Notas de Versión
 
-### 0.1.1 (2025-11-12)
+### 0.1.1 (2025-12-14)
 
 **Nuevas características**:
 - ✅ Configuración completa de jurisdicción (Costa Rica - CR)
