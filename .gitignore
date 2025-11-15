@@ -13,13 +13,11 @@ Thumbs.db
 build.log
 
 # Publisher scripts (auto-generated)
-_updatePublisher.sh
 _build.bat
 _build.sh
 _gencontinuous.bat
 _gencontinuous.sh
 _genonce.bat
-_genonce.sh
 _updatePublisher.bat
 .fhir
 .npm
