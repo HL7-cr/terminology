@@ -9,7 +9,8 @@ canonical: https://fhir.hl7.or.cr/ig/terminology
 name: CRTerminology
 
 title: HL7 FHIR Costa Rica Terminología
-description: Esta guía de implementación define los recursos de terminología FHIR utilizados por la Iniciativa HL7 Costa Rica.
+description: >-
+  Esta guía de implementación define los recursos de terminología FHIR utilizados por la Iniciativa HL7 Costa Rica.
 
 extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
@@ -22,6 +23,7 @@ extension:
 status: draft
 version: 0.1.1
 fhirVersion: 5.0.0
+language: es
 copyrightYear: 2025+
 date: 2025-11-13
 copyright: >-
@@ -29,7 +31,7 @@ copyright: >-
 
 releaseLabel: draft
 license: CC-BY-4.0
-jurisdiction: urn:iso:std:iso:3166#CR "Costa Rica" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: 'urn:iso:std:iso:3166#CR'
 publisher:
   name: Iniciativa HL7 Costa Rica
   url: https://fhir.hl7.or.cr
@@ -44,8 +46,6 @@ contact:
       - system: url
         value: https://hl7.or.cr
         use: work
-
-language: es
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -73,6 +73,8 @@ language: es
 pages:
   index.md:
     title: Inicio
+  history.md:
+    title: Historial de Versiones
   licenses.md:
     title: Licencias
   credits.md:
@@ -88,9 +90,25 @@ pages:
 # For parameters defined by the FHIR Tools IG see:
 # http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
 #
-# parameters:
-#   excludettl: true
-#   validation: [allow-any-extensions, no-broken-links]
+parameters:
+  excludettl: true
+  path-resource:
+    - input/resources
+    - fsh-generated/resources
+  path-pages:
+    - input/pagecontent
+  path-tx-cache: input-cache/txcache
+  resource-language-policy: all-ig
+  
+  active-tables: false
+  apply-contact: true
+  apply-jurisdiction: true
+  apply-publisher: true
+  apply-version: true
+  show-inherited-invariants: false
+  usage-stats-opt-out: true
+  tabbed-snapshots: false
+
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
@@ -103,6 +121,7 @@ pages:
 menu:
   Inicio: index.html
   Artefactos: artifacts.html
+  Historial: history.html
   Licencias: licenses.html
   Créditos: credits.html
 
