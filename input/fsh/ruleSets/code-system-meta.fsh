@@ -16,7 +16,7 @@
  @element: meta
  @concept: Metadata
  @type:    Meta
- @propuse: Metadata de la definición de la estructura
+ @purpose: Metadata de la definición de la estructura
  */
 RuleSet:            CodeSystemMeta
 
