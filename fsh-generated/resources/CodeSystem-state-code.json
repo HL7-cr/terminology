@@ -1,0 +1,93 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "StateCode",
+  "id": "state-code",
+  "title": "Provincias de Costa Rica",
+  "description": "Código de provincia en formato Zip Code",
+  "url": "https://hl7.or.cr/fhir/ig/terminology/CodeSystem/state-code",
+  "concept": [
+    {
+      "code": "1",
+      "display": "San José",
+      "definition": "San José"
+    },
+    {
+      "code": "2",
+      "display": "Alajuela",
+      "definition": "Alajuela"
+    },
+    {
+      "code": "3",
+      "display": "Cartago",
+      "definition": "Cartago"
+    },
+    {
+      "code": "4",
+      "display": "Heredia",
+      "definition": "Heredia"
+    },
+    {
+      "code": "5",
+      "display": "Guanacaste",
+      "definition": "Guanacaste"
+    },
+    {
+      "code": "6",
+      "display": "Puntarenas",
+      "definition": "Puntarenas"
+    },
+    {
+      "code": "7",
+      "display": "Limon",
+      "definition": "Limon"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 0
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "draft"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "pc"
+    }
+  ],
+  "language": "es",
+  "version": "0.1.1",
+  "experimental": false,
+  "caseSensitive": true,
+  "compositional": false,
+  "versionNeeded": true,
+  "publisher": "HL7 Costa Rica",
+  "contact": [
+    {
+      "name": "HL7 Costa Rica",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@hl7.or.cr"
+        }
+      ]
+    }
+  ],
+  "date": "2025-03-03",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CR",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Costa Rica"
+        }
+      ]
+    }
+  ],
+  "copyright": "Usado con el permiso de HL7 International, todos los derechos reservados en los Licencias de HL7 Internacional.",
+  "count": 7
+}

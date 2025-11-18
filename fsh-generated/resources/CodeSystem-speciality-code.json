@@ -1,0 +1,3784 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "SpecialityCode",
+  "id": "speciality-code",
+  "title": "Especialidades de profesionales",
+  "description": "Código de especialidad de profesionales de salud en Costa Rica",
+  "url": "https://hl7.or.cr/fhir/ig/terminology/CodeSystem/speciality-code",
+  "concept": [
+    {
+      "code": "5",
+      "display": "Audiología (bachiller)",
+      "definition": "Audiología (bachiller)"
+    },
+    {
+      "code": "7",
+      "display": "Audiologia con maestria en Audiología",
+      "definition": "Audiologia con maestria en Audiología"
+    },
+    {
+      "code": "8",
+      "display": "Audiologia con maestria en Gerencia en Servicios de Salud",
+      "definition": "Audiologia con maestria en Gerencia en Servicios de Salud"
+    },
+    {
+      "code": "9",
+      "display": "Audiología con maestría en Promoción de la Salud",
+      "definition": "Audiología con maestría en Promoción de la Salud"
+    },
+    {
+      "code": "10",
+      "display": "Audiología con maestria (otra no definida)",
+      "definition": "Audiología con maestria (otra no definida)"
+    },
+    {
+      "code": "6",
+      "display": "Audiología (licenciado)",
+      "definition": "Audiología (licenciado)"
+    },
+    {
+      "code": "21",
+      "display": "Ciencias del Movimiento Humano (bachiller)",
+      "definition": "Ciencias del Movimiento Humano (bachiller)"
+    },
+    {
+      "code": "27",
+      "display": "Ciencias del Movimiento Humano con doctorado en ciencias del movimiento humano",
+      "definition": "Ciencias del Movimiento Humano con doctorado en ciencias del movimiento humano"
+    },
+    {
+      "code": "23",
+      "display": "Ciencias del Movimiento Humano con maestría académica en ciencias del movimiento humano",
+      "definition": "Ciencias del Movimiento Humano con maestría académica en ciencias del movimiento humano"
+    },
+    {
+      "code": "25",
+      "display": "Ciencias del Movimiento Humano con maestría en Promoción de la Salud",
+      "definition": "Ciencias del Movimiento Humano con maestría en Promoción de la Salud"
+    },
+    {
+      "code": "26",
+      "display": "Ciencias del Movimiento Humano con maestría (otra no definida)",
+      "definition": "Ciencias del Movimiento Humano con maestría (otra no definida)"
+    },
+    {
+      "code": "24",
+      "display": "Ciencias del Movimiento Humano con maestría profesional en recreación",
+      "definition": "Ciencias del Movimiento Humano con maestría profesional en recreación"
+    },
+    {
+      "code": "22",
+      "display": "Ciencias del Movimiento Humano (licenciado)",
+      "definition": "Ciencias del Movimiento Humano (licenciado)"
+    },
+    {
+      "code": "401",
+      "display": "Doctorado en Ciencias Médicas",
+      "definition": "Doctorado en Ciencias Médicas"
+    },
+    {
+      "code": "402",
+      "display": "Doctorado en Medicina",
+      "definition": "Doctorado en Medicina"
+    },
+    {
+      "code": "33",
+      "display": "Enfermería (bachiller)",
+      "definition": "Enfermería (bachiller)"
+    },
+    {
+      "code": "96",
+      "display": "Enfermería con doctorado en Ciencias de la Educación",
+      "definition": "Enfermería con doctorado en Ciencias de la Educación"
+    },
+    {
+      "code": "97",
+      "display": "Enfermería con doctorado en Ciencias de la Enfermería",
+      "definition": "Enfermería con doctorado en Ciencias de la Enfermería"
+    },
+    {
+      "code": "95",
+      "display": "Enfermería con doctorado en Educación con Enfermería con especialidad en  Mediación Pedagógica",
+      "definition": "Enfermería con doctorado en Educación con Enfermería con especialidad en  Mediación Pedagógica"
+    },
+    {
+      "code": "98",
+      "display": "Enfermería con doctorado en Enfermería (varios énfasis)",
+      "definition": "Enfermería con doctorado en Enfermería (varios énfasis)"
+    },
+    {
+      "code": "36",
+      "display": "Enfermería con especialidad en Administración de Servicios de Salud",
+      "definition": "Enfermería con especialidad en Administración de Servicios de Salud"
+    },
+    {
+      "code": "37",
+      "display": "Enfermería con especialidad en Comunicación Política",
+      "definition": "Enfermería con especialidad en Comunicación Política"
+    },
+    {
+      "code": "38",
+      "display": "Enfermería con especialidad en Enfermería Oncológica",
+      "definition": "Enfermería con especialidad en Enfermería Oncológica"
+    },
+    {
+      "code": "39",
+      "display": "Enfermería con especialidad en Estomaterapia",
+      "definition": "Enfermería con especialidad en Estomaterapia"
+    },
+    {
+      "code": "40",
+      "display": "Enfermería con especialidad en Gestión de Políticas en Recursos Humanos en Salud",
+      "definition": "Enfermería con especialidad en Gestión de Políticas en Recursos Humanos en Salud"
+    },
+    {
+      "code": "35",
+      "display": "Enfermería con especialidad en Salud Pública",
+      "definition": "Enfermería con especialidad en Salud Pública"
+    },
+    {
+      "code": "41",
+      "display": "Enfermería con maestría académica en Anatomía",
+      "definition": "Enfermería con maestría académica en Anatomía"
+    },
+    {
+      "code": "66",
+      "display": "Enfermería con maestría en Administración Educativa",
+      "definition": "Enfermería con maestría en Administración Educativa"
+    },
+    {
+      "code": "65",
+      "display": "Enfermería con maestría en Asistencia de Enfermería",
+      "definition": "Enfermería con maestría en Asistencia de Enfermería"
+    },
+    {
+      "code": "67",
+      "display": "Enfermería con maestría en Atención al niño",
+      "definition": "Enfermería con maestría en Atención al niño"
+    },
+    {
+      "code": "68",
+      "display": "Enfermería con maestría en Bioética",
+      "definition": "Enfermería con maestría en Bioética"
+    },
+    {
+      "code": "69",
+      "display": "Enfermería con maestría en Cuidados Intensivos",
+      "definition": "Enfermería con maestría en Cuidados Intensivos"
+    },
+    {
+      "code": "70",
+      "display": "Enfermería con maestría en Derechos Humanos y Educación para la Paz",
+      "definition": "Enfermería con maestría en Derechos Humanos y Educación para la Paz"
+    },
+    {
+      "code": "71",
+      "display": "Enfermería con maestría en Drogodependencia (varios énfasis)",
+      "definition": "Enfermería con maestría en Drogodependencia (varios énfasis)"
+    },
+    {
+      "code": "72",
+      "display": "Enfermería con maestría en Economía (varios énfasis)",
+      "definition": "Enfermería con maestría en Economía (varios énfasis)"
+    },
+    {
+      "code": "73",
+      "display": "Enfermería con maestría en Enfermería Oftalmológica",
+      "definition": "Enfermería con maestría en Enfermería Oftalmológica"
+    },
+    {
+      "code": "74",
+      "display": "Enfermería con maestría en Estudio de la Violencia Social y Familiar",
+      "definition": "Enfermería con maestría en Estudio de la Violencia Social y Familiar"
+    },
+    {
+      "code": "75",
+      "display": "Enfermería con maestría en Estudios de la Mujer",
+      "definition": "Enfermería con maestría en Estudios de la Mujer"
+    },
+    {
+      "code": "76",
+      "display": "Enfermería con maestría en Evaluación Educativa",
+      "definition": "Enfermería con maestría en Evaluación Educativa"
+    },
+    {
+      "code": "77",
+      "display": "Enfermería con maestría en Gerencia (varios énfasis, no de enfermería)",
+      "definition": "Enfermería con maestría en Gerencia (varios énfasis, no de enfermería)"
+    },
+    {
+      "code": "78",
+      "display": "Enfermería con maestría en Gestión de la Calidad en los Servicios de Salud",
+      "definition": "Enfermería con maestría en Gestión de la Calidad en los Servicios de Salud"
+    },
+    {
+      "code": "79",
+      "display": "Enfermería con maestría en Gestión Educativa (varios énfasis)",
+      "definition": "Enfermería con maestría en Gestión Educativa (varios énfasis)"
+    },
+    {
+      "code": "80",
+      "display": "Enfermería con maestría en Investigación y Cuidados de Enfermería en Poblaciones Vulnerables.",
+      "definition": "Enfermería con maestría en Investigación y Cuidados de Enfermería en Poblaciones Vulnerables."
+    },
+    {
+      "code": "81",
+      "display": "Enfermería con maestría en Liderazgo en Enfermería",
+      "definition": "Enfermería con maestría en Liderazgo en Enfermería"
+    },
+    {
+      "code": "82",
+      "display": "Enfermería con maestría en Planeación y Gestión Política y programas de Alimentación Infantil.",
+      "definition": "Enfermería con maestría en Planeación y Gestión Política y programas de Alimentación Infantil."
+    },
+    {
+      "code": "83",
+      "display": "Enfermería con maestría en Población y Salud",
+      "definition": "Enfermería con maestría en Población y Salud"
+    },
+    {
+      "code": "84",
+      "display": "Enfermería con maestría en Promoción de la Salud",
+      "definition": "Enfermería con maestría en Promoción de la Salud"
+    },
+    {
+      "code": "85",
+      "display": "Enfermería con maestría en Psicopedagogía",
+      "definition": "Enfermería con maestría en Psicopedagogía"
+    },
+    {
+      "code": "86",
+      "display": "Enfermería con maestría en Rehabilitación Integral",
+      "definition": "Enfermería con maestría en Rehabilitación Integral"
+    },
+    {
+      "code": "87",
+      "display": "Enfermería con maestría en Salud Integral y Movimiento Humano (varios énfasis).",
+      "definition": "Enfermería con maestría en Salud Integral y Movimiento Humano (varios énfasis)."
+    },
+    {
+      "code": "88",
+      "display": "Enfermería con maestría en Salud Ocupacional (diferentes énfasis)",
+      "definition": "Enfermería con maestría en Salud Ocupacional (diferentes énfasis)"
+    },
+    {
+      "code": "89",
+      "display": "Enfermería con maestría en Salud para Adultos",
+      "definition": "Enfermería con maestría en Salud para Adultos"
+    },
+    {
+      "code": "90",
+      "display": "Enfermería con maestría en Terapia de Heridas, Estomas y Quemaduras",
+      "definition": "Enfermería con maestría en Terapia de Heridas, Estomas y Quemaduras"
+    },
+    {
+      "code": "91",
+      "display": "Enfermería con maestría en Tratamiento de Soporte y Cuidados Paliativos en el Enfermo Oncológico",
+      "definition": "Enfermería con maestría en Tratamiento de Soporte y Cuidados Paliativos en el Enfermo Oncológico"
+    },
+    {
+      "code": "92",
+      "display": "Enfermería con maestría (otra no definida)",
+      "definition": "Enfermería con maestría (otra no definida)"
+    },
+    {
+      "code": "43",
+      "display": "Enfermería con maestría profesional en Administración de Servicios de Salud (varios énfasis)",
+      "definition": "Enfermería con maestría profesional en Administración de Servicios de Salud (varios énfasis)"
+    },
+    {
+      "code": "42",
+      "display": "Enfermería con maestría profesional en Administración (varios énfasis, no salud)",
+      "definition": "Enfermería con maestría profesional en Administración (varios énfasis, no salud)"
+    },
+    {
+      "code": "44",
+      "display": "Enfermería con maestría profesional en Ciencias de la Educación (varios énfasis)",
+      "definition": "Enfermería con maestría profesional en Ciencias de la Educación (varios énfasis)"
+    },
+    {
+      "code": "45",
+      "display": "Enfermería con maestría profesional en Ciencias de la Enfermería (varios énfasis)",
+      "definition": "Enfermería con maestría profesional en Ciencias de la Enfermería (varios énfasis)"
+    },
+    {
+      "code": "46",
+      "display": "Enfermería con maestría profesional en Cuidados Paliativos",
+      "definition": "Enfermería con maestría profesional en Cuidados Paliativos"
+    },
+    {
+      "code": "47",
+      "display": "Enfermería con maestría profesional en Enfermería de Salud Laboral",
+      "definition": "Enfermería con maestría profesional en Enfermería de Salud Laboral"
+    },
+    {
+      "code": "48",
+      "display": "Enfermería con maestría profesional en Enfermería de Salud Mental",
+      "definition": "Enfermería con maestría profesional en Enfermería de Salud Mental"
+    },
+    {
+      "code": "49",
+      "display": "Enfermería con maestría profesional en Enfermería Ginecológica, Obstétrica y Perinatal / Enfermería Materno Infantil)",
+      "definition": "Enfermería con maestría profesional en Enfermería Ginecológica, Obstétrica y Perinatal / Enfermería Materno Infantil)"
+    },
+    {
+      "code": "50",
+      "display": "Enfermería con maestría profesional en Enfermería Oncológica",
+      "definition": "Enfermería con maestría profesional en Enfermería Oncológica"
+    },
+    {
+      "code": "52",
+      "display": "Enfermería con maestría profesional en Enfermería Pediátrica con énfasis en Neonatología",
+      "definition": "Enfermería con maestría profesional en Enfermería Pediátrica con énfasis en Neonatología"
+    },
+    {
+      "code": "51",
+      "display": "Enfermería con maestría profesional en Enfermería Pediátrica (varios énfasis)",
+      "definition": "Enfermería con maestría profesional en Enfermería Pediátrica (varios énfasis)"
+    },
+    {
+      "code": "53",
+      "display": "Enfermería con maestría profesional en Enfermería Quirúrgica / Enfermería Médico-Quirúrgica (varios enfasis).",
+      "definition": "Enfermería con maestría profesional en Enfermería Quirúrgica / Enfermería Médico-Quirúrgica (varios enfasis)."
+    },
+    {
+      "code": "54",
+      "display": "Enfermería con maestría profesional en Epidemiología",
+      "definition": "Enfermería con maestría profesional en Epidemiología"
+    },
+    {
+      "code": "55",
+      "display": "Enfermería con maestría profesional en Estimulación Temprana",
+      "definition": "Enfermería con maestría profesional en Estimulación Temprana"
+    },
+    {
+      "code": "56",
+      "display": "Enfermería con maestría profesional en Gerencia en Enfermería",
+      "definition": "Enfermería con maestría profesional en Gerencia en Enfermería"
+    },
+    {
+      "code": "57",
+      "display": "Enfermería con maestría profesional en Gerontología",
+      "definition": "Enfermería con maestría profesional en Gerontología"
+    },
+    {
+      "code": "58",
+      "display": "Enfermería con maestría profesional en Gestión del Riesgo en Desastres y Atención de Emergencias.",
+      "definition": "Enfermería con maestría profesional en Gestión del Riesgo en Desastres y Atención de Emergencias."
+    },
+    {
+      "code": "59",
+      "display": "Enfermería con maestría profesional en Mercadeo y Ventas",
+      "definition": "Enfermería con maestría profesional en Mercadeo y Ventas"
+    },
+    {
+      "code": "60",
+      "display": "Enfermería con maestría profesional en Pedagogía (varios énfasis)",
+      "definition": "Enfermería con maestría profesional en Pedagogía (varios énfasis)"
+    },
+    {
+      "code": "61",
+      "display": "Enfermería con maestría profesional en Psicología (varios énfasis)",
+      "definition": "Enfermería con maestría profesional en Psicología (varios énfasis)"
+    },
+    {
+      "code": "62",
+      "display": "Enfermería con maestría profesional en Salud Pública (varios énfasis)",
+      "definition": "Enfermería con maestría profesional en Salud Pública (varios énfasis)"
+    },
+    {
+      "code": "63",
+      "display": "Enfermería con maestría profesional en Terapia Familiar Sistémica",
+      "definition": "Enfermería con maestría profesional en Terapia Familiar Sistémica"
+    },
+    {
+      "code": "64",
+      "display": "Enfermería con maestría profesional en Trabajo Social (varios énfasis)",
+      "definition": "Enfermería con maestría profesional en Trabajo Social (varios énfasis)"
+    },
+    {
+      "code": "93",
+      "display": "Enfermería con posgrado en Docencia en Enfermería con Énfasis en la Enseñanza de Enfermería en Enfermedades Infecciosas.",
+      "definition": "Enfermería con posgrado en Docencia en Enfermería con Énfasis en la Enseñanza de Enfermería en Enfermedades Infecciosas."
+    },
+    {
+      "code": "94",
+      "display": "Enfermería con posgrado en Enseñanza y Administración de Enfermería",
+      "definition": "Enfermería con posgrado en Enseñanza y Administración de Enfermería"
+    },
+    {
+      "code": "34",
+      "display": "Enfermería (licenciado)",
+      "definition": "Enfermería (licenciado)"
+    },
+    {
+      "code": "101",
+      "display": "Farmacia (bachiller)",
+      "definition": "Farmacia (bachiller)"
+    },
+    {
+      "code": "103",
+      "display": "Farmacia con maestría académica en Análisis y Control de Calidad de Medicamentos",
+      "definition": "Farmacia con maestría académica en Análisis y Control de Calidad de Medicamentos"
+    },
+    {
+      "code": "104",
+      "display": "Farmacia con maestría académica en Bioinformática y Biología de Sistemas",
+      "definition": "Farmacia con maestría académica en Bioinformática y Biología de Sistemas"
+    },
+    {
+      "code": "105",
+      "display": "Farmacia con maestría académica en Biología con énfasis en Genética Humana y Biología Molecular",
+      "definition": "Farmacia con maestría académica en Biología con énfasis en Genética Humana y Biología Molecular"
+    },
+    {
+      "code": "106",
+      "display": "Farmacia con maestría académica en Ciencias Biomédicas con énfasis en Bioquímica y Fisiología Celular",
+      "definition": "Farmacia con maestría académica en Ciencias Biomédicas con énfasis en Bioquímica y Fisiología Celular"
+    },
+    {
+      "code": "107",
+      "display": "Farmacia con maestría académica en Ciencias Biomédicas con énfasis en Farmacología",
+      "definition": "Farmacia con maestría académica en Ciencias Biomédicas con énfasis en Farmacología"
+    },
+    {
+      "code": "108",
+      "display": "Farmacia con maestría académica en Ciencias Biomédicas Con Énfasis en Fisiología",
+      "definition": "Farmacia con maestría académica en Ciencias Biomédicas Con Énfasis en Fisiología"
+    },
+    {
+      "code": "109",
+      "display": "Farmacia con maestría académica en Farmacodependencia",
+      "definition": "Farmacia con maestría académica en Farmacodependencia"
+    },
+    {
+      "code": "110",
+      "display": "Farmacia con maestría académica en Inmunología",
+      "definition": "Farmacia con maestría académica en Inmunología"
+    },
+    {
+      "code": "111",
+      "display": "Farmacia con maestría académica en Nutrición para la promoción de la Salud",
+      "definition": "Farmacia con maestría académica en Nutrición para la promoción de la Salud"
+    },
+    {
+      "code": "120",
+      "display": "Farmacia con maestría en Administración de Servicios de Salud",
+      "definition": "Farmacia con maestría en Administración de Servicios de Salud"
+    },
+    {
+      "code": "121",
+      "display": "Farmacia con maestría en Bioética",
+      "definition": "Farmacia con maestría en Bioética"
+    },
+    {
+      "code": "122",
+      "display": "Farmacia con maestría en Cuidados Paliativos",
+      "definition": "Farmacia con maestría en Cuidados Paliativos"
+    },
+    {
+      "code": "123",
+      "display": "Farmacia con maestría en Currículum y Docencia Universitaria",
+      "definition": "Farmacia con maestría en Currículum y Docencia Universitaria"
+    },
+    {
+      "code": "124",
+      "display": "Farmacia con maestría en Economía de la Salud",
+      "definition": "Farmacia con maestría en Economía de la Salud"
+    },
+    {
+      "code": "125",
+      "display": "Farmacia con maestría en Epidemiología",
+      "definition": "Farmacia con maestría en Epidemiología"
+    },
+    {
+      "code": "126",
+      "display": "Farmacia con maestría en Gerencia de la Calidad",
+      "definition": "Farmacia con maestría en Gerencia de la Calidad"
+    },
+    {
+      "code": "127",
+      "display": "Farmacia con maestría en Gerencias de Proyectos para el Desarrollo",
+      "definition": "Farmacia con maestría en Gerencias de Proyectos para el Desarrollo"
+    },
+    {
+      "code": "128",
+      "display": "Farmacia con maestría en Promoción de la Salud",
+      "definition": "Farmacia con maestría en Promoción de la Salud"
+    },
+    {
+      "code": "129",
+      "display": "Farmacia con maestría en Propiedad Intelectual",
+      "definition": "Farmacia con maestría en Propiedad Intelectual"
+    },
+    {
+      "code": "130",
+      "display": "Farmacia con maestría (otra no definida)",
+      "definition": "Farmacia con maestría (otra no definida)"
+    },
+    {
+      "code": "112",
+      "display": "Farmacia con maestría profesional en Administración De Empresas (varios énfasis)",
+      "definition": "Farmacia con maestría profesional en Administración De Empresas (varios énfasis)"
+    },
+    {
+      "code": "113",
+      "display": "Farmacia con maestría profesional en Análisis y Control de Calidad de Medicamentos",
+      "definition": "Farmacia con maestría profesional en Análisis y Control de Calidad de Medicamentos"
+    },
+    {
+      "code": "114",
+      "display": "Farmacia con maestría profesional en Atención Farmacéutica",
+      "definition": "Farmacia con maestría profesional en Atención Farmacéutica"
+    },
+    {
+      "code": "115",
+      "display": "Farmacia con maestría profesional en Farmacología y Gerencia de Medicamentos",
+      "definition": "Farmacia con maestría profesional en Farmacología y Gerencia de Medicamentos"
+    },
+    {
+      "code": "116",
+      "display": "Farmacia con maestría profesional en Gerencia de la Salud (diferentes énfasis)",
+      "definition": "Farmacia con maestría profesional en Gerencia de la Salud (diferentes énfasis)"
+    },
+    {
+      "code": "117",
+      "display": "Farmacia con maestría profesional en Gestión de Calidad",
+      "definition": "Farmacia con maestría profesional en Gestión de Calidad"
+    },
+    {
+      "code": "118",
+      "display": "Farmacia con maestría profesional en Ingeniería Industrial (varios énfasis)",
+      "definition": "Farmacia con maestría profesional en Ingeniería Industrial (varios énfasis)"
+    },
+    {
+      "code": "119",
+      "display": "Farmacia con maestría profesional en Salud Pública (varios énfasis)",
+      "definition": "Farmacia con maestría profesional en Salud Pública (varios énfasis)"
+    },
+    {
+      "code": "102",
+      "display": "Farmacia (licenciado)",
+      "definition": "Farmacia (licenciado)"
+    },
+    {
+      "code": "144",
+      "display": "Imagenología Diagnóstica y Terapéutica  con maestría en Administración de Servicios de Salud",
+      "definition": "Imagenología Diagnóstica y Terapéutica  con maestría en Administración de Servicios de Salud"
+    },
+    {
+      "code": "142",
+      "display": "Imagenología Diagnóstica y Terapéutica / Imágenes Médicas (bachiller)",
+      "definition": "Imagenología Diagnóstica y Terapéutica / Imágenes Médicas (bachiller)"
+    },
+    {
+      "code": "143",
+      "display": "Imagenología Diagnóstica y Terapéutica / Imágenes Médicas (licenciado)",
+      "definition": "Imagenología Diagnóstica y Terapéutica / Imágenes Médicas (licenciado)"
+    },
+    {
+      "code": "145",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Audiología",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Audiología"
+    },
+    {
+      "code": "147",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Fonoaudilogía",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Fonoaudilogía"
+    },
+    {
+      "code": "148",
+      "display": "Imagenologia Diagnóstica y Terapéutica con maestría en Gerencia de la Calidad",
+      "definition": "Imagenologia Diagnóstica y Terapéutica con maestría en Gerencia de la Calidad"
+    },
+    {
+      "code": "146",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Homeopatía",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Homeopatía"
+    },
+    {
+      "code": "149",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Kinesiología",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Kinesiología"
+    },
+    {
+      "code": "150",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Recreación Física y Mental",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Recreación Física y Mental"
+    },
+    {
+      "code": "151",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Registros Médicos",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Registros Médicos"
+    },
+    {
+      "code": "152",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Salud Pública",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Salud Pública"
+    },
+    {
+      "code": "153",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Terapia Física",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Terapia Física"
+    },
+    {
+      "code": "154",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Terapia Ocupacional",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Terapia Ocupacional"
+    },
+    {
+      "code": "155",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría en Terapia Respiratoria",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría en Terapia Respiratoria"
+    },
+    {
+      "code": "156",
+      "display": "Imagenología Diagnóstica y Terapéutica con maestría (otra no definida)",
+      "definition": "Imagenología Diagnóstica y Terapéutica con maestría (otra no definida)"
+    },
+    {
+      "code": "219",
+      "display": "Medicina con especialidad en Acupuntura",
+      "definition": "Medicina con especialidad en Acupuntura"
+    },
+    {
+      "code": "220",
+      "display": "Medicina con especialidad en Administración de Servicios de Salud",
+      "definition": "Medicina con especialidad en Administración de Servicios de Salud"
+    },
+    {
+      "code": "221",
+      "display": "Medicina con especialidad en Alergología Clínica",
+      "definition": "Medicina con especialidad en Alergología Clínica"
+    },
+    {
+      "code": "222",
+      "display": "Medicina con especialidad en Anatomía Patológica",
+      "definition": "Medicina con especialidad en Anatomía Patológica"
+    },
+    {
+      "code": "223",
+      "display": "Medicina con especialidad en Anestesiología y Recuperación",
+      "definition": "Medicina con especialidad en Anestesiología y Recuperación"
+    },
+    {
+      "code": "224",
+      "display": "Medicina con especialidad en Cardiología",
+      "definition": "Medicina con especialidad en Cardiología"
+    },
+    {
+      "code": "225",
+      "display": "Medicina con especialidad en Cirugía Cráneomaxilofacial",
+      "definition": "Medicina con especialidad en Cirugía Cráneomaxilofacial"
+    },
+    {
+      "code": "226",
+      "display": "Medicina con especialidad en Cirugía de Tórax y Cardiovascular",
+      "definition": "Medicina con especialidad en Cirugía de Tórax y Cardiovascular"
+    },
+    {
+      "code": "227",
+      "display": "Medicina con especialidad en Cirugía General",
+      "definition": "Medicina con especialidad en Cirugía General"
+    },
+    {
+      "code": "228",
+      "display": "Medicina con especialidad en Cirugía Pediátrica",
+      "definition": "Medicina con especialidad en Cirugía Pediátrica"
+    },
+    {
+      "code": "229",
+      "display": "Medicina con especialidad en Cirugía Plástica, Reconstructiva y Estética",
+      "definition": "Medicina con especialidad en Cirugía Plástica, Reconstructiva y Estética"
+    },
+    {
+      "code": "230",
+      "display": "Medicina con especialidad en Cirugía Torácica General",
+      "definition": "Medicina con especialidad en Cirugía Torácica General"
+    },
+    {
+      "code": "231",
+      "display": "Medicina con especialidad en Dermatología",
+      "definition": "Medicina con especialidad en Dermatología"
+    },
+    {
+      "code": "232",
+      "display": "Medicina con especialidad en Endocrinología",
+      "definition": "Medicina con especialidad en Endocrinología"
+    },
+    {
+      "code": "233",
+      "display": "Medicina con especialidad en Foniatría-Audiología",
+      "definition": "Medicina con especialidad en Foniatría-Audiología"
+    },
+    {
+      "code": "234",
+      "display": "Medicina con especialidad en Gastroenterología",
+      "definition": "Medicina con especialidad en Gastroenterología"
+    },
+    {
+      "code": "235",
+      "display": "Medicina con especialidad en Genética Clínica",
+      "definition": "Medicina con especialidad en Genética Clínica"
+    },
+    {
+      "code": "236",
+      "display": "Medicina con especialidad en Genética Humana",
+      "definition": "Medicina con especialidad en Genética Humana"
+    },
+    {
+      "code": "237",
+      "display": "Medicina con especialidad en Geriatría y Gerontología",
+      "definition": "Medicina con especialidad en Geriatría y Gerontología"
+    },
+    {
+      "code": "238",
+      "display": "Medicina con especialidad en Ginecología y Obstetricia",
+      "definition": "Medicina con especialidad en Ginecología y Obstetricia"
+    },
+    {
+      "code": "239",
+      "display": "Medicina con especialidad en Hematología",
+      "definition": "Medicina con especialidad en Hematología"
+    },
+    {
+      "code": "240",
+      "display": "Medicina con especialidad en Homeopatía",
+      "definition": "Medicina con especialidad en Homeopatía"
+    },
+    {
+      "code": "241",
+      "display": "Medicina con especialidad en Infectología",
+      "definition": "Medicina con especialidad en Infectología"
+    },
+    {
+      "code": "242",
+      "display": "Medicina con especialidad en Informática Médica",
+      "definition": "Medicina con especialidad en Informática Médica"
+    },
+    {
+      "code": "243",
+      "display": "Medicina con especialidad en Inmunología Clínica",
+      "definition": "Medicina con especialidad en Inmunología Clínica"
+    },
+    {
+      "code": "244",
+      "display": "Medicina con especialidad en Medicina Aeroespacial",
+      "definition": "Medicina con especialidad en Medicina Aeroespacial"
+    },
+    {
+      "code": "245",
+      "display": "Medicina con especialidad en Medicina Crítica y Terapia Intensiva",
+      "definition": "Medicina con especialidad en Medicina Crítica y Terapia Intensiva"
+    },
+    {
+      "code": "246",
+      "display": "Medicina con especialidad en Medicina de Emergencias",
+      "definition": "Medicina con especialidad en Medicina de Emergencias"
+    },
+    {
+      "code": "247",
+      "display": "Medicina con especialidad en Medicina del Deporte",
+      "definition": "Medicina con especialidad en Medicina del Deporte"
+    },
+    {
+      "code": "248",
+      "display": "Medicina con especialidad en Medicina del Trabajo",
+      "definition": "Medicina con especialidad en Medicina del Trabajo"
+    },
+    {
+      "code": "249",
+      "display": "Medicina con especialidad en Medicina Extracorpórea",
+      "definition": "Medicina con especialidad en Medicina Extracorpórea"
+    },
+    {
+      "code": "250",
+      "display": "Medicina con especialidad en Medicina Familiar y Comunitaria",
+      "definition": "Medicina con especialidad en Medicina Familiar y Comunitaria"
+    },
+    {
+      "code": "251",
+      "display": "Medicina con especialidad en Medicina Física y Rehabilitación",
+      "definition": "Medicina con especialidad en Medicina Física y Rehabilitación"
+    },
+    {
+      "code": "252",
+      "display": "Medicina con especialidad en Medicina Hiperbárica",
+      "definition": "Medicina con especialidad en Medicina Hiperbárica"
+    },
+    {
+      "code": "253",
+      "display": "Medicina con especialidad en Medicina Interna",
+      "definition": "Medicina con especialidad en Medicina Interna"
+    },
+    {
+      "code": "254",
+      "display": "Medicina con especialidad en Medicina Legal",
+      "definition": "Medicina con especialidad en Medicina Legal"
+    },
+    {
+      "code": "255",
+      "display": "Medicina con especialidad en Medicina Nuclear",
+      "definition": "Medicina con especialidad en Medicina Nuclear"
+    },
+    {
+      "code": "256",
+      "display": "Medicina con especialidad en Medicina Paliativa",
+      "definition": "Medicina con especialidad en Medicina Paliativa"
+    },
+    {
+      "code": "257",
+      "display": "Medicina con especialidad en Medicina Preventiva y Salud Pública",
+      "definition": "Medicina con especialidad en Medicina Preventiva y Salud Pública"
+    },
+    {
+      "code": "258",
+      "display": "Medicina con especialidad en Medicina Tropical",
+      "definition": "Medicina con especialidad en Medicina Tropical"
+    },
+    {
+      "code": "259",
+      "display": "Medicina con especialidad en Nefrología",
+      "definition": "Medicina con especialidad en Nefrología"
+    },
+    {
+      "code": "260",
+      "display": "Medicina con especialidad en Neumología",
+      "definition": "Medicina con especialidad en Neumología"
+    },
+    {
+      "code": "261",
+      "display": "Medicina con especialidad en Neurocirugía",
+      "definition": "Medicina con especialidad en Neurocirugía"
+    },
+    {
+      "code": "262",
+      "display": "Medicina con especialidad en Neurología",
+      "definition": "Medicina con especialidad en Neurología"
+    },
+    {
+      "code": "263",
+      "display": "Medicina con especialidad en Nutriología Clínica",
+      "definition": "Medicina con especialidad en Nutriología Clínica"
+    },
+    {
+      "code": "264",
+      "display": "Medicina con especialidad en Oftalmología",
+      "definition": "Medicina con especialidad en Oftalmología"
+    },
+    {
+      "code": "265",
+      "display": "Medicina con especialidad en Oncología Médica",
+      "definition": "Medicina con especialidad en Oncología Médica"
+    },
+    {
+      "code": "266",
+      "display": "Medicina con especialidad en Oncología Quirúrgica",
+      "definition": "Medicina con especialidad en Oncología Quirúrgica"
+    },
+    {
+      "code": "267",
+      "display": "Medicina con especialidad en Oncología Radioterápica",
+      "definition": "Medicina con especialidad en Oncología Radioterápica"
+    },
+    {
+      "code": "268",
+      "display": "Medicina con especialidad en Ortopedia y Traumatología",
+      "definition": "Medicina con especialidad en Ortopedia y Traumatología"
+    },
+    {
+      "code": "269",
+      "display": "Medicina con especialidad en Otorrinolaringología y Cirugía de Cabeza y Cuello",
+      "definition": "Medicina con especialidad en Otorrinolaringología y Cirugía de Cabeza y Cuello"
+    },
+    {
+      "code": "270",
+      "display": "Medicina con especialidad en Patología Forense",
+      "definition": "Medicina con especialidad en Patología Forense"
+    },
+    {
+      "code": "271",
+      "display": "Medicina con especialidad en Pediatría",
+      "definition": "Medicina con especialidad en Pediatría"
+    },
+    {
+      "code": "272",
+      "display": "Medicina con especialidad en Psiquiatría",
+      "definition": "Medicina con especialidad en Psiquiatría"
+    },
+    {
+      "code": "273",
+      "display": "Medicina con especialidad en Radiología e Imágenes Médicas",
+      "definition": "Medicina con especialidad en Radiología e Imágenes Médicas"
+    },
+    {
+      "code": "274",
+      "display": "Medicina con especialidad en Reumatología",
+      "definition": "Medicina con especialidad en Reumatología"
+    },
+    {
+      "code": "275",
+      "display": "Medicina con especialidad en Urología",
+      "definition": "Medicina con especialidad en Urología"
+    },
+    {
+      "code": "276",
+      "display": "Medicina con especialidad en Vascular Periférico",
+      "definition": "Medicina con especialidad en Vascular Periférico"
+    },
+    {
+      "code": "361",
+      "display": "Medicina con maestría académica en Ciencias Médicas y Quirúrgicas",
+      "definition": "Medicina con maestría académica en Ciencias Médicas y Quirúrgicas"
+    },
+    {
+      "code": "362",
+      "display": "Medicina con maestría académica en Ciencias Neurológicas",
+      "definition": "Medicina con maestría académica en Ciencias Neurológicas"
+    },
+    {
+      "code": "363",
+      "display": "Medicina con maestría en Acupuntura",
+      "definition": "Medicina con maestría en Acupuntura"
+    },
+    {
+      "code": "364",
+      "display": "Medicina con maestría en Administración de Servicios de Salud",
+      "definition": "Medicina con maestría en Administración de Servicios de Salud"
+    },
+    {
+      "code": "365",
+      "display": "Medicina con maestría en Anatomía Humana",
+      "definition": "Medicina con maestría en Anatomía Humana"
+    },
+    {
+      "code": "366",
+      "display": "Medicina con maestría en Bioética",
+      "definition": "Medicina con maestría en Bioética"
+    },
+    {
+      "code": "367",
+      "display": "Medicina con maestría en Bioquímica Clínica",
+      "definition": "Medicina con maestría en Bioquímica Clínica"
+    },
+    {
+      "code": "369",
+      "display": "Medicina con maestría en Ciencias Biomédicas con énfasis en Bioquímica y Fisiología Celular",
+      "definition": "Medicina con maestría en Ciencias Biomédicas con énfasis en Bioquímica y Fisiología Celular"
+    },
+    {
+      "code": "368",
+      "display": "Medicina con maestría en Ciencias Biomédicas (varios énfasis)",
+      "definition": "Medicina con maestría en Ciencias Biomédicas (varios énfasis)"
+    },
+    {
+      "code": "370",
+      "display": "Medicina con maestría en Ciencias Morfológicas",
+      "definition": "Medicina con maestría en Ciencias Morfológicas"
+    },
+    {
+      "code": "371",
+      "display": "Medicina con maestría en Economía de la Salud y las Políticas Públicas",
+      "definition": "Medicina con maestría en Economía de la Salud y las Políticas Públicas"
+    },
+    {
+      "code": "372",
+      "display": "Medicina con maestría en Epidemiología (varios énfasis)",
+      "definition": "Medicina con maestría en Epidemiología (varios énfasis)"
+    },
+    {
+      "code": "373",
+      "display": "Medicina con maestría en Estimulación Temprana",
+      "definition": "Medicina con maestría en Estimulación Temprana"
+    },
+    {
+      "code": "374",
+      "display": "Medicina con maestría en Farmacodependencia",
+      "definition": "Medicina con maestría en Farmacodependencia"
+    },
+    {
+      "code": "375",
+      "display": "Medicina con maestría en Farmacología Clínica",
+      "definition": "Medicina con maestría en Farmacología Clínica"
+    },
+    {
+      "code": "376",
+      "display": "Medicina con maestría en Fisiología Humana",
+      "definition": "Medicina con maestría en Fisiología Humana"
+    },
+    {
+      "code": "377",
+      "display": "Medicina con maestría en Gerencia de la Calidad",
+      "definition": "Medicina con maestría en Gerencia de la Calidad"
+    },
+    {
+      "code": "378",
+      "display": "Medicina con maestría en Gerencia de la Salud",
+      "definition": "Medicina con maestría en Gerencia de la Salud"
+    },
+    {
+      "code": "379",
+      "display": "Medicina con maestría en Gerontología",
+      "definition": "Medicina con maestría en Gerontología"
+    },
+    {
+      "code": "380",
+      "display": "Medicina con maestría en Homeopatía",
+      "definition": "Medicina con maestría en Homeopatía"
+    },
+    {
+      "code": "381",
+      "display": "Medicina con maestría en Informática Médica",
+      "definition": "Medicina con maestría en Informática Médica"
+    },
+    {
+      "code": "382",
+      "display": "Medicina con maestría en Medicina del Deporte",
+      "definition": "Medicina con maestría en Medicina del Deporte"
+    },
+    {
+      "code": "383",
+      "display": "Medicina con maestría en Medicina del Trabajo.",
+      "definition": "Medicina con maestría en Medicina del Trabajo."
+    },
+    {
+      "code": "384",
+      "display": "Medicina con maestría en Medicina Fetal",
+      "definition": "Medicina con maestría en Medicina Fetal"
+    },
+    {
+      "code": "385",
+      "display": "Medicina con maestría en Medicina Paliativa en Adultos",
+      "definition": "Medicina con maestría en Medicina Paliativa en Adultos"
+    },
+    {
+      "code": "386",
+      "display": "Medicina con maestría en Medicina Paliativa Pediátrica",
+      "definition": "Medicina con maestría en Medicina Paliativa Pediátrica"
+    },
+    {
+      "code": "387",
+      "display": "Medicina con maestría en Medicina Social",
+      "definition": "Medicina con maestría en Medicina Social"
+    },
+    {
+      "code": "388",
+      "display": "Medicina con maestría en Microbiología",
+      "definition": "Medicina con maestría en Microbiología"
+    },
+    {
+      "code": "389",
+      "display": "Medicina con maestría en Nutrición Clínica",
+      "definition": "Medicina con maestría en Nutrición Clínica"
+    },
+    {
+      "code": "390",
+      "display": "Medicina con maestría en Nutrición Humana",
+      "definition": "Medicina con maestría en Nutrición Humana"
+    },
+    {
+      "code": "391",
+      "display": "Medicina con maestría en Políticas, Planificación y Financiamiento de la Salud",
+      "definition": "Medicina con maestría en Políticas, Planificación y Financiamiento de la Salud"
+    },
+    {
+      "code": "392",
+      "display": "Medicina con maestría en Promoción de la Salud",
+      "definition": "Medicina con maestría en Promoción de la Salud"
+    },
+    {
+      "code": "393",
+      "display": "Medicina con maestría en Psicoanálisis",
+      "definition": "Medicina con maestría en Psicoanálisis"
+    },
+    {
+      "code": "394",
+      "display": "Medicina con maestría en Psicogeriatría",
+      "definition": "Medicina con maestría en Psicogeriatría"
+    },
+    {
+      "code": "395",
+      "display": "Medicina con maestría en Psicología Clínica",
+      "definition": "Medicina con maestría en Psicología Clínica"
+    },
+    {
+      "code": "396",
+      "display": "Medicina con maestría en Psiquiatría Forense",
+      "definition": "Medicina con maestría en Psiquiatría Forense"
+    },
+    {
+      "code": "397",
+      "display": "Medicina con maestría en Salud Ocupacional",
+      "definition": "Medicina con maestría en Salud Ocupacional"
+    },
+    {
+      "code": "398",
+      "display": "Medicina con maestría en Salud Pública",
+      "definition": "Medicina con maestría en Salud Pública"
+    },
+    {
+      "code": "399",
+      "display": "Medicina con maestría en Valoración Médica del Daño Corporal",
+      "definition": "Medicina con maestría en Valoración Médica del Daño Corporal"
+    },
+    {
+      "code": "400",
+      "display": "Medicina con maestría (otra no definida)",
+      "definition": "Medicina con maestría (otra no definida)"
+    },
+    {
+      "code": "277",
+      "display": "Medicina con subespecialidad en Adolescencia y Medicina del Desarrollo",
+      "definition": "Medicina con subespecialidad en Adolescencia y Medicina del Desarrollo"
+    },
+    {
+      "code": "278",
+      "display": "Medicina con subespecialidad en Anestesia Regional basada en la Anatomía",
+      "definition": "Medicina con subespecialidad en Anestesia Regional basada en la Anatomía"
+    },
+    {
+      "code": "279",
+      "display": "Medicina con subespecialidad en Anestesiología Cardiovascular y Torácica",
+      "definition": "Medicina con subespecialidad en Anestesiología Cardiovascular y Torácica"
+    },
+    {
+      "code": "280",
+      "display": "Medicina con subespecialidad en Anestesiología Pediátrica",
+      "definition": "Medicina con subespecialidad en Anestesiología Pediátrica"
+    },
+    {
+      "code": "281",
+      "display": "Medicina con subespecialidad en Cabeza y Cuello",
+      "definition": "Medicina con subespecialidad en Cabeza y Cuello"
+    },
+    {
+      "code": "282",
+      "display": "Medicina con subespecialidad en Cardiología Intervencionista y Hemodinamia",
+      "definition": "Medicina con subespecialidad en Cardiología Intervencionista y Hemodinamia"
+    },
+    {
+      "code": "283",
+      "display": "Medicina con subespecialidad en Cardiología Pediátrica",
+      "definition": "Medicina con subespecialidad en Cardiología Pediátrica"
+    },
+    {
+      "code": "284",
+      "display": "Medicina con subespecialidad en Cirugía Cardiovascular y Tórax Pediátrica",
+      "definition": "Medicina con subespecialidad en Cirugía Cardiovascular y Tórax Pediátrica"
+    },
+    {
+      "code": "285",
+      "display": "Medicina con subespecialidad en Cirugía de Cadera y Pelvis",
+      "definition": "Medicina con subespecialidad en Cirugía de Cadera y Pelvis"
+    },
+    {
+      "code": "286",
+      "display": "Medicina con subespecialidad en Cirugía de Columna Vertebral",
+      "definition": "Medicina con subespecialidad en Cirugía de Columna Vertebral"
+    },
+    {
+      "code": "287",
+      "display": "Medicina con subespecialidad en Cirugía de Pared Abdominal",
+      "definition": "Medicina con subespecialidad en Cirugía de Pared Abdominal"
+    },
+    {
+      "code": "288",
+      "display": "Medicina con subespecialidad en Cirugía de Trauma",
+      "definition": "Medicina con subespecialidad en Cirugía de Trauma"
+    },
+    {
+      "code": "289",
+      "display": "Medicina con subespecialidad en Cirugía del Trasplante Renal",
+      "definition": "Medicina con subespecialidad en Cirugía del Trasplante Renal"
+    },
+    {
+      "code": "290",
+      "display": "Medicina con subespecialidad en Cirugía Dermatológica",
+      "definition": "Medicina con subespecialidad en Cirugía Dermatológica"
+    },
+    {
+      "code": "291",
+      "display": "Medicina con subespecialidad en Cirugía en Mano",
+      "definition": "Medicina con subespecialidad en Cirugía en Mano"
+    },
+    {
+      "code": "292",
+      "display": "Medicina con subespecialidad en Cirugía Gastroenterológica",
+      "definition": "Medicina con subespecialidad en Cirugía Gastroenterológica"
+    },
+    {
+      "code": "293",
+      "display": "Medicina con subespecialidad en Cirugía Oculoplástica, Vía Lagrimal y Órbita",
+      "definition": "Medicina con subespecialidad en Cirugía Oculoplástica, Vía Lagrimal y Órbita"
+    },
+    {
+      "code": "294",
+      "display": "Medicina con subespecialidad en Citopatología",
+      "definition": "Medicina con subespecialidad en Citopatología"
+    },
+    {
+      "code": "295",
+      "display": "Medicina con subespecialidad en Clínica y Terapia del Dolor",
+      "definition": "Medicina con subespecialidad en Clínica y Terapia del Dolor"
+    },
+    {
+      "code": "296",
+      "display": "Medicina con subespecialidad en Coloproctología",
+      "definition": "Medicina con subespecialidad en Coloproctología"
+    },
+    {
+      "code": "297",
+      "display": "Medicina con subespecialidad en Cuidado Crítico Cardiaco Pediátrico",
+      "definition": "Medicina con subespecialidad en Cuidado Crítico Cardiaco Pediátrico"
+    },
+    {
+      "code": "298",
+      "display": "Medicina con subespecialidad en Dermatología Pediátrica",
+      "definition": "Medicina con subespecialidad en Dermatología Pediátrica"
+    },
+    {
+      "code": "299",
+      "display": "Medicina con subespecialidad en Dermatopatología",
+      "definition": "Medicina con subespecialidad en Dermatopatología"
+    },
+    {
+      "code": "300",
+      "display": "Medicina con subespecialidad en Electrofisiología Cardiaca",
+      "definition": "Medicina con subespecialidad en Electrofisiología Cardiaca"
+    },
+    {
+      "code": "301",
+      "display": "Medicina con subespecialidad en Endocrinología Pediátrica",
+      "definition": "Medicina con subespecialidad en Endocrinología Pediátrica"
+    },
+    {
+      "code": "302",
+      "display": "Medicina con subespecialidad en Enfermedades Neuromusculares",
+      "definition": "Medicina con subespecialidad en Enfermedades Neuromusculares"
+    },
+    {
+      "code": "303",
+      "display": "Medicina con subespecialidad en Estética",
+      "definition": "Medicina con subespecialidad en Estética"
+    },
+    {
+      "code": "304",
+      "display": "Medicina con subespecialidad en Gastroenterología Pediátrica",
+      "definition": "Medicina con subespecialidad en Gastroenterología Pediátrica"
+    },
+    {
+      "code": "305",
+      "display": "Medicina con subespecialidad en Genética Bioquímica Médica",
+      "definition": "Medicina con subespecialidad en Genética Bioquímica Médica"
+    },
+    {
+      "code": "306",
+      "display": "Medicina con subespecialidad en Genética Infantil",
+      "definition": "Medicina con subespecialidad en Genética Infantil"
+    },
+    {
+      "code": "307",
+      "display": "Medicina con subespecialidad en Ginecología Endocrinológica",
+      "definition": "Medicina con subespecialidad en Ginecología Endocrinológica"
+    },
+    {
+      "code": "308",
+      "display": "Medicina con subespecialidad en Ginecología Oncológica",
+      "definition": "Medicina con subespecialidad en Ginecología Oncológica"
+    },
+    {
+      "code": "309",
+      "display": "Medicina con subespecialidad en Ginecología Urológica",
+      "definition": "Medicina con subespecialidad en Ginecología Urológica"
+    },
+    {
+      "code": "310",
+      "display": "Medicina con subespecialidad en Glaucoma",
+      "definition": "Medicina con subespecialidad en Glaucoma"
+    },
+    {
+      "code": "311",
+      "display": "Medicina con subespecialidad en Hematología Pediátrica",
+      "definition": "Medicina con subespecialidad en Hematología Pediátrica"
+    },
+    {
+      "code": "312",
+      "display": "Medicina con subespecialidad en Hematopatología",
+      "definition": "Medicina con subespecialidad en Hematopatología"
+    },
+    {
+      "code": "313",
+      "display": "Medicina con subespecialidad en Hepatología",
+      "definition": "Medicina con subespecialidad en Hepatología"
+    },
+    {
+      "code": "314",
+      "display": "Medicina con subespecialidad en Imágenes de Mamas",
+      "definition": "Medicina con subespecialidad en Imágenes de Mamas"
+    },
+    {
+      "code": "315",
+      "display": "Medicina con subespecialidad en Infectología Pediátrica",
+      "definition": "Medicina con subespecialidad en Infectología Pediátrica"
+    },
+    {
+      "code": "316",
+      "display": "Medicina con subespecialidad en Laringología y Fonocirugía",
+      "definition": "Medicina con subespecialidad en Laringología y Fonocirugía"
+    },
+    {
+      "code": "317",
+      "display": "Medicina con subespecialidad en Medicina Crítica Pediátrica",
+      "definition": "Medicina con subespecialidad en Medicina Crítica Pediátrica"
+    },
+    {
+      "code": "318",
+      "display": "Medicina con subespecialidad en Medicina de Emergencias Pediátricas",
+      "definition": "Medicina con subespecialidad en Medicina de Emergencias Pediátricas"
+    },
+    {
+      "code": "319",
+      "display": "Medicina con subespecialidad en Medicina del Adolescente",
+      "definition": "Medicina con subespecialidad en Medicina del Adolescente"
+    },
+    {
+      "code": "320",
+      "display": "Medicina con subespecialidad en Medicina del Sueño",
+      "definition": "Medicina con subespecialidad en Medicina del Sueño"
+    },
+    {
+      "code": "321",
+      "display": "Medicina con subespecialidad en Medicina Deportiva Ortopédica",
+      "definition": "Medicina con subespecialidad en Medicina Deportiva Ortopédica"
+    },
+    {
+      "code": "322",
+      "display": "Medicina con subespecialidad en Medicina Intensiva en Cardiología",
+      "definition": "Medicina con subespecialidad en Medicina Intensiva en Cardiología"
+    },
+    {
+      "code": "323",
+      "display": "Medicina con subespecialidad en Medicina Materno Fetal",
+      "definition": "Medicina con subespecialidad en Medicina Materno Fetal"
+    },
+    {
+      "code": "324",
+      "display": "Medicina con subespecialidad en Medicina Paliativa Pediátrica",
+      "definition": "Medicina con subespecialidad en Medicina Paliativa Pediátrica"
+    },
+    {
+      "code": "325",
+      "display": "Medicina con subespecialidad en Medicina Reproductiva",
+      "definition": "Medicina con subespecialidad en Medicina Reproductiva"
+    },
+    {
+      "code": "326",
+      "display": "Medicina con subespecialidad en Nefrología Pediátrica",
+      "definition": "Medicina con subespecialidad en Nefrología Pediátrica"
+    },
+    {
+      "code": "327",
+      "display": "Medicina con subespecialidad en Neonatología",
+      "definition": "Medicina con subespecialidad en Neonatología"
+    },
+    {
+      "code": "328",
+      "display": "Medicina con subespecialidad en Neumología Pediátrica",
+      "definition": "Medicina con subespecialidad en Neumología Pediátrica"
+    },
+    {
+      "code": "329",
+      "display": "Medicina con subespecialidad en Neurocirugía Pediátrica",
+      "definition": "Medicina con subespecialidad en Neurocirugía Pediátrica"
+    },
+    {
+      "code": "330",
+      "display": "Medicina con subespecialidad en Neurología Pediátrica",
+      "definition": "Medicina con subespecialidad en Neurología Pediátrica"
+    },
+    {
+      "code": "331",
+      "display": "Medicina con subespecialidad en Neurología Vascular",
+      "definition": "Medicina con subespecialidad en Neurología Vascular"
+    },
+    {
+      "code": "332",
+      "display": "Medicina con subespecialidad en Neuro-Oncología",
+      "definition": "Medicina con subespecialidad en Neuro-Oncología"
+    },
+    {
+      "code": "333",
+      "display": "Medicina con subespecialidad en Neuropsiquiatría",
+      "definition": "Medicina con subespecialidad en Neuropsiquiatría"
+    },
+    {
+      "code": "334",
+      "display": "Medicina con subespecialidad en Neuroradiología",
+      "definition": "Medicina con subespecialidad en Neuroradiología"
+    },
+    {
+      "code": "335",
+      "display": "Medicina con subespecialidad en Neuroradiología Quirúrgica Endovascular",
+      "definition": "Medicina con subespecialidad en Neuroradiología Quirúrgica Endovascular"
+    },
+    {
+      "code": "336",
+      "display": "Medicina con subespecialidad en Oftalmología Pediátrica",
+      "definition": "Medicina con subespecialidad en Oftalmología Pediátrica"
+    },
+    {
+      "code": "337",
+      "display": "Medicina con subespecialidad en Oncología Médica Pediátrica",
+      "definition": "Medicina con subespecialidad en Oncología Médica Pediátrica"
+    },
+    {
+      "code": "338",
+      "display": "Medicina con subespecialidad en Oncología Quirúrgica Pediátrica",
+      "definition": "Medicina con subespecialidad en Oncología Quirúrgica Pediátrica"
+    },
+    {
+      "code": "339",
+      "display": "Medicina con subespecialidad en Oncoradiología",
+      "definition": "Medicina con subespecialidad en Oncoradiología"
+    },
+    {
+      "code": "340",
+      "display": "Medicina con subespecialidad en Ortopedia Oncológica",
+      "definition": "Medicina con subespecialidad en Ortopedia Oncológica"
+    },
+    {
+      "code": "341",
+      "display": "Medicina con subespecialidad en Ortopedia y Traumatología Pediátrica",
+      "definition": "Medicina con subespecialidad en Ortopedia y Traumatología Pediátrica"
+    },
+    {
+      "code": "342",
+      "display": "Medicina con subespecialidad en Osteomuscular",
+      "definition": "Medicina con subespecialidad en Osteomuscular"
+    },
+    {
+      "code": "343",
+      "display": "Medicina con subespecialidad en Otorrinolaringología Pediátrica",
+      "definition": "Medicina con subespecialidad en Otorrinolaringología Pediátrica"
+    },
+    {
+      "code": "344",
+      "display": "Medicina con subespecialidad en Patología Pediátrica",
+      "definition": "Medicina con subespecialidad en Patología Pediátrica"
+    },
+    {
+      "code": "345",
+      "display": "Medicina con subespecialidad en Pediatría del Desarrollo",
+      "definition": "Medicina con subespecialidad en Pediatría del Desarrollo"
+    },
+    {
+      "code": "346",
+      "display": "Medicina con subespecialidad en Psiquiatría Comunitaria y Rehabilitación",
+      "definition": "Medicina con subespecialidad en Psiquiatría Comunitaria y Rehabilitación"
+    },
+    {
+      "code": "347",
+      "display": "Medicina con subespecialidad en Psiquiatría de Adicciones",
+      "definition": "Medicina con subespecialidad en Psiquiatría de Adicciones"
+    },
+    {
+      "code": "348",
+      "display": "Medicina con subespecialidad en Psiquiatría de Niños y Adolescentes",
+      "definition": "Medicina con subespecialidad en Psiquiatría de Niños y Adolescentes"
+    },
+    {
+      "code": "349",
+      "display": "Medicina con subespecialidad en Psiquiatría Forense",
+      "definition": "Medicina con subespecialidad en Psiquiatría Forense"
+    },
+    {
+      "code": "350",
+      "display": "Medicina con subespecialidad en Psiquiatría Geriátrica",
+      "definition": "Medicina con subespecialidad en Psiquiatría Geriátrica"
+    },
+    {
+      "code": "351",
+      "display": "Medicina con subespecialidad en Radiología Intervencionista",
+      "definition": "Medicina con subespecialidad en Radiología Intervencionista"
+    },
+    {
+      "code": "352",
+      "display": "Medicina con subespecialidad en Radiología Pediátrica",
+      "definition": "Medicina con subespecialidad en Radiología Pediátrica"
+    },
+    {
+      "code": "353",
+      "display": "Medicina con subespecialidad en Radiología Torácica",
+      "definition": "Medicina con subespecialidad en Radiología Torácica"
+    },
+    {
+      "code": "354",
+      "display": "Medicina con subespecialidad en Radioterapia Pediátrica",
+      "definition": "Medicina con subespecialidad en Radioterapia Pediátrica"
+    },
+    {
+      "code": "355",
+      "display": "Medicina con subespecialidad en Retina y Vítreo",
+      "definition": "Medicina con subespecialidad en Retina y Vítreo"
+    },
+    {
+      "code": "356",
+      "display": "Medicina con subespecialidad en Terapia Intensiva Neurológica",
+      "definition": "Medicina con subespecialidad en Terapia Intensiva Neurológica"
+    },
+    {
+      "code": "357",
+      "display": "Medicina con subespecialidad en Urgencias Neurológicas",
+      "definition": "Medicina con subespecialidad en Urgencias Neurológicas"
+    },
+    {
+      "code": "358",
+      "display": "Medicina con subespecialidad en Urología Oncológica",
+      "definition": "Medicina con subespecialidad en Urología Oncológica"
+    },
+    {
+      "code": "359",
+      "display": "Medicina con subespecialidad en Urología Pediátrica",
+      "definition": "Medicina con subespecialidad en Urología Pediátrica"
+    },
+    {
+      "code": "360",
+      "display": "Medicina con subespecialidad en Uveítis",
+      "definition": "Medicina con subespecialidad en Uveítis"
+    },
+    {
+      "code": "166",
+      "display": "Medicina Veterinaria (bachiller)",
+      "definition": "Medicina Veterinaria (bachiller)"
+    },
+    {
+      "code": "196",
+      "display": "Medicina Veterinaria con doctorado académico en Ciencias",
+      "definition": "Medicina Veterinaria con doctorado académico en Ciencias"
+    },
+    {
+      "code": "197",
+      "display": "Medicina Veterinaria con doctorado en Filosofía",
+      "definition": "Medicina Veterinaria con doctorado en Filosofía"
+    },
+    {
+      "code": "168",
+      "display": "Medicina Veterinaria con especialidad en Acupuntura",
+      "definition": "Medicina Veterinaria con especialidad en Acupuntura"
+    },
+    {
+      "code": "169",
+      "display": "Medicina Veterinaria con especialidad en Cardiologia Clinica",
+      "definition": "Medicina Veterinaria con especialidad en Cardiologia Clinica"
+    },
+    {
+      "code": "170",
+      "display": "Medicina Veterinaria con especialidad en Ciencias veterinarias (varios énfasis)",
+      "definition": "Medicina Veterinaria con especialidad en Ciencias veterinarias (varios énfasis)"
+    },
+    {
+      "code": "171",
+      "display": "Medicina Veterinaria con especialidad en Cirugía, Reproducción y Medicina Interna en equinos",
+      "definition": "Medicina Veterinaria con especialidad en Cirugía, Reproducción y Medicina Interna en equinos"
+    },
+    {
+      "code": "172",
+      "display": "Medicina Veterinaria con especialidad en Comportamiento Animal",
+      "definition": "Medicina Veterinaria con especialidad en Comportamiento Animal"
+    },
+    {
+      "code": "173",
+      "display": "Medicina Veterinaria con especialidad en Gerencia de Programas Sanitarios en Inocuidad de Alimentos",
+      "definition": "Medicina Veterinaria con especialidad en Gerencia de Programas Sanitarios en Inocuidad de Alimentos"
+    },
+    {
+      "code": "174",
+      "display": "Medicina Veterinaria con especialidad en Inmunología y Parasitología",
+      "definition": "Medicina Veterinaria con especialidad en Inmunología y Parasitología"
+    },
+    {
+      "code": "175",
+      "display": "Medicina Veterinaria con especialidad en Patología y medicina Laboratorial",
+      "definition": "Medicina Veterinaria con especialidad en Patología y medicina Laboratorial"
+    },
+    {
+      "code": "176",
+      "display": "Medicina Veterinaria con maestría académica en Ciencias Agrícolas y Recursos Naturales (varios énfasis)",
+      "definition": "Medicina Veterinaria con maestría académica en Ciencias Agrícolas y Recursos Naturales (varios énfasis)"
+    },
+    {
+      "code": "177",
+      "display": "Medicina Veterinaria con maestría académica en microbiologia",
+      "definition": "Medicina Veterinaria con maestría académica en microbiologia"
+    },
+    {
+      "code": "181",
+      "display": "Medicina Veterinaria con maestría en Administración Pública (varios énfasis)",
+      "definition": "Medicina Veterinaria con maestría en Administración Pública (varios énfasis)"
+    },
+    {
+      "code": "182",
+      "display": "Medicina Veterinaria con maestría en Apicultura tropical",
+      "definition": "Medicina Veterinaria con maestría en Apicultura tropical"
+    },
+    {
+      "code": "183",
+      "display": "Medicina Veterinaria con maestría en Bioetica",
+      "definition": "Medicina Veterinaria con maestría en Bioetica"
+    },
+    {
+      "code": "184",
+      "display": "Medicina Veterinaria con maestría en Ciencias",
+      "definition": "Medicina Veterinaria con maestría en Ciencias"
+    },
+    {
+      "code": "185",
+      "display": "Medicina Veterinaria con maestría en Ciencias Biologicas",
+      "definition": "Medicina Veterinaria con maestría en Ciencias Biologicas"
+    },
+    {
+      "code": "186",
+      "display": "Medicina Veterinaria con maestría en Ciencias Veterinarias Tropicales",
+      "definition": "Medicina Veterinaria con maestría en Ciencias Veterinarias Tropicales"
+    },
+    {
+      "code": "187",
+      "display": "Medicina veterinaria con maestría en el Manejo de Recursos Naturales (varios énfasis)",
+      "definition": "Medicina veterinaria con maestría en el Manejo de Recursos Naturales (varios énfasis)"
+    },
+    {
+      "code": "188",
+      "display": "Medicina Veterinaria con maestría en Epidemiología",
+      "definition": "Medicina Veterinaria con maestría en Epidemiología"
+    },
+    {
+      "code": "189",
+      "display": "Medicina Veterinaria con maestría en Gerencia de la calidad",
+      "definition": "Medicina Veterinaria con maestría en Gerencia de la calidad"
+    },
+    {
+      "code": "190",
+      "display": "Medicina Veterinaria con maestría en Medicina de la Conservación con énfasis en Medicina Interna de Fauna silvestre",
+      "definition": "Medicina Veterinaria con maestría en Medicina de la Conservación con énfasis en Medicina Interna de Fauna silvestre"
+    },
+    {
+      "code": "191",
+      "display": "Medicina Veterinaria con maestría en Medicina Interna de Equinos",
+      "definition": "Medicina Veterinaria con maestría en Medicina Interna de Equinos"
+    },
+    {
+      "code": "192",
+      "display": "Medicina Veterinaria con maestría en Medicina Veterinaria y Zootecnia",
+      "definition": "Medicina Veterinaria con maestría en Medicina Veterinaria y Zootecnia"
+    },
+    {
+      "code": "193",
+      "display": "Medicina Veterinaria con maestría en Produccion Ovina Tropical",
+      "definition": "Medicina Veterinaria con maestría en Produccion Ovina Tropical"
+    },
+    {
+      "code": "195",
+      "display": "Medicina Veterinaria con maestría (otra no definida)",
+      "definition": "Medicina Veterinaria con maestría (otra no definida)"
+    },
+    {
+      "code": "178",
+      "display": "Medicina Veterinaria con maestría profesional en Gerencia Agroempresarial",
+      "definition": "Medicina Veterinaria con maestría profesional en Gerencia Agroempresarial"
+    },
+    {
+      "code": "179",
+      "display": "Medicina Veterinaria con maestría profesional en gerencia de programas sanitarios en inocuidad de alimentos",
+      "definition": "Medicina Veterinaria con maestría profesional en gerencia de programas sanitarios en inocuidad de alimentos"
+    },
+    {
+      "code": "180",
+      "display": "Medicina Veterinaria con maestría profesional en Salud Publica (varios énfasis)",
+      "definition": "Medicina Veterinaria con maestría profesional en Salud Publica (varios énfasis)"
+    },
+    {
+      "code": "194",
+      "display": "Medicina Veterinaria con maestría Tecnológica en Medidas Sanitarias y Fitosanitarias",
+      "definition": "Medicina Veterinaria con maestría Tecnológica en Medidas Sanitarias y Fitosanitarias"
+    },
+    {
+      "code": "167",
+      "display": "Medicina Veterinaria (licenciado)",
+      "definition": "Medicina Veterinaria (licenciado)"
+    },
+    {
+      "code": "217",
+      "display": "Medicina y Cirugía (Bachiller)",
+      "definition": "Medicina y Cirugía (Bachiller)"
+    },
+    {
+      "code": "218",
+      "display": "Medicina y Cirugía (licenciado)",
+      "definition": "Medicina y Cirugía (licenciado)"
+    },
+    {
+      "code": "405",
+      "display": "Microbiología y Química Clínica (bachiller)",
+      "definition": "Microbiología y Química Clínica (bachiller)"
+    },
+    {
+      "code": "415",
+      "display": "Microbiologia y Quimica Clinica con maestría académica en Inmunologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría académica en Inmunologia"
+    },
+    {
+      "code": "416",
+      "display": "Microbiologia y Quimica Clinica con maestría académica en Microbiologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría académica en Microbiologia"
+    },
+    {
+      "code": "417",
+      "display": "Microbiologia y Quimica Clinica con maestría académica en Microbiologia (varios énfasis)",
+      "definition": "Microbiologia y Quimica Clinica con maestría académica en Microbiologia (varios énfasis)"
+    },
+    {
+      "code": "418",
+      "display": "Microbiologia y Quimica Clinica con maestría académica en Parasitologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría académica en Parasitologia"
+    },
+    {
+      "code": "419",
+      "display": "Microbiologia y Quimica Clinica con maestría académica en Quimica Clinica",
+      "definition": "Microbiologia y Quimica Clinica con maestría académica en Quimica Clinica"
+    },
+    {
+      "code": "421",
+      "display": "Microbiologia y Quimica Clinica con maestría en Administracion de Negocios (varios énfasis)",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Administracion de Negocios (varios énfasis)"
+    },
+    {
+      "code": "422",
+      "display": "Microbiologia y Quimica Clinica con maestría en Administracion de Servicios de Salud",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Administracion de Servicios de Salud"
+    },
+    {
+      "code": "420",
+      "display": "Microbiologia y Quimica Clinica con maestría en Administración (varios énfasis)",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Administración (varios énfasis)"
+    },
+    {
+      "code": "423",
+      "display": "Microbiologia y Quimica Clinica con maestría en Artropodologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Artropodologia"
+    },
+    {
+      "code": "424",
+      "display": "Microbiologia y Quimica Clinica con maestría en Bacteriologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Bacteriologia"
+    },
+    {
+      "code": "411",
+      "display": "Microbiologia y Quimica Clinica con maestría en (Bacteriologia Medica",
+      "definition": "Microbiologia y Quimica Clinica con maestría en (Bacteriologia Medica"
+    },
+    {
+      "code": "425",
+      "display": "Microbiologia y Quimica Clinica con maestría en Bioética",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Bioética"
+    },
+    {
+      "code": "426",
+      "display": "Microbiologia y Quimica Clinica con maestría en Bioinformatica y Biologia de Sistemas",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Bioinformatica y Biologia de Sistemas"
+    },
+    {
+      "code": "427",
+      "display": "Microbiologia y Quimica Clinica con maestría en Biologia Molecular",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Biologia Molecular"
+    },
+    {
+      "code": "428",
+      "display": "Microbiologia y Quimica Clinica con maestría en Biologia Molecular y Genética",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Biologia Molecular y Genética"
+    },
+    {
+      "code": "429",
+      "display": "Microbiologia y Quimica Clinica con maestría en Bioquímica",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Bioquímica"
+    },
+    {
+      "code": "430",
+      "display": "Microbiologia y Quimica Clinica con maestría en Biotecnología (varios énfasis)",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Biotecnología (varios énfasis)"
+    },
+    {
+      "code": "431",
+      "display": "Microbiologia y Quimica Clinica con maestría en Ciencias",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Ciencias"
+    },
+    {
+      "code": "432",
+      "display": "Microbiologia y Quimica Clinica con maestría en Ciencias de la Investigacion Clinica",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Ciencias de la Investigacion Clinica"
+    },
+    {
+      "code": "433",
+      "display": "Microbiologia y Quimica Clinica con maestría en Ciencias de la Salud",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Ciencias de la Salud"
+    },
+    {
+      "code": "434",
+      "display": "Microbiologia y Quimica Clinica con maestría en Ciencias Forenses",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Ciencias Forenses"
+    },
+    {
+      "code": "435",
+      "display": "Microbiologia y Quimica Clinica con maestría en Citogenetica",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Citogenetica"
+    },
+    {
+      "code": "436",
+      "display": "Microbiologia y Quimica Clinica con maestría en Enzimologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Enzimologia"
+    },
+    {
+      "code": "437",
+      "display": "Microbiologia y Quimica Clinica con maestría en Epidemiologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Epidemiologia"
+    },
+    {
+      "code": "438",
+      "display": "Microbiologia y Quimica Clinica con maestría en Escrutinio de Errores Innatos del Metabolismo",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Escrutinio de Errores Innatos del Metabolismo"
+    },
+    {
+      "code": "439",
+      "display": "Microbiologia y Quimica Clinica con maestría en Genética (varios énfasis)",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Genética (varios énfasis)"
+    },
+    {
+      "code": "440",
+      "display": "Microbiologia y Quimica Clinica con maestría en Gerencia (varios énfasis)",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Gerencia (varios énfasis)"
+    },
+    {
+      "code": "407",
+      "display": "Microbiologia y Quimica Clinica con maestría en Gestión de la Calidad en Microbiología y Química Clínica",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Gestión de la Calidad en Microbiología y Química Clínica"
+    },
+    {
+      "code": "441",
+      "display": "Microbiologia y Quimica Clinica con maestría en Helmintologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Helmintologia"
+    },
+    {
+      "code": "408",
+      "display": "Microbiologia y Quimica Clinica con maestría en Hematologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Hematologia"
+    },
+    {
+      "code": "409",
+      "display": "Microbiologia y Quimica Clinica con maestría en Inmunohematologia y Banco de Sangre",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Inmunohematologia y Banco de Sangre"
+    },
+    {
+      "code": "410",
+      "display": "Microbiologia y Quimica Clinica con maestría en Inmunologia Clinica",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Inmunologia Clinica"
+    },
+    {
+      "code": "442",
+      "display": "Microbiologia y Quimica Clinica con maestría en Microbiologia de Aguas",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Microbiologia de Aguas"
+    },
+    {
+      "code": "443",
+      "display": "Microbiologia y Quimica Clinica con maestría en Microbiologia de Alimentos",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Microbiologia de Alimentos"
+    },
+    {
+      "code": "412",
+      "display": "Microbiologia y Quimica Clinica con maestría en Microbiologia de Alimentos y Aguas",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Microbiologia de Alimentos y Aguas"
+    },
+    {
+      "code": "445",
+      "display": "Microbiologia y Quimica Clinica con maestría en Microbiologia (Micologia)",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Microbiologia (Micologia)"
+    },
+    {
+      "code": "444",
+      "display": "Microbiologia y Quimica Clinica con maestría en Microbiologia y Quimica Sanitaria de Aguas",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Microbiologia y Quimica Sanitaria de Aguas"
+    },
+    {
+      "code": "446",
+      "display": "Microbiologia y Quimica Clinica con maestría en Mycobacteriologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Mycobacteriologia"
+    },
+    {
+      "code": "413",
+      "display": "Microbiologia y Quimica Clinica con maestría en Parasitologia Medica",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Parasitologia Medica"
+    },
+    {
+      "code": "447",
+      "display": "Microbiologia y Quimica Clinica con maestría en Parasitologia Veterinaria",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Parasitologia Veterinaria"
+    },
+    {
+      "code": "414",
+      "display": "Microbiologia y Quimica Clinica con maestría en Quimica Clinica",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Quimica Clinica"
+    },
+    {
+      "code": "448",
+      "display": "Microbiologia y Quimica Clinica con maestría en Radiobiologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Radiobiologia"
+    },
+    {
+      "code": "449",
+      "display": "Microbiologia y Quimica Clinica con maestría en Radioinmunologia",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Radioinmunologia"
+    },
+    {
+      "code": "450",
+      "display": "Microbiologia y Quimica Clinica con maestría en Reproducción Asistida Humana (varios énfasis)",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Reproducción Asistida Humana (varios énfasis)"
+    },
+    {
+      "code": "451",
+      "display": "Microbiologia y Quimica Clinica con maestría en Salud Publica",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Salud Publica"
+    },
+    {
+      "code": "452",
+      "display": "Microbiologia y Quimica Clinica con maestría en Sistemas Modernos de Manufactura (gestión de Calidad-Ing. Industrial)",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Sistemas Modernos de Manufactura (gestión de Calidad-Ing. Industrial)"
+    },
+    {
+      "code": "453",
+      "display": "Microbiologia y Quimica Clinica con maestría en Toxicología (varios énfasis)",
+      "definition": "Microbiologia y Quimica Clinica con maestría en Toxicología (varios énfasis)"
+    },
+    {
+      "code": "454",
+      "display": "Microbiología y Química Clínica con maestría (otra no definida)",
+      "definition": "Microbiología y Química Clínica con maestría (otra no definida)"
+    },
+    {
+      "code": "406",
+      "display": "Microbiología y Química Clínica (licenciado)",
+      "definition": "Microbiología y Química Clínica (licenciado)"
+    },
+    {
+      "code": "456",
+      "display": "Nutrición (bachiller)",
+      "definition": "Nutrición (bachiller)"
+    },
+    {
+      "code": "459",
+      "display": "Nutrición con maestría en Bioquímica",
+      "definition": "Nutrición con maestría en Bioquímica"
+    },
+    {
+      "code": "460",
+      "display": "Nutrición con maestría en Cuidados paliativos",
+      "definition": "Nutrición con maestría en Cuidados paliativos"
+    },
+    {
+      "code": "461",
+      "display": "Nutrición con maestría en Educación para la salud",
+      "definition": "Nutrición con maestría en Educación para la salud"
+    },
+    {
+      "code": "462",
+      "display": "Nutrición con maestría en Educación y docencia",
+      "definition": "Nutrición con maestría en Educación y docencia"
+    },
+    {
+      "code": "463",
+      "display": "Nutrición con maestría en Epidemiología",
+      "definition": "Nutrición con maestría en Epidemiología"
+    },
+    {
+      "code": "464",
+      "display": "Nutrición con maestría en Gestión de proyectos en inocuidad de alimentos",
+      "definition": "Nutrición con maestría en Gestión de proyectos en inocuidad de alimentos"
+    },
+    {
+      "code": "465",
+      "display": "Nutrición con maestría en Gestión de Servicios de Alimentos",
+      "definition": "Nutrición con maestría en Gestión de Servicios de Alimentos"
+    },
+    {
+      "code": "466",
+      "display": "Nutrición con maestría en Gestión de Servicios de Salud",
+      "definition": "Nutrición con maestría en Gestión de Servicios de Salud"
+    },
+    {
+      "code": "467",
+      "display": "Nutrición con maestría en Investigación",
+      "definition": "Nutrición con maestría en Investigación"
+    },
+    {
+      "code": "468",
+      "display": "Nutrición con maestría en Nutrición Clínica y subespecialidades",
+      "definition": "Nutrición con maestría en Nutrición Clínica y subespecialidades"
+    },
+    {
+      "code": "469",
+      "display": "Nutrición con maestría en Nutrición Deportiva",
+      "definition": "Nutrición con maestría en Nutrición Deportiva"
+    },
+    {
+      "code": "470",
+      "display": "Nutrición con maestría en Nutrición Geriátrica o gerontológica",
+      "definition": "Nutrición con maestría en Nutrición Geriátrica o gerontológica"
+    },
+    {
+      "code": "471",
+      "display": "Nutrición con maestría en Nutrición Gestacional y en periodo de lactancia",
+      "definition": "Nutrición con maestría en Nutrición Gestacional y en periodo de lactancia"
+    },
+    {
+      "code": "472",
+      "display": "Nutrición con maestría en Nutrición Pediátrica",
+      "definition": "Nutrición con maestría en Nutrición Pediátrica"
+    },
+    {
+      "code": "473",
+      "display": "Nutrición con maestría en Promoción de la salud",
+      "definition": "Nutrición con maestría en Promoción de la salud"
+    },
+    {
+      "code": "474",
+      "display": "Nutrición con maestría en Salud Pública",
+      "definition": "Nutrición con maestría en Salud Pública"
+    },
+    {
+      "code": "475",
+      "display": "Nutrición con maestría en Seguridad Alimentaria y Nutricional",
+      "definition": "Nutrición con maestría en Seguridad Alimentaria y Nutricional"
+    },
+    {
+      "code": "476",
+      "display": "Nutrición con maestría en Trastornos de la Conducta Alimentaria",
+      "definition": "Nutrición con maestría en Trastornos de la Conducta Alimentaria"
+    },
+    {
+      "code": "477",
+      "display": "Nutrición con maestría (otra no definida)",
+      "definition": "Nutrición con maestría (otra no definida)"
+    },
+    {
+      "code": "458",
+      "display": "Nutrición con maestría profesional en Nutrición Clínica de las Enfermedades Crónicas No Transmisibles",
+      "definition": "Nutrición con maestría profesional en Nutrición Clínica de las Enfermedades Crónicas No Transmisibles"
+    },
+    {
+      "code": "457",
+      "display": "Nutrición (licenciado)",
+      "definition": "Nutrición (licenciado)"
+    },
+    {
+      "code": "481",
+      "display": "Odontología (bachiller)",
+      "definition": "Odontología (bachiller)"
+    },
+    {
+      "code": "483",
+      "display": "Odontología con especialidad en Cirugía Oral-Maxilofacial",
+      "definition": "Odontología con especialidad en Cirugía Oral-Maxilofacial"
+    },
+    {
+      "code": "484",
+      "display": "Odontología con especialidad en Endodoncia",
+      "definition": "Odontología con especialidad en Endodoncia"
+    },
+    {
+      "code": "485",
+      "display": "Odontología con especialidad en Implantología Oral",
+      "definition": "Odontología con especialidad en Implantología Oral"
+    },
+    {
+      "code": "486",
+      "display": "Odontología con especialidad en Odontología Forense",
+      "definition": "Odontología con especialidad en Odontología Forense"
+    },
+    {
+      "code": "487",
+      "display": "Odontología con especialidad en Odontología General Avanzada",
+      "definition": "Odontología con especialidad en Odontología General Avanzada"
+    },
+    {
+      "code": "488",
+      "display": "Odontología con especialidad en Odontología Geriátrica",
+      "definition": "Odontología con especialidad en Odontología Geriátrica"
+    },
+    {
+      "code": "489",
+      "display": "Odontología con especialidad en Operatoria y Estética Dental",
+      "definition": "Odontología con especialidad en Operatoria y Estética Dental"
+    },
+    {
+      "code": "490",
+      "display": "Odontología con especialidad en Ortodoncia y Ortopedia",
+      "definition": "Odontología con especialidad en Ortodoncia y Ortopedia"
+    },
+    {
+      "code": "491",
+      "display": "Odontología con especialidad en Patología y Cirugía Oral",
+      "definition": "Odontología con especialidad en Patología y Cirugía Oral"
+    },
+    {
+      "code": "492",
+      "display": "Odontología con especialidad en Patología y Medicina Oral",
+      "definition": "Odontología con especialidad en Patología y Medicina Oral"
+    },
+    {
+      "code": "493",
+      "display": "Odontología con especialidad en Periodoncia",
+      "definition": "Odontología con especialidad en Periodoncia"
+    },
+    {
+      "code": "494",
+      "display": "Odontología con especialidad en Prótesis Maxilofacial",
+      "definition": "Odontología con especialidad en Prótesis Maxilofacial"
+    },
+    {
+      "code": "495",
+      "display": "Odontología con especialidad en Radiología Dento Maxilofacial",
+      "definition": "Odontología con especialidad en Radiología Dento Maxilofacial"
+    },
+    {
+      "code": "496",
+      "display": "Odontología con especialidad en Trastorno Temporo Mandibular",
+      "definition": "Odontología con especialidad en Trastorno Temporo Mandibular"
+    },
+    {
+      "code": "502",
+      "display": "Odontología con maestría en Administración de Servicios de Salud (varios énfasis)",
+      "definition": "Odontología con maestría en Administración de Servicios de Salud (varios énfasis)"
+    },
+    {
+      "code": "501",
+      "display": "Odontología con maestría en Administración (varios énfasis)",
+      "definition": "Odontología con maestría en Administración (varios énfasis)"
+    },
+    {
+      "code": "503",
+      "display": "Odontología con maestría en Epidemiología (varios énfasis)",
+      "definition": "Odontología con maestría en Epidemiología (varios énfasis)"
+    },
+    {
+      "code": "504",
+      "display": "Odontología con maestría en Promoción de la Salud",
+      "definition": "Odontología con maestría en Promoción de la Salud"
+    },
+    {
+      "code": "505",
+      "display": "Odontología con maestría en Salud Pública (varios énfasis)",
+      "definition": "Odontología con maestría en Salud Pública (varios énfasis)"
+    },
+    {
+      "code": "506",
+      "display": "Odontología con maestría (otra no definida)",
+      "definition": "Odontología con maestría (otra no definida)"
+    },
+    {
+      "code": "497",
+      "display": "Odontología con maestría profesional en Endodoncia",
+      "definition": "Odontología con maestría profesional en Endodoncia"
+    },
+    {
+      "code": "498",
+      "display": "Odontología con maestría profesional en Odontología con énfasis en Operatoria Dental",
+      "definition": "Odontología con maestría profesional en Odontología con énfasis en Operatoria Dental"
+    },
+    {
+      "code": "499",
+      "display": "Odontología con maestría profesional en Odontopediatría",
+      "definition": "Odontología con maestría profesional en Odontopediatría"
+    },
+    {
+      "code": "500",
+      "display": "Odontología con maestría profesional en Prostodoncia",
+      "definition": "Odontología con maestría profesional en Prostodoncia"
+    },
+    {
+      "code": "482",
+      "display": "Odontología (licenciado)",
+      "definition": "Odontología (licenciado)"
+    },
+    {
+      "code": "508",
+      "display": "Optometría (bachiller)",
+      "definition": "Optometría (bachiller)"
+    },
+    {
+      "code": "510",
+      "display": "Optometría con maestría (otra no definida)",
+      "definition": "Optometría con maestría (otra no definida)"
+    },
+    {
+      "code": "509",
+      "display": "Optometría (licenciado)",
+      "definition": "Optometría (licenciado)"
+    },
+    {
+      "code": "514",
+      "display": "Ortoprótesis y Ortopedia (bachiller)",
+      "definition": "Ortoprótesis y Ortopedia (bachiller)"
+    },
+    {
+      "code": "516",
+      "display": "Ortoprótesis y Ortopedia con maestría en Administración de Servicios de Salud",
+      "definition": "Ortoprótesis y Ortopedia con maestría en Administración de Servicios de Salud"
+    },
+    {
+      "code": "517",
+      "display": "Ortoprótesis y Ortopedia con maestría en Imagenología Diagnóstica y Terapéutica",
+      "definition": "Ortoprótesis y Ortopedia con maestría en Imagenología Diagnóstica y Terapéutica"
+    },
+    {
+      "code": "518",
+      "display": "Ortoprótesis y Ortopedia con maestría en Salud Pública",
+      "definition": "Ortoprótesis y Ortopedia con maestría en Salud Pública"
+    },
+    {
+      "code": "519",
+      "display": "Ortoprótesis y Ortopedia con maestría (otra no definida)",
+      "definition": "Ortoprótesis y Ortopedia con maestría (otra no definida)"
+    },
+    {
+      "code": "515",
+      "display": "Ortoprótesis y Ortopedia (licenciado)",
+      "definition": "Ortoprótesis y Ortopedia (licenciado)"
+    },
+    {
+      "code": "521",
+      "display": "Podología con maestría en  Salud Pública",
+      "definition": "Podología con maestría en  Salud Pública"
+    },
+    {
+      "code": "523",
+      "display": "Podología con maestría en Administración De Servicios De Salud",
+      "definition": "Podología con maestría en Administración De Servicios De Salud"
+    },
+    {
+      "code": "522",
+      "display": "Podología con maestría en Administración (varios énfasis)",
+      "definition": "Podología con maestría en Administración (varios énfasis)"
+    },
+    {
+      "code": "524",
+      "display": "Podología con maestría en Homeopatía",
+      "definition": "Podología con maestría en Homeopatía"
+    },
+    {
+      "code": "525",
+      "display": "Podología con maestría en Kinesiología",
+      "definition": "Podología con maestría en Kinesiología"
+    },
+    {
+      "code": "526",
+      "display": "Podología con maestría en Terapia Física",
+      "definition": "Podología con maestría en Terapia Física"
+    },
+    {
+      "code": "527",
+      "display": "Podología con maestría (otra no definida)",
+      "definition": "Podología con maestría (otra no definida)"
+    },
+    {
+      "code": "528",
+      "display": "Promoción de la Salud (bachiller)",
+      "definition": "Promoción de la Salud (bachiller)"
+    },
+    {
+      "code": "531",
+      "display": "Promoción de la Salud con maestría en Administración de Servicios de Salud",
+      "definition": "Promoción de la Salud con maestría en Administración de Servicios de Salud"
+    },
+    {
+      "code": "530",
+      "display": "Promoción de la Salud con maestría en Administración (varios énfasis)",
+      "definition": "Promoción de la Salud con maestría en Administración (varios énfasis)"
+    },
+    {
+      "code": "532",
+      "display": "Promoción de la Salud con maestría en Promoción de la Salud",
+      "definition": "Promoción de la Salud con maestría en Promoción de la Salud"
+    },
+    {
+      "code": "533",
+      "display": "Promoción de la Salud con maestría en Recreación Física y Mental",
+      "definition": "Promoción de la Salud con maestría en Recreación Física y Mental"
+    },
+    {
+      "code": "534",
+      "display": "Promoción de la Salud con maestría en Salud Pública (varios énfasis)",
+      "definition": "Promoción de la Salud con maestría en Salud Pública (varios énfasis)"
+    },
+    {
+      "code": "535",
+      "display": "Promoción de la Salud con maestría (otra no definida)",
+      "definition": "Promoción de la Salud con maestría (otra no definida)"
+    },
+    {
+      "code": "529",
+      "display": "Promoción de la Salud (licenciado)",
+      "definition": "Promoción de la Salud (licenciado)"
+    },
+    {
+      "code": "599",
+      "display": "Psicología con doctorado en Neuropsicología Clínica",
+      "definition": "Psicología con doctorado en Neuropsicología Clínica"
+    },
+    {
+      "code": "600",
+      "display": "Psicología con doctorado en Psicología Clínica",
+      "definition": "Psicología con doctorado en Psicología Clínica"
+    },
+    {
+      "code": "538",
+      "display": "Psicología con énfasis en Psicología Clínica (licenciado)",
+      "definition": "Psicología con énfasis en Psicología Clínica (licenciado)"
+    },
+    {
+      "code": "539",
+      "display": "Psicología con especialidad en Psicología Clínica",
+      "definition": "Psicología con especialidad en Psicología Clínica"
+    },
+    {
+      "code": "561",
+      "display": "Psicología con maestría en Administración de Empresas/Negocios (varios énfasis)",
+      "definition": "Psicología con maestría en Administración de Empresas/Negocios (varios énfasis)"
+    },
+    {
+      "code": "566",
+      "display": "Psicología con maestría en Ciencias, Análisis y Terapia de la Conducta",
+      "definition": "Psicología con maestría en Ciencias, Análisis y Terapia de la Conducta"
+    },
+    {
+      "code": "565",
+      "display": "Psicología con maestría en Ciencias Médicas (M.Sc. (Med. Sci.)) en Neuropsicología Aplicada",
+      "definition": "Psicología con maestría en Ciencias Médicas (M.Sc. (Med. Sci.)) en Neuropsicología Aplicada"
+    },
+    {
+      "code": "571",
+      "display": "Psicología con maestría en Desarrollo Humano y Estudios de la Familia con énfasis en Terapia de Pareja",
+      "definition": "Psicología con maestría en Desarrollo Humano y Estudios de la Familia con énfasis en Terapia de Pareja"
+    },
+    {
+      "code": "574",
+      "display": "Psicología con maestría en Estudio de la Violencia Social y Familiar",
+      "definition": "Psicología con maestría en Estudio de la Violencia Social y Familiar"
+    },
+    {
+      "code": "573",
+      "display": "Psicología con maestría en Farmacodependencia/estudio de las adicciones (varios énfasis)",
+      "definition": "Psicología con maestría en Farmacodependencia/estudio de las adicciones (varios énfasis)"
+    },
+    {
+      "code": "585",
+      "display": "Psicología con maestría en Psicooncología",
+      "definition": "Psicología con maestría en Psicooncología"
+    },
+    {
+      "code": "587",
+      "display": "Psicología con maestría en Psicoterapia (varios énfasis)",
+      "definition": "Psicología con maestría en Psicoterapia (varios énfasis)"
+    },
+    {
+      "code": "590",
+      "display": "Psicología con maestría en Terapia Familiar y de Pareja",
+      "definition": "Psicología con maestría en Terapia Familiar y de Pareja"
+    },
+    {
+      "code": "558",
+      "display": "Psicología con maestría profesional en Terapia Familiar Sistémica",
+      "definition": "Psicología con maestría profesional en Terapia Familiar Sistémica"
+    },
+    {
+      "code": "559",
+      "display": "Psicología con maestría profesional en Trastornos del Aprendizaje con mención en Neurológico",
+      "definition": "Psicología con maestría profesional en Trastornos del Aprendizaje con mención en Neurológico"
+    },
+    {
+      "code": "668",
+      "display": "Terapia Física (bachiller)",
+      "definition": "Terapia Física (bachiller)"
+    },
+    {
+      "code": "671",
+      "display": "Terapia Fisica con maestria en Administración en Servicios de Salud",
+      "definition": "Terapia Fisica con maestria en Administración en Servicios de Salud"
+    },
+    {
+      "code": "670",
+      "display": "Terapia Fisica con maestria en Administración (varios énfasis)",
+      "definition": "Terapia Fisica con maestria en Administración (varios énfasis)"
+    },
+    {
+      "code": "672",
+      "display": "Terapia Fisica con maestria en Anatomía Humana",
+      "definition": "Terapia Fisica con maestria en Anatomía Humana"
+    },
+    {
+      "code": "673",
+      "display": "Terapia Fisica con maestria en Ciencias del Movimiento Humano",
+      "definition": "Terapia Fisica con maestria en Ciencias del Movimiento Humano"
+    },
+    {
+      "code": "674",
+      "display": "Terapia Fisica con maestria en Cuidados Paliativos",
+      "definition": "Terapia Fisica con maestria en Cuidados Paliativos"
+    },
+    {
+      "code": "675",
+      "display": "Terapia Fisica con maestria en Educación Especial (varios énfasis)",
+      "definition": "Terapia Fisica con maestria en Educación Especial (varios énfasis)"
+    },
+    {
+      "code": "676",
+      "display": "Terapia Fisica con maestria en Estimulación Temprana",
+      "definition": "Terapia Fisica con maestria en Estimulación Temprana"
+    },
+    {
+      "code": "677",
+      "display": "Terapia Fisica con maestria en Estudios Interdisciplinarios sobre Discapacidad",
+      "definition": "Terapia Fisica con maestria en Estudios Interdisciplinarios sobre Discapacidad"
+    },
+    {
+      "code": "678",
+      "display": "Terapia Fisica con maestria en Fisioterapia Manual del Aparato Locomotor",
+      "definition": "Terapia Fisica con maestria en Fisioterapia Manual del Aparato Locomotor"
+    },
+    {
+      "code": "679",
+      "display": "Terapia Fisica con maestria en Fisioterapia y Evidencia Científica",
+      "definition": "Terapia Fisica con maestria en Fisioterapia y Evidencia Científica"
+    },
+    {
+      "code": "680",
+      "display": "Terapia Fisica con maestria en Gerontología",
+      "definition": "Terapia Fisica con maestria en Gerontología"
+    },
+    {
+      "code": "681",
+      "display": "Terapia Fisica con maestria en Movimiento Humano (varios énfasis)",
+      "definition": "Terapia Fisica con maestria en Movimiento Humano (varios énfasis)"
+    },
+    {
+      "code": "682",
+      "display": "Terapia Fisica con maestria en Neurología",
+      "definition": "Terapia Fisica con maestria en Neurología"
+    },
+    {
+      "code": "683",
+      "display": "Terapia Fisica con maestria en Pedagogía (varios énfasis)",
+      "definition": "Terapia Fisica con maestria en Pedagogía (varios énfasis)"
+    },
+    {
+      "code": "684",
+      "display": "Terapia Física con maestría en Promoción de la Salud",
+      "definition": "Terapia Física con maestría en Promoción de la Salud"
+    },
+    {
+      "code": "685",
+      "display": "Terapia Fisica con maestria en Rehabilitación Deportiva",
+      "definition": "Terapia Fisica con maestria en Rehabilitación Deportiva"
+    },
+    {
+      "code": "686",
+      "display": "Terapia Fisica con maestria en Rehabilitación Integral de la Persona Adulta Mayor",
+      "definition": "Terapia Fisica con maestria en Rehabilitación Integral de la Persona Adulta Mayor"
+    },
+    {
+      "code": "687",
+      "display": "Terapia Fisica con maestria en Rehabilitación Neurológica",
+      "definition": "Terapia Fisica con maestria en Rehabilitación Neurológica"
+    },
+    {
+      "code": "688",
+      "display": "Terapia Fisica con maestria en Salud Pública (varios énfasis)",
+      "definition": "Terapia Fisica con maestria en Salud Pública (varios énfasis)"
+    },
+    {
+      "code": "689",
+      "display": "Terapia Fisica con maestria en Trastornos del Aprendizaje (varios énfasis)",
+      "definition": "Terapia Fisica con maestria en Trastornos del Aprendizaje (varios énfasis)"
+    },
+    {
+      "code": "690",
+      "display": "Terapia Física con maestría (otra no definida)",
+      "definition": "Terapia Física con maestría (otra no definida)"
+    },
+    {
+      "code": "669",
+      "display": "Terapia física (licenciado)",
+      "definition": "Terapia física (licenciado)"
+    },
+    {
+      "code": "691",
+      "display": "Terapia Ocupacional (bachiller)",
+      "definition": "Terapia Ocupacional (bachiller)"
+    },
+    {
+      "code": "694",
+      "display": "Terapia Ocupacional con maestria en Administración de Servicios de Salud",
+      "definition": "Terapia Ocupacional con maestria en Administración de Servicios de Salud"
+    },
+    {
+      "code": "693",
+      "display": "Terapia Ocupacional con maestría en Administración (varios énfasis)",
+      "definition": "Terapia Ocupacional con maestría en Administración (varios énfasis)"
+    },
+    {
+      "code": "695",
+      "display": "Terapia Ocupacional con maestria en Ciencias de la Educación",
+      "definition": "Terapia Ocupacional con maestria en Ciencias de la Educación"
+    },
+    {
+      "code": "696",
+      "display": "Terapia Ocupacional con maestria en Psicopedagogía",
+      "definition": "Terapia Ocupacional con maestria en Psicopedagogía"
+    },
+    {
+      "code": "699",
+      "display": "Terapia Ocupacional con maestría (otra no definida)",
+      "definition": "Terapia Ocupacional con maestría (otra no definida)"
+    },
+    {
+      "code": "697",
+      "display": "Terapia Ocupacional con maestria profesional en Administración Educativa",
+      "definition": "Terapia Ocupacional con maestria profesional en Administración Educativa"
+    },
+    {
+      "code": "698",
+      "display": "Terapia Ocupacional con maestria profesional en Estimulación Temprana",
+      "definition": "Terapia Ocupacional con maestria profesional en Estimulación Temprana"
+    },
+    {
+      "code": "692",
+      "display": "Terapia Ocupacional (licenciado)",
+      "definition": "Terapia Ocupacional (licenciado)"
+    },
+    {
+      "code": "702",
+      "display": "Terapia Respiratoria (bachiller)",
+      "definition": "Terapia Respiratoria (bachiller)"
+    },
+    {
+      "code": "705",
+      "display": "Terapia Respiratoria con maestria en Administración de Servicios de Salud",
+      "definition": "Terapia Respiratoria con maestria en Administración de Servicios de Salud"
+    },
+    {
+      "code": "704",
+      "display": "Terapia Respiratoria con maestria en Administración (varios énfasis)",
+      "definition": "Terapia Respiratoria con maestria en Administración (varios énfasis)"
+    },
+    {
+      "code": "706",
+      "display": "Terapia Respiratoria con maestria en Movimiento Humano",
+      "definition": "Terapia Respiratoria con maestria en Movimiento Humano"
+    },
+    {
+      "code": "707",
+      "display": "Terapia Respiratoria con maestria en Salud Integral y Movimiento Humano",
+      "definition": "Terapia Respiratoria con maestria en Salud Integral y Movimiento Humano"
+    },
+    {
+      "code": "708",
+      "display": "Terapia Respiratoria con maestria en Salud Públcia",
+      "definition": "Terapia Respiratoria con maestria en Salud Públcia"
+    },
+    {
+      "code": "710",
+      "display": "Terapia Respiratoria con maestria (otra no definida)",
+      "definition": "Terapia Respiratoria con maestria (otra no definida)"
+    },
+    {
+      "code": "709",
+      "display": "Terapia Respiratoria con maestria profesional en Cuidados Paliativos",
+      "definition": "Terapia Respiratoria con maestria profesional en Cuidados Paliativos"
+    },
+    {
+      "code": "703",
+      "display": "Terapia Respiratoria (licenciado)",
+      "definition": "Terapia Respiratoria (licenciado)"
+    },
+    {
+      "code": "2",
+      "display": "Administración de Servicio de Salud (bachiller)",
+      "definition": "Administración de Servicio de Salud (bachiller)"
+    },
+    {
+      "code": "4",
+      "display": "Administración de Servicio de Salud con maestría (otra no definida)",
+      "definition": "Administración de Servicio de Salud con maestría (otra no definida)"
+    },
+    {
+      "code": "3",
+      "display": "Administración de Servicio de Salud (licenciado)",
+      "definition": "Administración de Servicio de Salud (licenciado)"
+    },
+    {
+      "code": "634",
+      "display": "Asistencia en Salud Ocupacional",
+      "definition": "Asistencia en Salud Ocupacional"
+    },
+    {
+      "code": "13",
+      "display": "Biología (bachiller)",
+      "definition": "Biología (bachiller)"
+    },
+    {
+      "code": "12",
+      "display": "Biología con énfasis en Biotecnología (bachiller)",
+      "definition": "Biología con énfasis en Biotecnología (bachiller)"
+    },
+    {
+      "code": "15",
+      "display": "Biología con maestría académica en Biología con énfasis en Genética y Biología Molecular",
+      "definition": "Biología con maestría académica en Biología con énfasis en Genética y Biología Molecular"
+    },
+    {
+      "code": "16",
+      "display": "Biología con maestría (otra no definida)",
+      "definition": "Biología con maestría (otra no definida)"
+    },
+    {
+      "code": "14",
+      "display": "Biologia (licenciado)",
+      "definition": "Biologia (licenciado)"
+    },
+    {
+      "code": "17",
+      "display": "Biotecnología (bachiller)",
+      "definition": "Biotecnología (bachiller)"
+    },
+    {
+      "code": "19",
+      "display": "Biotecnología con maestría (otra no definida)",
+      "definition": "Biotecnología con maestría (otra no definida)"
+    },
+    {
+      "code": "18",
+      "display": "Biotecnología (licenciado)",
+      "definition": "Biotecnología (licenciado)"
+    },
+    {
+      "code": "1",
+      "display": "Diplomado en Administración de Servicios de Salud",
+      "definition": "Diplomado en Administración de Servicios de Salud"
+    },
+    {
+      "code": "158",
+      "display": "Diplomado en Electromedicina y Dispositivos Médicos",
+      "definition": "Diplomado en Electromedicina y Dispositivos Médicos"
+    },
+    {
+      "code": "623",
+      "display": "Diplomado en Gestión Ambiental",
+      "definition": "Diplomado en Gestión Ambiental"
+    },
+    {
+      "code": "615",
+      "display": "Diplomado en Registros y Estadísticas de Salud",
+      "definition": "Diplomado en Registros y Estadísticas de Salud"
+    },
+    {
+      "code": "635",
+      "display": "Diplomado en Salud Ocupacional",
+      "definition": "Diplomado en Salud Ocupacional"
+    },
+    {
+      "code": "644",
+      "display": "Diplomado en Tecnología de Alimentos",
+      "definition": "Diplomado en Tecnología de Alimentos"
+    },
+    {
+      "code": "131",
+      "display": "Fisica (bachiller)",
+      "definition": "Fisica (bachiller)"
+    },
+    {
+      "code": "133",
+      "display": "Física con doctorado en Física Médica",
+      "definition": "Física con doctorado en Física Médica"
+    },
+    {
+      "code": "132",
+      "display": "Fisica con maestría académica en Fisica Médica",
+      "definition": "Fisica con maestría académica en Fisica Médica"
+    },
+    {
+      "code": "160",
+      "display": "Ingeniería en Biomedicina (bachiller)",
+      "definition": "Ingeniería en Biomedicina (bachiller)"
+    },
+    {
+      "code": "164",
+      "display": "Ingeniería en Biomedicina con maestría (otra no definida)",
+      "definition": "Ingeniería en Biomedicina con maestría (otra no definida)"
+    },
+    {
+      "code": "162",
+      "display": "Ingeniería en Biomedicina (licenciado)",
+      "definition": "Ingeniería en Biomedicina (licenciado)"
+    },
+    {
+      "code": "159",
+      "display": "Ingeniería en Electromedicina (bachiller)",
+      "definition": "Ingeniería en Electromedicina (bachiller)"
+    },
+    {
+      "code": "163",
+      "display": "Ingeniería en Electromedicina con maestría (otra no definida)",
+      "definition": "Ingeniería en Electromedicina con maestría (otra no definida)"
+    },
+    {
+      "code": "161",
+      "display": "Ingeniería en Electromedicina (licenciado)",
+      "definition": "Ingeniería en Electromedicina (licenciado)"
+    },
+    {
+      "code": "609",
+      "display": "Laboratorista Químico (bachiller)",
+      "definition": "Laboratorista Químico (bachiller)"
+    },
+    {
+      "code": "611",
+      "display": "Laboratorista Químico (licenciado)",
+      "definition": "Laboratorista Químico (licenciado)"
+    },
+    {
+      "code": "00",
+      "display": "OTRAS PROFESIONES TRABAJADORES DE LA SALUD",
+      "definition": "OTRAS PROFESIONES TRABAJADORES DE LA SALUD"
+    },
+    {
+      "code": "536",
+      "display": "Psicología (bachiller)",
+      "definition": "Psicología (bachiller)"
+    },
+    {
+      "code": "593",
+      "display": "Psicología con doctorado académico Ciencias de la Educación",
+      "definition": "Psicología con doctorado académico Ciencias de la Educación"
+    },
+    {
+      "code": "594",
+      "display": "Psicología con doctorado académico Ciencias del Movimiento Humano",
+      "definition": "Psicología con doctorado académico Ciencias del Movimiento Humano"
+    },
+    {
+      "code": "595",
+      "display": "Psicología con doctorado académico de Investigación en Neurociencias",
+      "definition": "Psicología con doctorado académico de Investigación en Neurociencias"
+    },
+    {
+      "code": "596",
+      "display": "Psicología con doctorado en Educación",
+      "definition": "Psicología con doctorado en Educación"
+    },
+    {
+      "code": "597",
+      "display": "Psicología con doctorado en Educación (varios énfasis)",
+      "definition": "Psicología con doctorado en Educación (varios énfasis)"
+    },
+    {
+      "code": "598",
+      "display": "Psicología con doctorado en Filosofía en Psicología",
+      "definition": "Psicología con doctorado en Filosofía en Psicología"
+    },
+    {
+      "code": "601",
+      "display": "Psicología con doctorado en Psicología (varios énfasis  NO SALUD)",
+      "definition": "Psicología con doctorado en Psicología (varios énfasis  NO SALUD)"
+    },
+    {
+      "code": "602",
+      "display": "Psicología con doctorado (PhD) (otro no definido)",
+      "definition": "Psicología con doctorado (PhD) (otro no definido)"
+    },
+    {
+      "code": "540",
+      "display": "Psicología con especialidad en Psicología de la Educación",
+      "definition": "Psicología con especialidad en Psicología de la Educación"
+    },
+    {
+      "code": "541",
+      "display": "Psicología con especialidad en Psicología de los Grupos",
+      "definition": "Psicología con especialidad en Psicología de los Grupos"
+    },
+    {
+      "code": "542",
+      "display": "Psicología con especialidad en Psicología Forense",
+      "definition": "Psicología con especialidad en Psicología Forense"
+    },
+    {
+      "code": "543",
+      "display": "Psicología con especialidad en Psicología Laboral y de las Organizaciones",
+      "definition": "Psicología con especialidad en Psicología Laboral y de las Organizaciones"
+    },
+    {
+      "code": "545",
+      "display": "Psicología con maestría académica en Ciencias Cognoscitivas",
+      "definition": "Psicología con maestría académica en Ciencias Cognoscitivas"
+    },
+    {
+      "code": "546",
+      "display": "Psicología con maestría académica en Ciencias del Movimiento Humano",
+      "definition": "Psicología con maestría académica en Ciencias del Movimiento Humano"
+    },
+    {
+      "code": "547",
+      "display": "Psicología con maestría académica en Ciencias Neurológicas",
+      "definition": "Psicología con maestría académica en Ciencias Neurológicas"
+    },
+    {
+      "code": "548",
+      "display": "Psicología con maestría académica en Estudios de la Mujer",
+      "definition": "Psicología con maestría académica en Estudios de la Mujer"
+    },
+    {
+      "code": "549",
+      "display": "Psicología con maestría académica en Farmacodependencia",
+      "definition": "Psicología con maestría académica en Farmacodependencia"
+    },
+    {
+      "code": "550",
+      "display": "Psicología con maestría académica en Investigación Psicológica",
+      "definition": "Psicología con maestría académica en Investigación Psicológica"
+    },
+    {
+      "code": "551",
+      "display": "Psicología con maestría académica en Psicopedagogía",
+      "definition": "Psicología con maestría académica en Psicopedagogía"
+    },
+    {
+      "code": "562",
+      "display": "Psicología con maestría en Administración de Servicios de Salud",
+      "definition": "Psicología con maestría en Administración de Servicios de Salud"
+    },
+    {
+      "code": "563",
+      "display": "Psicología con maestría en Administración Educativa (varios énfasis)",
+      "definition": "Psicología con maestría en Administración Educativa (varios énfasis)"
+    },
+    {
+      "code": "564",
+      "display": "Psicología con maestría en Arteterapia y Educación Artística para la Inclusión Social",
+      "definition": "Psicología con maestría en Arteterapia y Educación Artística para la Inclusión Social"
+    },
+    {
+      "code": "567",
+      "display": "Psicología con maestría en Criminología",
+      "definition": "Psicología con maestría en Criminología"
+    },
+    {
+      "code": "568",
+      "display": "Psicología con maestría en Cuidados Paliativos",
+      "definition": "Psicología con maestría en Cuidados Paliativos"
+    },
+    {
+      "code": "569",
+      "display": "Psicología con maestría en Derechos Humanos",
+      "definition": "Psicología con maestría en Derechos Humanos"
+    },
+    {
+      "code": "570",
+      "display": "Psicología con maestría en Desarrollo Comunitario Sustentable",
+      "definition": "Psicología con maestría en Desarrollo Comunitario Sustentable"
+    },
+    {
+      "code": "572",
+      "display": "Psicología con maestría en Desarrollo Organizacional",
+      "definition": "Psicología con maestría en Desarrollo Organizacional"
+    },
+    {
+      "code": "575",
+      "display": "Psicología con maestría en Estudios en Psicología Grupal",
+      "definition": "Psicología con maestría en Estudios en Psicología Grupal"
+    },
+    {
+      "code": "576",
+      "display": "Psicología con maestría en Estudios en Psicología Grupal",
+      "definition": "Psicología con maestría en Estudios en Psicología Grupal"
+    },
+    {
+      "code": "577",
+      "display": "Psicología con maestría en Gerencia de Políticas y Programas Sociales.",
+      "definition": "Psicología con maestría en Gerencia de Políticas y Programas Sociales."
+    },
+    {
+      "code": "578",
+      "display": "Psicología con maestría en Gerontología (varios énfasis)",
+      "definition": "Psicología con maestría en Gerontología (varios énfasis)"
+    },
+    {
+      "code": "579",
+      "display": "Psicología con maestría en Gestión Integral Riesgos de Desastres",
+      "definition": "Psicología con maestría en Gestión Integral Riesgos de Desastres"
+    },
+    {
+      "code": "580",
+      "display": "Psicología con maestría en Investigación Empresarial",
+      "definition": "Psicología con maestría en Investigación Empresarial"
+    },
+    {
+      "code": "581",
+      "display": "Psicología con maestría en Letras Psicología del Desarrollo y Educación",
+      "definition": "Psicología con maestría en Letras Psicología del Desarrollo y Educación"
+    },
+    {
+      "code": "582",
+      "display": "Psicología con maestría en Neuropsicología Clínica",
+      "definition": "Psicología con maestría en Neuropsicología Clínica"
+    },
+    {
+      "code": "583",
+      "display": "Psicología con maestría en Pedagogía (varios énfasis)",
+      "definition": "Psicología con maestría en Pedagogía (varios énfasis)"
+    },
+    {
+      "code": "584",
+      "display": "Psicología con maestría en Promoción de la Salud",
+      "definition": "Psicología con maestría en Promoción de la Salud"
+    },
+    {
+      "code": "586",
+      "display": "Psicología con maestría en Psicopedagogía",
+      "definition": "Psicología con maestría en Psicopedagogía"
+    },
+    {
+      "code": "588",
+      "display": "Psicología con maestría en Resolución de Conflictos y Mediación",
+      "definition": "Psicología con maestría en Resolución de Conflictos y Mediación"
+    },
+    {
+      "code": "589",
+      "display": "Psicología con maestría en Tecnología e Innovación Educativa",
+      "definition": "Psicología con maestría en Tecnología e Innovación Educativa"
+    },
+    {
+      "code": "591",
+      "display": "Psicología con maestría in Rehabilitación Integral",
+      "definition": "Psicología con maestría in Rehabilitación Integral"
+    },
+    {
+      "code": "592",
+      "display": "Psicología con maestría (otra no definida)",
+      "definition": "Psicología con maestría (otra no definida)"
+    },
+    {
+      "code": "552",
+      "display": "Psicología con maestría profesional en Estimulación Temprana",
+      "definition": "Psicología con maestría profesional en Estimulación Temprana"
+    },
+    {
+      "code": "553",
+      "display": "Psicología con maestría profesional en Gerencia de la Salud",
+      "definition": "Psicología con maestría profesional en Gerencia de la Salud"
+    },
+    {
+      "code": "554",
+      "display": "Psicología con maestría profesional en Gerencia de Proyectos",
+      "definition": "Psicología con maestría profesional en Gerencia de Proyectos"
+    },
+    {
+      "code": "555",
+      "display": "Psicología con maestría profesional en Psicología (varios énfasis NO SALUD)",
+      "definition": "Psicología con maestría profesional en Psicología (varios énfasis NO SALUD)"
+    },
+    {
+      "code": "556",
+      "display": "Psicología con maestría profesional en Salud Pública (varios énfasis)",
+      "definition": "Psicología con maestría profesional en Salud Pública (varios énfasis)"
+    },
+    {
+      "code": "557",
+      "display": "Psicología con maestría profesional en Terapia de Gestalt",
+      "definition": "Psicología con maestría profesional en Terapia de Gestalt"
+    },
+    {
+      "code": "560",
+      "display": "Psicología con maestría profesional en Violencia Intrafamiliar y de Género",
+      "definition": "Psicología con maestría profesional en Violencia Intrafamiliar y de Género"
+    },
+    {
+      "code": "544",
+      "display": "Psicología con Sub-Especialidad en Terapia Gestalt",
+      "definition": "Psicología con Sub-Especialidad en Terapia Gestalt"
+    },
+    {
+      "code": "537",
+      "display": "Psicología (licenciado  varios énfasis NO SALUD)",
+      "definition": "Psicología (licenciado  varios énfasis NO SALUD)"
+    },
+    {
+      "code": "604",
+      "display": "Psicopedagogía (bachiller)",
+      "definition": "Psicopedagogía (bachiller)"
+    },
+    {
+      "code": "607",
+      "display": "Psicopedagogía con maestría (otra no definida)",
+      "definition": "Psicopedagogía con maestría (otra no definida)"
+    },
+    {
+      "code": "606",
+      "display": "Psicopedagogía con maestría profesional en Psicopedagogía",
+      "definition": "Psicopedagogía con maestría profesional en Psicopedagogía"
+    },
+    {
+      "code": "605",
+      "display": "Psicopedagogía (licenciado)",
+      "definition": "Psicopedagogía (licenciado)"
+    },
+    {
+      "code": "610",
+      "display": "Química (bachiller)",
+      "definition": "Química (bachiller)"
+    },
+    {
+      "code": "613",
+      "display": "Quimica con maestría (otra no definida)",
+      "definition": "Quimica con maestría (otra no definida)"
+    },
+    {
+      "code": "612",
+      "display": "Química (licenciado)",
+      "definition": "Química (licenciado)"
+    },
+    {
+      "code": "616",
+      "display": "Registros médicos (bachiller)",
+      "definition": "Registros médicos (bachiller)"
+    },
+    {
+      "code": "619",
+      "display": "Registros Médicos con maestría en Administración de Servicios de Salud",
+      "definition": "Registros Médicos con maestría en Administración de Servicios de Salud"
+    },
+    {
+      "code": "618",
+      "display": "Registros Médicos con maestría en Administración (varios énfasis)",
+      "definition": "Registros Médicos con maestría en Administración (varios énfasis)"
+    },
+    {
+      "code": "620",
+      "display": "Registros Médicos con maestría en Salud Pública",
+      "definition": "Registros Médicos con maestría en Salud Pública"
+    },
+    {
+      "code": "621",
+      "display": "Registros Médicos con maestría (otra no definida)",
+      "definition": "Registros Médicos con maestría (otra no definida)"
+    },
+    {
+      "code": "617",
+      "display": "Registros médicos (licenciado)",
+      "definition": "Registros médicos (licenciado)"
+    },
+    {
+      "code": "636",
+      "display": "Salud Ocupacional (bachiller)",
+      "definition": "Salud Ocupacional (bachiller)"
+    },
+    {
+      "code": "639",
+      "display": "Salud Ocupacional con maestría en Administración de Servicios de Salud",
+      "definition": "Salud Ocupacional con maestría en Administración de Servicios de Salud"
+    },
+    {
+      "code": "638",
+      "display": "Salud ocupacional con maestría en Administración (varios énfasis)",
+      "definition": "Salud ocupacional con maestría en Administración (varios énfasis)"
+    },
+    {
+      "code": "640",
+      "display": "Salud Ocupacional con maestría en Salud Ocupacional (varios énfasis)",
+      "definition": "Salud Ocupacional con maestría en Salud Ocupacional (varios énfasis)"
+    },
+    {
+      "code": "641",
+      "display": "Salud Ocupacional con maestría en Salud Pública",
+      "definition": "Salud Ocupacional con maestría en Salud Pública"
+    },
+    {
+      "code": "642",
+      "display": "Salud Ocupacional con maestría (otra no definida)",
+      "definition": "Salud Ocupacional con maestría (otra no definida)"
+    },
+    {
+      "code": "637",
+      "display": "Salud Ocupacional (licenciado - varios énfasis)",
+      "definition": "Salud Ocupacional (licenciado - varios énfasis)"
+    },
+    {
+      "code": "624",
+      "display": "Salud/Saneamiento Ambiental (bachiller)",
+      "definition": "Salud/Saneamiento Ambiental (bachiller)"
+    },
+    {
+      "code": "627",
+      "display": "Salud/Saneamiento Ambiental con maestría en Administración de Servicios de Salud",
+      "definition": "Salud/Saneamiento Ambiental con maestría en Administración de Servicios de Salud"
+    },
+    {
+      "code": "626",
+      "display": "Salud/Saneamiento Ambiental con maestría en Administración (varios énfasis)",
+      "definition": "Salud/Saneamiento Ambiental con maestría en Administración (varios énfasis)"
+    },
+    {
+      "code": "628",
+      "display": "Salud/Saneamiento Ambiental con maestría en Gestión Ambiental y Desarrollo Sostenible",
+      "definition": "Salud/Saneamiento Ambiental con maestría en Gestión Ambiental y Desarrollo Sostenible"
+    },
+    {
+      "code": "629",
+      "display": "Salud/Saneamiento Ambiental con maestría en Liderazgo y Gerencia Ambiental",
+      "definition": "Salud/Saneamiento Ambiental con maestría en Liderazgo y Gerencia Ambiental"
+    },
+    {
+      "code": "630",
+      "display": "Salud/Saneamiento Ambiental con maestría en Salud Pública",
+      "definition": "Salud/Saneamiento Ambiental con maestría en Salud Pública"
+    },
+    {
+      "code": "631",
+      "display": "Salud/Saneamiento Ambiental con maestría (otra no definida)",
+      "definition": "Salud/Saneamiento Ambiental con maestría (otra no definida)"
+    },
+    {
+      "code": "625",
+      "display": "Salud/Saneamiento Ambiental (licenciado)",
+      "definition": "Salud/Saneamiento Ambiental (licenciado)"
+    },
+    {
+      "code": "157",
+      "display": "Técnico en Equipo Médico Hospitalario",
+      "definition": "Técnico en Equipo Médico Hospitalario"
+    },
+    {
+      "code": "608",
+      "display": "Técnico en Laboratorista Químico",
+      "definition": "Técnico en Laboratorista Químico"
+    },
+    {
+      "code": "603",
+      "display": "Técnico en Psicopedagogía",
+      "definition": "Técnico en Psicopedagogía"
+    },
+    {
+      "code": "633",
+      "display": "Técnico en Salud Ocupacional",
+      "definition": "Técnico en Salud Ocupacional"
+    },
+    {
+      "code": "622",
+      "display": "Técnico en Saneamiento Ambiental/Salud Ambiental",
+      "definition": "Técnico en Saneamiento Ambiental/Salud Ambiental"
+    },
+    {
+      "code": "614",
+      "display": "Técnico/Auxiliar en Registros Médicos",
+      "definition": "Técnico/Auxiliar en Registros Médicos"
+    },
+    {
+      "code": "643",
+      "display": "Técnicos en Química Industrial  (Tecnología De Alimentos)",
+      "definition": "Técnicos en Química Industrial  (Tecnología De Alimentos)"
+    },
+    {
+      "code": "645",
+      "display": "Tecnología de Alimentos (bachiller)",
+      "definition": "Tecnología de Alimentos (bachiller)"
+    },
+    {
+      "code": "647",
+      "display": "Tecnología de alimentos con maestría académica en Ciencia de Alimentos",
+      "definition": "Tecnología de alimentos con maestría académica en Ciencia de Alimentos"
+    },
+    {
+      "code": "650",
+      "display": "Tecnología de Alimentos con maestría en Administración (varios énfasis)",
+      "definition": "Tecnología de Alimentos con maestría en Administración (varios énfasis)"
+    },
+    {
+      "code": "651",
+      "display": "Tecnología de Alimentos con maestría en Gerencia de Proyectos",
+      "definition": "Tecnología de Alimentos con maestría en Gerencia de Proyectos"
+    },
+    {
+      "code": "652",
+      "display": "Tecnología de Alimentos con maestría en Salud Pública",
+      "definition": "Tecnología de Alimentos con maestría en Salud Pública"
+    },
+    {
+      "code": "653",
+      "display": "Tecnología de alimentos con maestría (otra no definida)",
+      "definition": "Tecnología de alimentos con maestría (otra no definida)"
+    },
+    {
+      "code": "648",
+      "display": "Tecnología de alimentos con maestría profesional en Ciencia de Alimentos",
+      "definition": "Tecnología de alimentos con maestría profesional en Ciencia de Alimentos"
+    },
+    {
+      "code": "649",
+      "display": "Tecnología de alimentos con maestría profesional en Inocuidad de Alimentos",
+      "definition": "Tecnología de alimentos con maestría profesional en Inocuidad de Alimentos"
+    },
+    {
+      "code": "646",
+      "display": "Tecnología de Alimentos (licenciado)",
+      "definition": "Tecnología de Alimentos (licenciado)"
+    },
+    {
+      "code": "654",
+      "display": "Terapia de Lenguaje (bachiller)",
+      "definition": "Terapia de Lenguaje (bachiller)"
+    },
+    {
+      "code": "657",
+      "display": "Terapia de Lenguaje con maestria en Administración Educativa",
+      "definition": "Terapia de Lenguaje con maestria en Administración Educativa"
+    },
+    {
+      "code": "656",
+      "display": "Terapia de Lenguaje con maestria en Administración (varios énfasis)",
+      "definition": "Terapia de Lenguaje con maestria en Administración (varios énfasis)"
+    },
+    {
+      "code": "658",
+      "display": "Terapia de Lenguaje con maestria en Educación Especial (varios énfasis)",
+      "definition": "Terapia de Lenguaje con maestria en Educación Especial (varios énfasis)"
+    },
+    {
+      "code": "659",
+      "display": "Terapia de Lenguaje con maestria en Estimulación Temprana",
+      "definition": "Terapia de Lenguaje con maestria en Estimulación Temprana"
+    },
+    {
+      "code": "660",
+      "display": "Terapia de Lenguaje con maestria en Pedagogía (varios énfasis)",
+      "definition": "Terapia de Lenguaje con maestria en Pedagogía (varios énfasis)"
+    },
+    {
+      "code": "661",
+      "display": "Terapia de Lenguaje con maestria en Psicopedagogía",
+      "definition": "Terapia de Lenguaje con maestria en Psicopedagogía"
+    },
+    {
+      "code": "662",
+      "display": "Terapia de Lenguaje con maestria en Terapia de la voz y del lenguaje",
+      "definition": "Terapia de Lenguaje con maestria en Terapia de la voz y del lenguaje"
+    },
+    {
+      "code": "663",
+      "display": "Terapia de Lenguaje con maestria en Trastornos del Aprendizaje (varios énfasis)",
+      "definition": "Terapia de Lenguaje con maestria en Trastornos del Aprendizaje (varios énfasis)"
+    },
+    {
+      "code": "664",
+      "display": "Terapia de Lenguaje con maestria (otra no definida)",
+      "definition": "Terapia de Lenguaje con maestria (otra no definida)"
+    },
+    {
+      "code": "655",
+      "display": "Terapia de Lenguaje (licenciado)",
+      "definition": "Terapia de Lenguaje (licenciado)"
+    },
+    {
+      "code": "711",
+      "display": "Trabajo Social (bachiller)",
+      "definition": "Trabajo Social (bachiller)"
+    },
+    {
+      "code": "746",
+      "display": "Trabajo Social con doctorado académico en Educación (varios énfasis)",
+      "definition": "Trabajo Social con doctorado académico en Educación (varios énfasis)"
+    },
+    {
+      "code": "747",
+      "display": "Trabajo Social con doctorado académico en Estudios de la Sociedad y la Cultura",
+      "definition": "Trabajo Social con doctorado académico en Estudios de la Sociedad y la Cultura"
+    },
+    {
+      "code": "748",
+      "display": "Trabajo Social con doctorado (otro no definido)",
+      "definition": "Trabajo Social con doctorado (otro no definido)"
+    },
+    {
+      "code": "713",
+      "display": "Trabajo Social con especialización en Administración de Proyectos}",
+      "definition": "Trabajo Social con especialización en Administración de Proyectos}"
+    },
+    {
+      "code": "714",
+      "display": "Trabajo Social con maestría académica en Educación (varios énfasis)",
+      "definition": "Trabajo Social con maestría académica en Educación (varios énfasis)"
+    },
+    {
+      "code": "715",
+      "display": "Trabajo Social con maestría académica en Gerencia Social",
+      "definition": "Trabajo Social con maestría académica en Gerencia Social"
+    },
+    {
+      "code": "716",
+      "display": "Trabajo Social con maestría académica en Gestión Integral de Riesgos de Desastres",
+      "definition": "Trabajo Social con maestría académica en Gestión Integral de Riesgos de Desastres"
+    },
+    {
+      "code": "717",
+      "display": "Trabajo Social con maestría académica en Psicopedagogía",
+      "definition": "Trabajo Social con maestría académica en Psicopedagogía"
+    },
+    {
+      "code": "727",
+      "display": "Trabajo Social con maestría en Administración Pública (varios énfasis)",
+      "definition": "Trabajo Social con maestría en Administración Pública (varios énfasis)"
+    },
+    {
+      "code": "728",
+      "display": "Trabajo Social con maestría en Derechos Humanos (varios énfasis)",
+      "definition": "Trabajo Social con maestría en Derechos Humanos (varios énfasis)"
+    },
+    {
+      "code": "729",
+      "display": "Trabajo Social con maestría en Derechos Internacionales",
+      "definition": "Trabajo Social con maestría en Derechos Internacionales"
+    },
+    {
+      "code": "730",
+      "display": "Trabajo Social con maestría en Estudio de Adicciones",
+      "definition": "Trabajo Social con maestría en Estudio de Adicciones"
+    },
+    {
+      "code": "731",
+      "display": "Trabajo Social con maestría en Estudio de la Violencia Social y Familiar",
+      "definition": "Trabajo Social con maestría en Estudio de la Violencia Social y Familiar"
+    },
+    {
+      "code": "732",
+      "display": "Trabajo Social con maestría en Estudios de Género  y Cultura",
+      "definition": "Trabajo Social con maestría en Estudios de Género  y Cultura"
+    },
+    {
+      "code": "733",
+      "display": "Trabajo Social con maestría en Estudios de la Mujer",
+      "definition": "Trabajo Social con maestría en Estudios de la Mujer"
+    },
+    {
+      "code": "734",
+      "display": "Trabajo Social con maestría en Evaluación de Programas y Proyectos (varios énfasis)",
+      "definition": "Trabajo Social con maestría en Evaluación de Programas y Proyectos (varios énfasis)"
+    },
+    {
+      "code": "735",
+      "display": "Trabajo Social con maestría en Gerencia de Políticas y programas Sociales",
+      "definition": "Trabajo Social con maestría en Gerencia de Políticas y programas Sociales"
+    },
+    {
+      "code": "736",
+      "display": "Trabajo Social con maestría en Gerencia de Proyectos de Desarrollo",
+      "definition": "Trabajo Social con maestría en Gerencia de Proyectos de Desarrollo"
+    },
+    {
+      "code": "737",
+      "display": "Trabajo Social con maestría en Gerencia de Salud",
+      "definition": "Trabajo Social con maestría en Gerencia de Salud"
+    },
+    {
+      "code": "738",
+      "display": "Trabajo Social con maestría en Gerencia Social",
+      "definition": "Trabajo Social con maestría en Gerencia Social"
+    },
+    {
+      "code": "739",
+      "display": "Trabajo Social con maestría en Gerontología (varios énfasis)",
+      "definition": "Trabajo Social con maestría en Gerontología (varios énfasis)"
+    },
+    {
+      "code": "740",
+      "display": "Trabajo Social con maestría en Gestión Educativa (varios énfasis)",
+      "definition": "Trabajo Social con maestría en Gestión Educativa (varios énfasis)"
+    },
+    {
+      "code": "741",
+      "display": "Trabajo Social con maestría en Prevención de Drogodependencias y otras Condiciones Adictivas",
+      "definition": "Trabajo Social con maestría en Prevención de Drogodependencias y otras Condiciones Adictivas"
+    },
+    {
+      "code": "742",
+      "display": "Trabajo Social con maestría en Salud Integral y Movimiento Humano",
+      "definition": "Trabajo Social con maestría en Salud Integral y Movimiento Humano"
+    },
+    {
+      "code": "743",
+      "display": "Trabajo Social con maestría en Trabajo Social (varios énfasis)",
+      "definition": "Trabajo Social con maestría en Trabajo Social (varios énfasis)"
+    },
+    {
+      "code": "744",
+      "display": "Trabajo Social con maestría en Violencia Intrafamiliar y de Género",
+      "definition": "Trabajo Social con maestría en Violencia Intrafamiliar y de Género"
+    },
+    {
+      "code": "745",
+      "display": "Trabajo Social con maestría (otra no definida)",
+      "definition": "Trabajo Social con maestría (otra no definida)"
+    },
+    {
+      "code": "719",
+      "display": "Trabajo Social con maestría profesional en Administración de Servicios de Salud",
+      "definition": "Trabajo Social con maestría profesional en Administración de Servicios de Salud"
+    },
+    {
+      "code": "718",
+      "display": "Trabajo Social con maestría profesional en Administración (varios énfasis)",
+      "definition": "Trabajo Social con maestría profesional en Administración (varios énfasis)"
+    },
+    {
+      "code": "720",
+      "display": "Trabajo Social con maestría profesional en Criminología (varios énfasis)",
+      "definition": "Trabajo Social con maestría profesional en Criminología (varios énfasis)"
+    },
+    {
+      "code": "721",
+      "display": "Trabajo Social con maestría profesional en Cuidados Paliativos",
+      "definition": "Trabajo Social con maestría profesional en Cuidados Paliativos"
+    },
+    {
+      "code": "722",
+      "display": "Trabajo Social con maestría profesional en Gerencia de Proyectos",
+      "definition": "Trabajo Social con maestría profesional en Gerencia de Proyectos"
+    },
+    {
+      "code": "723",
+      "display": "Trabajo Social con maestría profesional en Política Social",
+      "definition": "Trabajo Social con maestría profesional en Política Social"
+    },
+    {
+      "code": "724",
+      "display": "Trabajo Social con maestría profesional en Salud Pública (varios énfasis)",
+      "definition": "Trabajo Social con maestría profesional en Salud Pública (varios énfasis)"
+    },
+    {
+      "code": "725",
+      "display": "Trabajo Social con maestría profesional en Terapia Familiar Sistémica.",
+      "definition": "Trabajo Social con maestría profesional en Terapia Familiar Sistémica."
+    },
+    {
+      "code": "726",
+      "display": "Trabajo Social con maestría profesional en Vivienda y Equipamiento Social",
+      "definition": "Trabajo Social con maestría profesional en Vivienda y Equipamiento Social"
+    },
+    {
+      "code": "712",
+      "display": "Trabajo Social (licenciado)",
+      "definition": "Trabajo Social (licenciado)"
+    },
+    {
+      "code": "99",
+      "display": "Asistente de Farmacia",
+      "definition": "Asistente de Farmacia"
+    },
+    {
+      "code": "31",
+      "display": "Asistente de Pacientes",
+      "definition": "Asistente de Pacientes"
+    },
+    {
+      "code": "29",
+      "display": "Asistente de Quirófano",
+      "definition": "Asistente de Quirófano"
+    },
+    {
+      "code": "30",
+      "display": "Asistente Técnico de Atención Primaria (ATAP)",
+      "definition": "Asistente Técnico de Atención Primaria (ATAP)"
+    },
+    {
+      "code": "32",
+      "display": "Auxiliar de Enfermería",
+      "definition": "Auxiliar de Enfermería"
+    },
+    {
+      "code": "665",
+      "display": "Auxiliar de Fisioterapia",
+      "definition": "Auxiliar de Fisioterapia"
+    },
+    {
+      "code": "403",
+      "display": "Auxiliar de Laboratorio Clínico",
+      "definition": "Auxiliar de Laboratorio Clínico"
+    },
+    {
+      "code": "134",
+      "display": "Auxiliar de Radiología",
+      "definition": "Auxiliar de Radiología"
+    },
+    {
+      "code": "700",
+      "display": "Auxiliar de Terapia Respiratoria",
+      "definition": "Auxiliar de Terapia Respiratoria"
+    },
+    {
+      "code": "28",
+      "display": "Auxiliares en Cuidado Paliativo y Geriátrico",
+      "definition": "Auxiliares en Cuidado Paliativo y Geriátrico"
+    },
+    {
+      "code": "206",
+      "display": "Diplomado  en Cardiotecnología",
+      "definition": "Diplomado  en Cardiotecnología"
+    },
+    {
+      "code": "404",
+      "display": "Diplomado en Asistente de Laboratorio / Laboratorio Clínico",
+      "definition": "Diplomado en Asistente de Laboratorio / Laboratorio Clínico"
+    },
+    {
+      "code": "207",
+      "display": "Diplomado en Citología",
+      "definition": "Diplomado en Citología"
+    },
+    {
+      "code": "208",
+      "display": "Diplomado en Citotecnología",
+      "definition": "Diplomado en Citotecnología"
+    },
+    {
+      "code": "209",
+      "display": "Diplomado en Disección",
+      "definition": "Diplomado en Disección"
+    },
+    {
+      "code": "210",
+      "display": "Diplomado en Electrocardiografía",
+      "definition": "Diplomado en Electrocardiografía"
+    },
+    {
+      "code": "211",
+      "display": "Diplomado en Electroencefalografía",
+      "definition": "Diplomado en Electroencefalografía"
+    },
+    {
+      "code": "212",
+      "display": "Diplomado en Emergencias Médicas",
+      "definition": "Diplomado en Emergencias Médicas"
+    },
+    {
+      "code": "213",
+      "display": "Diplomado en Gastroenterología",
+      "definition": "Diplomado en Gastroenterología"
+    },
+    {
+      "code": "214",
+      "display": "Diplomado en Histotecnología",
+      "definition": "Diplomado en Histotecnología"
+    },
+    {
+      "code": "137",
+      "display": "Diplomado en Imágenes Médicas",
+      "definition": "Diplomado en Imágenes Médicas"
+    },
+    {
+      "code": "138",
+      "display": "Diplomado en Imagenología Diagnóstica",
+      "definition": "Diplomado en Imagenología Diagnóstica"
+    },
+    {
+      "code": "479",
+      "display": "Diplomado en Mecánica Dental",
+      "definition": "Diplomado en Mecánica Dental"
+    },
+    {
+      "code": "215",
+      "display": "Diplomado en Ortopedia",
+      "definition": "Diplomado en Ortopedia"
+    },
+    {
+      "code": "513",
+      "display": "Diplomado En Ortopedia (Ortoprótesis y Ortopedia)",
+      "definition": "Diplomado En Ortopedia (Ortoprótesis y Ortopedia)"
+    },
+    {
+      "code": "20",
+      "display": "Diplomado en Promoción de la Salud Física",
+      "definition": "Diplomado en Promoción de la Salud Física"
+    },
+    {
+      "code": "140",
+      "display": "Diplomado en Protección Radiológica",
+      "definition": "Diplomado en Protección Radiológica"
+    },
+    {
+      "code": "141",
+      "display": "Diplomado en Radiaciones Ionizantes",
+      "definition": "Diplomado en Radiaciones Ionizantes"
+    },
+    {
+      "code": "139",
+      "display": "Diplomado en Radiología",
+      "definition": "Diplomado en Radiología"
+    },
+    {
+      "code": "216",
+      "display": "Diplomado en Urología",
+      "definition": "Diplomado en Urología"
+    },
+    {
+      "code": "198",
+      "display": "Técnico en Anestesiología",
+      "definition": "Técnico en Anestesiología"
+    },
+    {
+      "code": "199",
+      "display": "Técnico en Citología",
+      "definition": "Técnico en Citología"
+    },
+    {
+      "code": "200",
+      "display": "Técnico en Electrofisiología",
+      "definition": "Técnico en Electrofisiología"
+    },
+    {
+      "code": "201",
+      "display": "Técnico en Encefalografía",
+      "definition": "Técnico en Encefalografía"
+    },
+    {
+      "code": "100",
+      "display": "Técnico en Farmacia",
+      "definition": "Técnico en Farmacia"
+    },
+    {
+      "code": "202",
+      "display": "Técnico en Hemodinamia",
+      "definition": "Técnico en Hemodinamia"
+    },
+    {
+      "code": "203",
+      "display": "Técnico en Histología",
+      "definition": "Técnico en Histología"
+    },
+    {
+      "code": "136",
+      "display": "Técnico en Medicina Nuclear",
+      "definition": "Técnico en Medicina Nuclear"
+    },
+    {
+      "code": "455",
+      "display": "Técnico en Nutrición",
+      "definition": "Técnico en Nutrición"
+    },
+    {
+      "code": "511",
+      "display": "Técnico en Ortoprótesis y Ortopedia",
+      "definition": "Técnico en Ortoprótesis y Ortopedia"
+    },
+    {
+      "code": "204",
+      "display": "Técnico en Perfusión Extracorpórea",
+      "definition": "Técnico en Perfusión Extracorpórea"
+    },
+    {
+      "code": "520",
+      "display": "Técnico en Podología",
+      "definition": "Técnico en Podología"
+    },
+    {
+      "code": "512",
+      "display": "Técnico en Prótesis y Órtesis",
+      "definition": "Técnico en Prótesis y Órtesis"
+    },
+    {
+      "code": "135",
+      "display": "Técnico en Radioterapia",
+      "definition": "Técnico en Radioterapia"
+    },
+    {
+      "code": "205",
+      "display": "Técnico en Tecnocardiología y Hemodinamia",
+      "definition": "Técnico en Tecnocardiología y Hemodinamia"
+    },
+    {
+      "code": "701",
+      "display": "Técnico en Terapia Respiratoria",
+      "definition": "Técnico en Terapia Respiratoria"
+    },
+    {
+      "code": "478",
+      "display": "Técnico Especializado en Asistencia Dental (Varios Énfasis)",
+      "definition": "Técnico Especializado en Asistencia Dental (Varios Énfasis)"
+    },
+    {
+      "code": "667",
+      "display": "Técnico Superior en Masaje Terapéutico",
+      "definition": "Técnico Superior en Masaje Terapéutico"
+    },
+    {
+      "code": "480",
+      "display": "Técnicos de Prótesis Médicas y Dentales",
+      "definition": "Técnicos de Prótesis Médicas y Dentales"
+    },
+    {
+      "code": "11",
+      "display": "Técnicos en ciencias biológicas (excluyendo la medicina)",
+      "definition": "Técnicos en ciencias biológicas (excluyendo la medicina)"
+    },
+    {
+      "code": "507",
+      "display": "Técnicos en Optometría y Ópticos",
+      "definition": "Técnicos en Optometría y Ópticos"
+    },
+    {
+      "code": "666",
+      "display": "Técnicos y Asistentes Fisioterapeutas",
+      "definition": "Técnicos y Asistentes Fisioterapeutas"
+    },
+    {
+      "code": "165",
+      "display": "Técnicos y asistentes veterinarios",
+      "definition": "Técnicos y asistentes veterinarios"
+    }
+  ],
+  "language": "es",
+  "version": "0.1.1",
+  "experimental": false,
+  "caseSensitive": true,
+  "compositional": false,
+  "versionNeeded": true,
+  "publisher": "HL7 Costa Rica",
+  "contact": [
+    {
+      "name": "HL7 Costa Rica",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@hl7.or.cr"
+        }
+      ]
+    }
+  ],
+  "date": "2025-03-03",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CR",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Costa Rica"
+        }
+      ]
+    }
+  ],
+  "copyright": "Usado con el permiso de HL7 International, todos los derechos reservados en los Licencias de HL7 Internacional.",
+  "count": 748
+}

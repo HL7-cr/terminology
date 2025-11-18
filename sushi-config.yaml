@@ -25,7 +25,7 @@ version: 0.1.1
 fhirVersion: 5.0.0
 language: es
 copyrightYear: 2025+
-date: 2025-11-13
+date: 2025-11-16
 copyright: >-
   Utilizado con permiso de HL7 International, todos los derechos reservados Licencia Creative Commons
 
@@ -92,22 +92,6 @@ pages:
 #
 parameters:
   excludettl: true
-  path-resource:
-    - input/resources
-    - fsh-generated/resources
-  path-pages:
-    - input/pagecontent
-  path-tx-cache: input-cache/txcache
-  resource-language-policy: all-ig
-  
-  active-tables: false
-  apply-contact: true
-  apply-jurisdiction: true
-  apply-publisher: true
-  apply-version: true
-  show-inherited-invariants: false
-  usage-stats-opt-out: true
-  tabbed-snapshots: false
 
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮

@@ -1,0 +1,263 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "VaccineAdministeredCodeSet",
+  "id": "vaccine-administered-code-set",
+  "title": "Vacunas de uso administrado en Costa Rica",
+  "description": "Catalogo de vacunas administradas en Costa Rica para el contexto de la salud",
+  "url": "https://hl7.or.cr/fhir/ig/terminology/CodeSystem/vaccine-administered-code-set",
+  "concept": [
+    {
+      "code": "J07AN01",
+      "display": "BCG, Vacuna viva atenuada contra la tuberculosis.",
+      "definition": "BCG, Vacuna viva atenuada contra la tuberculosis."
+    },
+    {
+      "code": "J07AM51",
+      "display": "Td, Combinación de toxoides tetánico y diftérico",
+      "definition": "Td, Combinación de toxoides tetánico y diftérico"
+    },
+    {
+      "code": "J07AP01",
+      "display": "Fiebre tifoidea, Vacuna oral viva atenuada.",
+      "definition": "Fiebre tifoidea, Vacuna oral viva atenuada."
+    },
+    {
+      "code": "J07AP02",
+      "display": "Fiebre tifoidea, Vacuna inactivada de célula entera.",
+      "definition": "Fiebre tifoidea, Vacuna inactivada de célula entera."
+    },
+    {
+      "code": "J07AP03",
+      "display": "Fiebre tifoidea, Antígeno polisacárido purificado",
+      "definition": "Fiebre tifoidea, Antígeno polisacárido purificado"
+    },
+    {
+      "code": "J07AP10",
+      "display": "Fiebre tifoidea, Combinaciones con paratifoidea",
+      "definition": "Fiebre tifoidea, Combinaciones con paratifoidea"
+    },
+    {
+      "code": "J07AH01",
+      "display": "Meningococo, Antígeno polisacárido purificado del meningococo A.",
+      "definition": "Meningococo, Antígeno polisacárido purificado del meningococo A."
+    },
+    {
+      "code": "J07AH02",
+      "display": "Meningococo, Otros antígenos polisacáridos monovalentes del meningococo.",
+      "definition": "Meningococo, Otros antígenos polisacáridos monovalentes del meningococo."
+    },
+    {
+      "code": "J07AH03",
+      "display": "Meningococo, Antígenos polisacáridos combinados del meningococo.",
+      "definition": "Meningococo, Antígenos polisacáridos combinados del meningococo."
+    },
+    {
+      "code": "J07AH04",
+      "display": "Meningococo, Conjugado del meningococo C.",
+      "definition": "Meningococo, Conjugado del meningococo C."
+    },
+    {
+      "code": "J07AH05",
+      "display": "Meningococo, Conjugado del meningococo A, C, Y, W-135.",
+      "definition": "Meningococo, Conjugado del meningococo A, C, Y, W-135."
+    },
+    {
+      "code": "J07AH06",
+      "display": "Meningococo, Conjugado del meningococo B.",
+      "definition": "Meningococo, Conjugado del meningococo B."
+    },
+    {
+      "code": "J07AH07",
+      "display": "Meningococo, Combinaciones con toxoides.",
+      "definition": "Meningococo, Combinaciones con toxoides."
+    },
+    {
+      "code": "J07AH08",
+      "display": "Meningococo, Conjugado del meningococo A, C, W-135, Y.",
+      "definition": "Meningococo, Conjugado del meningococo A, C, W-135, Y."
+    },
+    {
+      "code": "J07BD52",
+      "display": "SRP, Combinación viva atenuada de sarampión, parotiditis y rubéola.",
+      "definition": "SRP, Combinación viva atenuada de sarampión, parotiditis y rubéola."
+    },
+    {
+      "code": "J07BK01",
+      "display": "Varicela (niños y adultos), Vacuna viva atenuada contra la varicela.",
+      "definition": "Varicela (niños y adultos), Vacuna viva atenuada contra la varicela."
+    },
+    {
+      "code": "J07BM01",
+      "display": "VPH, Vacuna tetravalente (tipos 6, 11, 16, 18).",
+      "definition": "VPH, Vacuna tetravalente (tipos 6, 11, 16, 18)."
+    },
+    {
+      "code": "J07BM02",
+      "display": "VPH, Vacuna bivalente (tipos 16, 18).",
+      "definition": "VPH, Vacuna bivalente (tipos 16, 18)."
+    },
+    {
+      "code": "J07BM03",
+      "display": "VPH, Vacuna nonavalente (tipos 6, 11, 16, 18, 31, 33, 45, 52, 58).",
+      "definition": "VPH, Vacuna nonavalente (tipos 6, 11, 16, 18, 31, 33, 45, 52, 58)."
+    },
+    {
+      "code": "J07BN01",
+      "display": "COVID-19, Vacuna basada en ARN mensajero.",
+      "definition": "COVID-19, Vacuna basada en ARN mensajero."
+    },
+    {
+      "code": "J07BN02",
+      "display": "COVID-19, Vacuna de vector viral no replicante.",
+      "definition": "COVID-19, Vacuna de vector viral no replicante."
+    },
+    {
+      "code": "J07BN03",
+      "display": "COVID-19, Vacuna de vector viral replicante.",
+      "definition": "COVID-19, Vacuna de vector viral replicante."
+    },
+    {
+      "code": "J07BN04",
+      "display": "COVID-19, Vacuna de subunidad proteica.",
+      "definition": "COVID-19, Vacuna de subunidad proteica."
+    },
+    {
+      "code": "J07BN05",
+      "display": "COVID-19, Vacuna de virus inactivado.",
+      "definition": "COVID-19, Vacuna de virus inactivado."
+    },
+    {
+      "code": "J07BL01",
+      "display": "Fiebre amarilla, Vacuna viva atenuada contra la fiebre amarilla.",
+      "definition": "Fiebre amarilla, Vacuna viva atenuada contra la fiebre amarilla."
+    },
+    {
+      "code": "J07BC02",
+      "display": "Hepatitis A, Vacuna inactivada contra la hepatitis A.",
+      "definition": "Hepatitis A, Vacuna inactivada contra la hepatitis A."
+    },
+    {
+      "code": "J07BC01",
+      "display": "Hepatitis B, Vacuna recombinante contra la hepatitis B.",
+      "definition": "Hepatitis B, Vacuna recombinante contra la hepatitis B."
+    },
+    {
+      "code": "J07BG01",
+      "display": "Rabia (pre y post exposición), Vacuna inactivada contra la rabia.",
+      "definition": "Rabia (pre y post exposición), Vacuna inactivada contra la rabia."
+    },
+    {
+      "code": "J07BB01",
+      "display": "Influenza, Vacuna inactivada de virus completo.",
+      "definition": "Influenza, Vacuna inactivada de virus completo."
+    },
+    {
+      "code": "J07BB02",
+      "display": "Influenza, Vacuna de antígeno purificado.",
+      "definition": "Influenza, Vacuna de antígeno purificado."
+    },
+    {
+      "code": "J07BB03",
+      "display": "Influenza, Vacuna viva atenuada.",
+      "definition": "Influenza, Vacuna viva atenuada."
+    },
+    {
+      "code": "J07CA11",
+      "display": "Pentavalente, Vacuna combinada contra difteria, Haemophilus influenzae tipo B, tos ferina, tétanos y hepatitis B.",
+      "definition": "Pentavalente, Vacuna combinada contra difteria, Haemophilus influenzae tipo B, tos ferina, tétanos y hepatitis B."
+    },
+    {
+      "code": "J07CA09",
+      "display": "Hexavalente, Vacuna combinada contra difteria, Haemophilus influenzae tipo B, tos ferina, poliomielitis, tétanos y hepatitis B.",
+      "definition": "Hexavalente, Vacuna combinada contra difteria, Haemophilus influenzae tipo B, tos ferina, poliomielitis, tétanos y hepatitis B."
+    },
+    {
+      "code": "J07BX04",
+      "display": "Tetravalente (Dengue), Vacuna viva atenuada contra los cuatro serotipos del virus del dengue.",
+      "definition": "Tetravalente (Dengue), Vacuna viva atenuada contra los cuatro serotipos del virus del dengue."
+    },
+    {
+      "code": "J07BH01",
+      "display": "Rotarix, Vacuna oral viva atenuada contra rotavirus.",
+      "definition": "Rotarix, Vacuna oral viva atenuada contra rotavirus."
+    },
+    {
+      "code": "J07BH02",
+      "display": "RotaTeq, Vacuna oral pentavalente viva, con virus reassortados.",
+      "definition": "RotaTeq, Vacuna oral pentavalente viva, con virus reassortados."
+    },
+    {
+      "code": "J07AL01",
+      "display": "Neumococo 23 (PPSV23), Vacuna con antígenos polisacáridos purificados.",
+      "definition": "Neumococo 23 (PPSV23), Vacuna con antígenos polisacáridos purificados."
+    },
+    {
+      "code": "J07AL021",
+      "display": "Neumococo 13 (PCV13), Vacuna conjugada con antígenos polisacáridos purificados",
+      "definition": "Neumococo 13 (PCV13), Vacuna conjugada con antígenos polisacáridos purificados"
+    },
+    {
+      "code": "J07AL022",
+      "display": "Neumococo 10 (PCV10), También clasificada como vacuna conjugada con antígenos polisacáridos purificados.",
+      "definition": "Neumococo 10 (PCV10), También clasificada como vacuna conjugada con antígenos polisacáridos purificados."
+    },
+    {
+      "code": "J07AL52",
+      "display": "Combinada con Haemophilus influenzae, Vacuna combinada de neumococo y Haemophilus influenzae, conjugada.",
+      "definition": "Combinada con Haemophilus influenzae, Vacuna combinada de neumococo y Haemophilus influenzae, conjugada."
+    },
+    {
+      "code": "J07AJ52",
+      "display": "Tdap, Vacuna con antígenos purificados de pertussis, combinada con toxoides de tétanos y difteria",
+      "definition": "Tdap, Vacuna con antígenos purificados de pertussis, combinada con toxoides de tétanos y difteria"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 0
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "draft"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "pc"
+    }
+  ],
+  "language": "es",
+  "version": "0.1.1",
+  "experimental": false,
+  "caseSensitive": true,
+  "compositional": false,
+  "versionNeeded": true,
+  "publisher": "HL7 Costa Rica",
+  "contact": [
+    {
+      "name": "HL7 Costa Rica",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@hl7.or.cr"
+        }
+      ]
+    }
+  ],
+  "date": "2025-03-03",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CR",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Costa Rica"
+        }
+      ]
+    }
+  ],
+  "copyright": "Usado con el permiso de HL7 International, todos los derechos reservados en los Licencias de HL7 Internacional.",
+  "count": 41
+}

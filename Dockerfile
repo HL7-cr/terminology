@@ -1,4 +1,4 @@
-# docker run --rm -it -v "$(pwd)/terminology:/ig" -w /ig -u "$(id -u):$(id -g)" -e HOME=/ig -e XDG_CACHE_HOME=/ig/.cache terminology-ig:dev bash
+# docker run --rm -it -v "$(pwd)/ig/terminology.git:/ig" ig-terminology:v1 bash
 
 # Ubuntu 24.04 (Noble)
 FROM ubuntu:24.04

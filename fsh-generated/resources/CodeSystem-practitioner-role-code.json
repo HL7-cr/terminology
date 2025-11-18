@@ -1,0 +1,1134 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "PractitionerRoleCode",
+  "id": "practitioner-role-code",
+  "title": "Roles de los profesionales",
+  "description": "Código de roles de los profesionales de la salud",
+  "url": "https://hl7.or.cr/fhir/ig/terminology/CodeSystem/practitioner-role-code",
+  "concept": [
+    {
+      "code": "2611",
+      "display": "Abogados",
+      "definition": "Abogados"
+    },
+    {
+      "code": "2522",
+      "display": "Administradores de sistemas",
+      "definition": "Administradores de sistemas"
+    },
+    {
+      "code": "3311",
+      "display": "Agentes de bolsa, cambio y otros servicios financieros",
+      "definition": "Agentes de bolsa, cambio y otros servicios financieros"
+    },
+    {
+      "code": "3323",
+      "display": "Agentes de compras",
+      "definition": "Agentes de compras"
+    },
+    {
+      "code": "3324",
+      "display": "Agentes de compras y consignatarios",
+      "definition": "Agentes de compras y consignatarios"
+    },
+    {
+      "code": "3333",
+      "display": "Agentes de empleo y contratistas de mano de obra",
+      "definition": "Agentes de empleo y contratistas de mano de obra"
+    },
+    {
+      "code": "3359",
+      "display": "Agentes de la administración pública para la aplicacion de la ley y afines no clasificados bajo otros epígrafes",
+      "definition": "Agentes de la administración pública para la aplicacion de la ley y afines no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "3321",
+      "display": "Agentes de seguros",
+      "definition": "Agentes de seguros"
+    },
+    {
+      "code": "3339",
+      "display": "Agentes de servicios comerciales no clasificados bajo otros epígrafes",
+      "definition": "Agentes de servicios comerciales no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "3353",
+      "display": "Agentes de servicios de seguridad social",
+      "definition": "Agentes de servicios de seguridad social"
+    },
+    {
+      "code": "2421",
+      "display": "Analistas de gestión y organización",
+      "definition": "Analistas de gestión y organización"
+    },
+    {
+      "code": "2511",
+      "display": "Analistas de sistemas",
+      "definition": "Analistas de sistemas"
+    },
+    {
+      "code": "2413",
+      "display": "Analistas financieros",
+      "definition": "Analistas financieros"
+    },
+    {
+      "code": "2621",
+      "display": "Archivistas y curadores de museos",
+      "definition": "Archivistas y curadores de museos"
+    },
+    {
+      "code": "2161",
+      "display": "Arquitectos",
+      "definition": "Arquitectos"
+    },
+    {
+      "code": "2162",
+      "display": "Arquitectos paisajistas",
+      "definition": "Arquitectos paisajistas"
+    },
+    {
+      "code": "3421",
+      "display": "Atletas y deportistas",
+      "definition": "Atletas y deportistas"
+    },
+    {
+      "code": "2266",
+      "display": "Audiólogos y logopedas",
+      "definition": "Audiólogos y logopedas"
+    },
+    {
+      "code": "5312",
+      "display": "Auxiliares de maestros",
+      "definition": "Auxiliares de maestros"
+    },
+    {
+      "code": "3258",
+      "display": "Ayudantes de ambulancias (APAs)",
+      "definition": "Ayudantes de ambulancias (APAs)"
+    },
+    {
+      "code": "9412",
+      "display": "Ayudantes de cocina",
+      "definition": "Ayudantes de cocina"
+    },
+    {
+      "code": "9613",
+      "display": "Barrenderos y afines",
+      "definition": "Barrenderos y afines"
+    },
+    {
+      "code": "2622",
+      "display": "Bibliotecarios, documentalistas y afines",
+      "definition": "Bibliotecarios, documentalistas y afines"
+    },
+    {
+      "code": "2131",
+      "display": "Biólogos, botánicos, zoólogos y afines",
+      "definition": "Biólogos, botánicos, zoólogos y afines"
+    },
+    {
+      "code": "5411",
+      "display": "Bomberos",
+      "definition": "Bomberos"
+    },
+    {
+      "code": "4211",
+      "display": "Cajeros y afines",
+      "definition": "Cajeros y afines"
+    },
+    {
+      "code": "7321",
+      "display": "Cajistas, tipógrafos y afines",
+      "definition": "Cajistas, tipógrafos y afines"
+    },
+    {
+      "code": "9612",
+      "display": "Clasificadores de desechos",
+      "definition": "Clasificadores de desechos"
+    },
+    {
+      "code": "4214",
+      "display": "Cobradores y afines",
+      "definition": "Cobradores y afines"
+    },
+    {
+      "code": "5120",
+      "display": "Cocineros",
+      "definition": "Cocineros"
+    },
+    {
+      "code": "8322",
+      "display": "Conductores de automóviles, taxis y camionetas",
+      "definition": "Conductores de automóviles, taxis y camionetas"
+    },
+    {
+      "code": "8332",
+      "display": "Conductores de camiones pesados",
+      "definition": "Conductores de camiones pesados"
+    },
+    {
+      "code": "5153",
+      "display": "Conserjes",
+      "definition": "Conserjes"
+    },
+    {
+      "code": "2411",
+      "display": "Contables",
+      "definition": "Contables"
+    },
+    {
+      "code": "3133",
+      "display": "Controladores de instalaciones de procesamiento de productos químicos",
+      "definition": "Controladores de instalaciones de procesamiento de productos químicos"
+    },
+    {
+      "code": "3135",
+      "display": "Controladores de procesos de producción de metales",
+      "definition": "Controladores de procesos de producción de metales"
+    },
+    {
+      "code": "1414",
+      "display": "Coordinadores (general)",
+      "definition": "Coordinadores (general)"
+    },
+    {
+      "code": "5311",
+      "display": "Cuidadores de niños",
+      "definition": "Cuidadores de niños"
+    },
+    {
+      "code": "2261",
+      "display": "Dentistas",
+      "definition": "Dentistas"
+    },
+    {
+      "code": "3251",
+      "display": "Dentistas auxiliares y ayudantes de odontología (Asistentes dentales)",
+      "definition": "Dentistas auxiliares y ayudantes de odontología (Asistentes dentales)"
+    },
+    {
+      "code": "2512",
+      "display": "Desarrolladores de software",
+      "definition": "Desarrolladores de software"
+    },
+    {
+      "code": "2513",
+      "display": "Desarrolladores Web y multimedia",
+      "definition": "Desarrolladores Web y multimedia"
+    },
+    {
+      "code": "2519",
+      "display": "Desarrolladores y analistas de software y multimedia y analistas no clasificados bajo otros epígrafes",
+      "definition": "Desarrolladores y analistas de software y multimedia y analistas no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "2265",
+      "display": "Dietistas y nutricionistas",
+      "definition": "Dietistas y nutricionistas"
+    },
+    {
+      "code": "1219",
+      "display": "Directores de administración y servicios no clasificados bajo otros epígrafes",
+      "definition": "Directores de administración y servicios no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "1324",
+      "display": "Directores de empresas de abastecimiento, distribución y afines",
+      "definition": "Directores de empresas de abastecimiento, distribución y afines"
+    },
+    {
+      "code": "1223",
+      "display": "Directores de investigación y desarrollo",
+      "definition": "Directores de investigación y desarrollo"
+    },
+    {
+      "code": "1213",
+      "display": "Directores de políticas y planificación",
+      "definition": "Directores de políticas y planificación"
+    },
+    {
+      "code": "1222",
+      "display": "Directores de publicidad y relaciones públicas",
+      "definition": "Directores de publicidad y relaciones públicas"
+    },
+    {
+      "code": "1212",
+      "display": "Directores de recursos humanos",
+      "definition": "Directores de recursos humanos"
+    },
+    {
+      "code": "1344",
+      "display": "Directores de servicios de bienestar social",
+      "definition": "Directores de servicios de bienestar social"
+    },
+    {
+      "code": "1343",
+      "display": "Directores de servicios de cuidado de las personas de edad",
+      "definition": "Directores de servicios de cuidado de las personas de edad"
+    },
+    {
+      "code": "1341",
+      "display": "Directores de servicios de cuidados infantiles",
+      "definition": "Directores de servicios de cuidados infantiles"
+    },
+    {
+      "code": "1345",
+      "display": "Directores de servicios de educación",
+      "definition": "Directores de servicios de educación"
+    },
+    {
+      "code": "1342",
+      "display": "Directores de servicios de salud",
+      "definition": "Directores de servicios de salud"
+    },
+    {
+      "code": "1330",
+      "display": "Directores de servicios de tecnología de la información y las comunicaciones",
+      "definition": "Directores de servicios de tecnología de la información y las comunicaciones"
+    },
+    {
+      "code": "1221",
+      "display": "Directores de ventas y comercialización",
+      "definition": "Directores de ventas y comercialización"
+    },
+    {
+      "code": "1211",
+      "display": "Directores financieros",
+      "definition": "Directores financieros"
+    },
+    {
+      "code": "1120",
+      "display": "Directores generales y gerentes generales",
+      "definition": "Directores generales y gerentes generales"
+    },
+    {
+      "code": "1349",
+      "display": "Directores y gerentes de servicios profesionales no clasificados bajo otros epígrafes",
+      "definition": "Directores y gerentes de servicios profesionales no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "1114",
+      "display": "Dirigentes de organizaciones que presentan un interés especial",
+      "definition": "Dirigentes de organizaciones que presentan un interés especial"
+    },
+    {
+      "code": "2163",
+      "display": "Diseñadores de productos y de prendas",
+      "definition": "Diseñadores de productos y de prendas"
+    },
+    {
+      "code": "2166",
+      "display": "Diseñadores gráficos y multimedia",
+      "definition": "Diseñadores gráficos y multimedia"
+    },
+    {
+      "code": "2521",
+      "display": "Diseñadores y administradores de bases de datos",
+      "definition": "Diseñadores y administradores de bases de datos"
+    },
+    {
+      "code": "2631",
+      "display": "Economistas",
+      "definition": "Economistas"
+    },
+    {
+      "code": "2352",
+      "display": "Educadores para necesidades especiales",
+      "definition": "Educadores para necesidades especiales"
+    },
+    {
+      "code": "3113",
+      "display": "Electrotécnicos",
+      "definition": "Electrotécnicos"
+    },
+    {
+      "code": "4415",
+      "display": "Empleados de archivos",
+      "definition": "Empleados de archivos"
+    },
+    {
+      "code": "4222",
+      "display": "Empleados de centros de llamadas",
+      "definition": "Empleados de centros de llamadas"
+    },
+    {
+      "code": "4311",
+      "display": "Empleados de contabilidad y cálculo de costos",
+      "definition": "Empleados de contabilidad y cálculo de costos"
+    },
+    {
+      "code": "4321",
+      "display": "Empleados de control de abastecimientos e inventario",
+      "definition": "Empleados de control de abastecimientos e inventario"
+    },
+    {
+      "code": "4322",
+      "display": "Empleados de servicios de apoyo a la producción",
+      "definition": "Empleados de servicios de apoyo a la producción"
+    },
+    {
+      "code": "4229",
+      "display": "Empleados de servicios de información al cliente no clasificados bajo otros epígrafes",
+      "definition": "Empleados de servicios de información al cliente no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "4323",
+      "display": "Empleados de servicios de transporte",
+      "definition": "Empleados de servicios de transporte"
+    },
+    {
+      "code": "4312",
+      "display": "Empleados de servicios estadísticos, financieros y de seguros",
+      "definition": "Empleados de servicios estadísticos, financieros y de seguros"
+    },
+    {
+      "code": "4225",
+      "display": "Empleados de ventanillas de informaciones",
+      "definition": "Empleados de ventanillas de informaciones"
+    },
+    {
+      "code": "4416",
+      "display": "Empleados del servicio de personal",
+      "definition": "Empleados del servicio de personal"
+    },
+    {
+      "code": "4313",
+      "display": "Empleados encargados de las nóminas",
+      "definition": "Empleados encargados de las nóminas"
+    },
+    {
+      "code": "7323",
+      "display": "Encuadernadores y afines",
+      "definition": "Encuadernadores y afines"
+    },
+    {
+      "code": "3422",
+      "display": "Entrenadores, instructores y árbitros de actividades deportivas",
+      "definition": "Entrenadores, instructores y árbitros de actividades deportivas"
+    },
+    {
+      "code": "4227",
+      "display": "Entrevistadores de encuestas y de investigaciones de mercados",
+      "definition": "Entrevistadores de encuestas y de investigaciones de mercados"
+    },
+    {
+      "code": "2529",
+      "display": "Especialistas en bases de datos y en redes de computadores no clasificados bajo otros epígrafes",
+      "definition": "Especialistas en bases de datos y en redes de computadores no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "2424",
+      "display": "Especialistas en formación del personal",
+      "definition": "Especialistas en formación del personal"
+    },
+    {
+      "code": "2351",
+      "display": "Especialistas en métodos pedagógicos",
+      "definition": "Especialistas en métodos pedagógicos"
+    },
+    {
+      "code": "2422",
+      "display": "Especialistas en políticas de administración",
+      "definition": "Especialistas en políticas de administración"
+    },
+    {
+      "code": "2423",
+      "display": "Especialistas en políticas y servicios de personal y afines",
+      "definition": "Especialistas en políticas y servicios de personal y afines"
+    },
+    {
+      "code": "2262",
+      "display": "Farmacéuticos",
+      "definition": "Farmacéuticos"
+    },
+    {
+      "code": "2633",
+      "display": "Filósofos, historiadores y especialistas en ciencias políticas",
+      "definition": "Filósofos, historiadores y especialistas en ciencias políticas"
+    },
+    {
+      "code": "2111",
+      "display": "Físicos y astrónomos",
+      "definition": "Físicos y astrónomos"
+    },
+    {
+      "code": "2264",
+      "display": "Fisioterapeutas",
+      "definition": "Fisioterapeutas"
+    },
+    {
+      "code": "7544",
+      "display": "Fumigadores y otros controladores de plagas y malas hierbas",
+      "definition": "Fumigadores y otros controladores de plagas y malas hierbas"
+    },
+    {
+      "code": "1431",
+      "display": "Gerentes de centros deportivos, de esparcimiento y culturales",
+      "definition": "Gerentes de centros deportivos, de esparcimiento y culturales"
+    },
+    {
+      "code": "1439",
+      "display": "Gerentes de servicios no clasificados bajo otros epígrafes",
+      "definition": "Gerentes de servicios no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "1346",
+      "display": "Gerentes de sucursales de bancos, de servicios financieros y de seguros",
+      "definition": "Gerentes de sucursales de bancos, de servicios financieros y de seguros"
+    },
+    {
+      "code": "4132",
+      "display": "Grabadores de datos",
+      "definition": "Grabadores de datos"
+    },
+    {
+      "code": "5414",
+      "display": "Guardias de protección",
+      "definition": "Guardias de protección"
+    },
+    {
+      "code": "7322",
+      "display": "Impresores",
+      "definition": "Impresores"
+    },
+    {
+      "code": "2142",
+      "display": "Ingenieros civiles",
+      "definition": "Ingenieros civiles"
+    },
+    {
+      "code": "2151",
+      "display": "Ingenieros electricistas",
+      "definition": "Ingenieros electricistas"
+    },
+    {
+      "code": "2152",
+      "display": "Ingenieros electrónicos",
+      "definition": "Ingenieros electrónicos"
+    },
+    {
+      "code": "2153",
+      "display": "Ingenieros en telecomunicaciones",
+      "definition": "Ingenieros en telecomunicaciones"
+    },
+    {
+      "code": "2141",
+      "display": "Ingenieros industriales y de producción",
+      "definition": "Ingenieros industriales y de producción"
+    },
+    {
+      "code": "2144",
+      "display": "Ingenieros mecánicos",
+      "definition": "Ingenieros mecánicos"
+    },
+    {
+      "code": "2143",
+      "display": "Ingenieros medioambientales",
+      "definition": "Ingenieros medioambientales"
+    },
+    {
+      "code": "2149",
+      "display": "Ingenieros no clasificados bajo otros epígrafes",
+      "definition": "Ingenieros no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "2145",
+      "display": "Ingenieros químicos",
+      "definition": "Ingenieros químicos"
+    },
+    {
+      "code": "3257",
+      "display": "Inspectores de la salud laboral, medioambiental y afines (Técnicos)",
+      "definition": "Inspectores de la salud laboral, medioambiental y afines (Técnicos)"
+    },
+    {
+      "code": "3423",
+      "display": "Instructores de educación física y actividades recreativas",
+      "definition": "Instructores de educación física y actividades recreativas"
+    },
+    {
+      "code": "1413",
+      "display": "Jefaturas (general)",
+      "definition": "Jefaturas (general)"
+    },
+    {
+      "code": "1113",
+      "display": "Jefes de pequeñas poblaciones",
+      "definition": "Jefes de pequeñas poblaciones"
+    },
+    {
+      "code": "9121",
+      "display": "Lavanderos y planchadores manuales",
+      "definition": "Lavanderos y planchadores manuales"
+    },
+    {
+      "code": "9112",
+      "display": "Limpiadores y asistentes de oficinas, hoteles y otros establecimientos",
+      "definition": "Limpiadores y asistentes de oficinas, hoteles y otros establecimientos"
+    },
+    {
+      "code": "2340",
+      "display": "Maestros de enseñanza primaria y preescolares",
+      "definition": "Maestros de enseñanza primaria y preescolares"
+    },
+    {
+      "code": "2120",
+      "display": "Matemáticos, actuarios y estadísticos",
+      "definition": "Matemáticos, actuarios y estadísticos"
+    },
+    {
+      "code": "2212",
+      "display": "Médicos especialistas",
+      "definition": "Médicos especialistas"
+    },
+    {
+      "code": "2211",
+      "display": "Médicos generales",
+      "definition": "Médicos generales"
+    },
+    {
+      "code": "9621",
+      "display": "Mensajeros, mandaderos, maleteros y repartidores",
+      "definition": "Mensajeros, mandaderos, maleteros y repartidores"
+    },
+    {
+      "code": "1111",
+      "display": "Miembros del poder legislativo",
+      "definition": "Miembros del poder legislativo"
+    },
+    {
+      "code": "9629",
+      "display": "Ocupaciones elementales no clasificadas bajo otros epígrafes",
+      "definition": "Ocupaciones elementales no clasificadas bajo otros epígrafes"
+    },
+    {
+      "code": "3312",
+      "display": "Oficiales de préstamos y créditos",
+      "definition": "Oficiales de préstamos y créditos"
+    },
+    {
+      "code": "4110",
+      "display": "Oficinistas generales",
+      "definition": "Oficinistas generales"
+    },
+    {
+      "code": "3132",
+      "display": "Operadores de incineradores, instalaciones de tratamiento de agua y afines",
+      "definition": "Operadores de incineradores, instalaciones de tratamiento de agua y afines"
+    },
+    {
+      "code": "3131",
+      "display": "Operadores de instalaciones de producción de energía",
+      "definition": "Operadores de instalaciones de producción de energía"
+    },
+    {
+      "code": "4131",
+      "display": "Operadores de máquinas de procesamiento de texto y mecanógrafos",
+      "definition": "Operadores de máquinas de procesamiento de texto y mecanógrafos"
+    },
+    {
+      "code": "8182",
+      "display": "Operadores de máquinas de vapor y calderas",
+      "definition": "Operadores de máquinas de vapor y calderas"
+    },
+    {
+      "code": "8157",
+      "display": "Operadores de máquinas lavarropas",
+      "definition": "Operadores de máquinas lavarropas"
+    },
+    {
+      "code": "8160",
+      "display": "Operadores de máquinas para elaborar alimentos y productos afines",
+      "definition": "Operadores de máquinas para elaborar alimentos y productos afines"
+    },
+    {
+      "code": "8142",
+      "display": "Operadores de máquinas para fabricar productos de material plástico",
+      "definition": "Operadores de máquinas para fabricar productos de material plástico"
+    },
+    {
+      "code": "8143",
+      "display": "Operadores de máquinas para fabricar productos de papel",
+      "definition": "Operadores de máquinas para fabricar productos de papel"
+    },
+    {
+      "code": "8159",
+      "display": "Operadores de máquinas para fabricar productos textiles y artículos de piel y cuero no clasificados bajo otros epígrafes",
+      "definition": "Operadores de máquinas para fabricar productos textiles y artículos de piel y cuero no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "8131",
+      "display": "Operadores de plantas y máquinas de productos químicos",
+      "definition": "Operadores de plantas y máquinas de productos químicos"
+    },
+    {
+      "code": "2267",
+      "display": "Optometristas",
+      "definition": "Optometristas"
+    },
+    {
+      "code": "3332",
+      "display": "Organizadores de conferencias y eventos",
+      "definition": "Organizadores de conferencias y eventos"
+    },
+    {
+      "code": "9129",
+      "display": "Otro personal de limpieza",
+      "definition": "Otro personal de limpieza"
+    },
+    {
+      "code": "0000",
+      "display": "OTROS TRABAJADORES DE LA SALUD",
+      "definition": "OTROS TRABAJADORES DE LA SALUD"
+    },
+    {
+      "code": "2240",
+      "display": "Paramédicos",
+      "definition": "Paramédicos"
+    },
+    {
+      "code": "2642",
+      "display": "Periodistas",
+      "definition": "Periodistas"
+    },
+    {
+      "code": "4419",
+      "display": "Personal de apoyo administrativo no clasificado bajo otros epígrafes",
+      "definition": "Personal de apoyo administrativo no clasificado bajo otros epígrafes"
+    },
+    {
+      "code": "5419",
+      "display": "Personal de los servicios de protección no clasificados bajo otros epígrafes",
+      "definition": "Personal de los servicios de protección no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "1112",
+      "display": "Personal directivo de la administración pública",
+      "definition": "Personal directivo de la administración pública"
+    },
+    {
+      "code": "9622",
+      "display": "Personas que realizan trabajos varios",
+      "definition": "Personas que realizan trabajos varios"
+    },
+    {
+      "code": "3256",
+      "display": "Practicantes y asistentes médicos (profesionales generales en SSO)",
+      "definition": "Practicantes y asistentes médicos (profesionales generales en SSO)"
+    },
+    {
+      "code": "4213",
+      "display": "Prestamistas",
+      "definition": "Prestamistas"
+    },
+    {
+      "code": "2223",
+      "display": "Profesionales de enfermería especialistas (excluye ginecoobstetricia)",
+      "definition": "Profesionales de enfermería especialistas (excluye ginecoobstetricia)"
+    },
+    {
+      "code": "2221",
+      "display": "Profesionales de enfermería (generales)",
+      "definition": "Profesionales de enfermería (generales)"
+    },
+    {
+      "code": "2359",
+      "display": "Profesionales de la enseñanza no clasificados bajo otros epígrafes",
+      "definition": "Profesionales de la enseñanza no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "2133",
+      "display": "Profesionales de la protección medioambiental",
+      "definition": "Profesionales de la protección medioambiental"
+    },
+    {
+      "code": "2431",
+      "display": "Profesionales de la publicidad y la comercialización",
+      "definition": "Profesionales de la publicidad y la comercialización"
+    },
+    {
+      "code": "3259",
+      "display": "Profesionales de la salud de nivel medio no clasificados bajo otros epígrafes",
+      "definition": "Profesionales de la salud de nivel medio no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "2269",
+      "display": "Profesionales de la salud no clasificados bajo otros epígrafes",
+      "definition": "Profesionales de la salud no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "2263",
+      "display": "Profesionales de la salud y la higiene laboral y ambiental",
+      "definition": "Profesionales de la salud y la higiene laboral y ambiental"
+    },
+    {
+      "code": "2230",
+      "display": "Profesionales de medicina tradicional y alternativa",
+      "definition": "Profesionales de medicina tradicional y alternativa"
+    },
+    {
+      "code": "3222",
+      "display": "Profesionales de nivel medio de enfermería y partería (Asistentes de pacientes, de quirófano, ATAP)",
+      "definition": "Profesionales de nivel medio de enfermería y partería (Asistentes de pacientes, de quirófano, ATAP)"
+    },
+    {
+      "code": "3221",
+      "display": "Profesionales de nivel medio de enfermería y partería (Auxiliares de Enfermería)",
+      "definition": "Profesionales de nivel medio de enfermería y partería (Auxiliares de Enfermería)"
+    },
+    {
+      "code": "3230",
+      "display": "Profesionales de nivel medio de medicina tradicional y alternativa (técnicos y asistentes)",
+      "definition": "Profesionales de nivel medio de medicina tradicional y alternativa (técnicos y asistentes)"
+    },
+    {
+      "code": "3314",
+      "display": "Profesionales de nivel medio de servicios estadísticos, matemáticos y afines",
+      "definition": "Profesionales de nivel medio de servicios estadísticos, matemáticos y afines"
+    },
+    {
+      "code": "3411",
+      "display": "Profesionales de nivel medio del derecho y servicios legales y afines (técnicos, asistentes legales)",
+      "definition": "Profesionales de nivel medio del derecho y servicios legales y afines (técnicos, asistentes legales)"
+    },
+    {
+      "code": "2222",
+      "display": "Profesionales de partería (Profesionales de Enfermería especialistas en Ginecoobstetricia)",
+      "definition": "Profesionales de partería (Profesionales de Enfermería especialistas en Ginecoobstetricia)"
+    },
+    {
+      "code": "2432",
+      "display": "Profesionales de relaciones públicas",
+      "definition": "Profesionales de relaciones públicas"
+    },
+    {
+      "code": "2434",
+      "display": "Profesionales de ventas de tecnología de la información y las comunicaciones",
+      "definition": "Profesionales de ventas de tecnología de la información y las comunicaciones"
+    },
+    {
+      "code": "2433",
+      "display": "Profesionales de ventas técnicas y médicas (excluyendo la TIC)",
+      "definition": "Profesionales de ventas técnicas y médicas (excluyendo la TIC)"
+    },
+    {
+      "code": "2635",
+      "display": "Profesionales del trabajo social",
+      "definition": "Profesionales del trabajo social"
+    },
+    {
+      "code": "2619",
+      "display": "Profesionales en derecho no clasificados bajo otros epígrafes",
+      "definition": "Profesionales en derecho no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "2523",
+      "display": "Profesionales en redes de computadores",
+      "definition": "Profesionales en redes de computadores"
+    },
+    {
+      "code": "2636",
+      "display": "Profesionales religiosos",
+      "definition": "Profesionales religiosos"
+    },
+    {
+      "code": "2320",
+      "display": "Profesores de formación profesional",
+      "definition": "Profesores de formación profesional"
+    },
+    {
+      "code": "2310",
+      "display": "Profesores de universidades y de la enseñanza superior",
+      "definition": "Profesores de universidades y de la enseñanza superior"
+    },
+    {
+      "code": "2514",
+      "display": "Programadores de aplicaciones",
+      "definition": "Programadores de aplicaciones"
+    },
+    {
+      "code": "2268",
+      "display": "Psicología Clínica",
+      "definition": "Psicología Clínica"
+    },
+    {
+      "code": "2634",
+      "display": "Psicólogos (excluye Psicología Clínica)",
+      "definition": "Psicólogos (excluye Psicología Clínica)"
+    },
+    {
+      "code": "2637",
+      "display": "Psicopedagogía",
+      "definition": "Psicopedagogía"
+    },
+    {
+      "code": "2113",
+      "display": "Químicos",
+      "definition": "Químicos"
+    },
+    {
+      "code": "4226",
+      "display": "Recepcionistas (general)",
+      "definition": "Recepcionistas (general)"
+    },
+    {
+      "code": "9611",
+      "display": "Recolectores de basura y material reciclable",
+      "definition": "Recolectores de basura y material reciclable"
+    },
+    {
+      "code": "3322",
+      "display": "Representantes comerciales",
+      "definition": "Representantes comerciales"
+    },
+    {
+      "code": "3343",
+      "display": "Secretarios administrativos y ejecutivos",
+      "definition": "Secretarios administrativos y ejecutivos"
+    },
+    {
+      "code": "4120",
+      "display": "Secretarios (general)",
+      "definition": "Secretarios (general)"
+    },
+    {
+      "code": "3342",
+      "display": "Secretarios jurídicos",
+      "definition": "Secretarios jurídicos"
+    },
+    {
+      "code": "3344",
+      "display": "Secretarios médicos",
+      "definition": "Secretarios médicos"
+    },
+    {
+      "code": "2632",
+      "display": "Sociólogos, antropólogos y afines",
+      "definition": "Sociólogos, antropólogos y afines"
+    },
+    {
+      "code": "3122",
+      "display": "Supervisores de industrias manufactureras",
+      "definition": "Supervisores de industrias manufactureras"
+    },
+    {
+      "code": "3123",
+      "display": "Supervisores de la construcción",
+      "definition": "Supervisores de la construcción"
+    },
+    {
+      "code": "5151",
+      "display": "Supervisores de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos",
+      "definition": "Supervisores de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos"
+    },
+    {
+      "code": "3341",
+      "display": "Supervisores de secretaría",
+      "definition": "Supervisores de secretaría"
+    },
+    {
+      "code": "3315",
+      "display": "Tasadores",
+      "definition": "Tasadores"
+    },
+    {
+      "code": "3522",
+      "display": "Técnicos de ingeniería de las telecomunicaciones",
+      "definition": "Técnicos de ingeniería de las telecomunicaciones"
+    },
+    {
+      "code": "3514",
+      "display": "Técnicos de la Web",
+      "definition": "Técnicos de la Web"
+    },
+    {
+      "code": "3212",
+      "display": "Técnicos de laboratorios médicos",
+      "definition": "Técnicos de laboratorios médicos"
+    },
+    {
+      "code": "3214",
+      "display": "Técnicos de prótesis médicas y dentales",
+      "definition": "Técnicos de prótesis médicas y dentales"
+    },
+    {
+      "code": "3521",
+      "display": "Técnicos de radiodifusión y grabación audio visual",
+      "definition": "Técnicos de radiodifusión y grabación audio visual"
+    },
+    {
+      "code": "3211",
+      "display": "Técnicos en aparatos de diagnóstico y tratamiento médico",
+      "definition": "Técnicos en aparatos de diagnóstico y tratamiento médico"
+    },
+    {
+      "code": "3512",
+      "display": "Técnicos en asistencia al usuario de tecnología de la información y las comunicaciones",
+      "definition": "Técnicos en asistencia al usuario de tecnología de la información y las comunicaciones"
+    },
+    {
+      "code": "3141",
+      "display": "Técnicos en ciencias biológicas (excluyendo las ciencias de la salud)",
+      "definition": "Técnicos en ciencias biológicas (excluyendo las ciencias de la salud)"
+    },
+    {
+      "code": "3119",
+      "display": "Técnicos en ciencias físicas y en ingeniería no clasificados bajo otros epígrafes",
+      "definition": "Técnicos en ciencias físicas y en ingeniería no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "3111",
+      "display": "Técnicos en ciencias físicas y químicas",
+      "definition": "Técnicos en ciencias físicas y químicas"
+    },
+    {
+      "code": "3139",
+      "display": "Técnicos en control de procesos no clasificados bajo otros epígrafes",
+      "definition": "Técnicos en control de procesos no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "3252",
+      "display": "Técnicos en documentación sanitaria (Registros Médicos)",
+      "definition": "Técnicos en documentación sanitaria (Registros Médicos)"
+    },
+    {
+      "code": "3114",
+      "display": "Técnicos en electrónica",
+      "definition": "Técnicos en electrónica"
+    },
+    {
+      "code": "3112",
+      "display": "Técnicos en ingeniería civil",
+      "definition": "Técnicos en ingeniería civil"
+    },
+    {
+      "code": "3115",
+      "display": "Técnicos en ingeniería mecánica",
+      "definition": "Técnicos en ingeniería mecánica"
+    },
+    {
+      "code": "3511",
+      "display": "Técnicos en operaciones de tecnología de la información y las comunicaciones",
+      "definition": "Técnicos en operaciones de tecnología de la información y las comunicaciones"
+    },
+    {
+      "code": "3254",
+      "display": "Técnicos en optometría y ópticos",
+      "definition": "Técnicos en optometría y ópticos"
+    },
+    {
+      "code": "3116",
+      "display": "Técnicos en química industrial",
+      "definition": "Técnicos en química industrial"
+    },
+    {
+      "code": "3513",
+      "display": "Técnicos en redes y sistemas de computadores",
+      "definition": "Técnicos en redes y sistemas de computadores"
+    },
+    {
+      "code": "3143",
+      "display": "Técnicos forestales",
+      "definition": "Técnicos forestales"
+    },
+    {
+      "code": "3213",
+      "display": "Técnicos y asistentes farmacéuticos",
+      "definition": "Técnicos y asistentes farmacéuticos"
+    },
+    {
+      "code": "3255",
+      "display": "Técnicos y asistentes fisioterapeutas",
+      "definition": "Técnicos y asistentes fisioterapeutas"
+    },
+    {
+      "code": "3240",
+      "display": "Técnicos y asistentes veterinarios",
+      "definition": "Técnicos y asistentes veterinarios"
+    },
+    {
+      "code": "4223",
+      "display": "Telefonistas",
+      "definition": "Telefonistas"
+    },
+    {
+      "code": "3313",
+      "display": "Tenedores de libros",
+      "definition": "Tenedores de libros"
+    },
+    {
+      "code": "3253",
+      "display": "Trabajadores comunitarios de la salud",
+      "definition": "Trabajadores comunitarios de la salud"
+    },
+    {
+      "code": "5322",
+      "display": "Trabajadores de los cuidados personales a domicilio",
+      "definition": "Trabajadores de los cuidados personales a domicilio"
+    },
+    {
+      "code": "5321",
+      "display": "Trabajadores de los cuidados personales en instituciones (cuidadores en HLE, centros diurnos, centros de adicciones, etc.)",
+      "definition": "Trabajadores de los cuidados personales en instituciones (cuidadores en HLE, centros diurnos, centros de adicciones, etc.)"
+    },
+    {
+      "code": "5329",
+      "display": "Trabajadores de los cuidados personales en servicios de salud no clasificados bajo otros epígrafes",
+      "definition": "Trabajadores de los cuidados personales en servicios de salud no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "5169",
+      "display": "Trabajadores de servicios personales no clasificados bajo otros epígrafes",
+      "definition": "Trabajadores de servicios personales no clasificados bajo otros epígrafes"
+    },
+    {
+      "code": "3412",
+      "display": "Trabajadores y asistentes sociales de nivel medio",
+      "definition": "Trabajadores y asistentes sociales de nivel medio"
+    },
+    {
+      "code": "2643",
+      "display": "Traductores, intérpretes y lingüistas",
+      "definition": "Traductores, intérpretes y lingüistas"
+    },
+    {
+      "code": "2250",
+      "display": "Veterinarios",
+      "definition": "Veterinarios"
+    }
+  ],
+  "language": "es",
+  "version": "0.1.1",
+  "experimental": false,
+  "caseSensitive": true,
+  "compositional": false,
+  "versionNeeded": true,
+  "publisher": "HL7 Costa Rica",
+  "contact": [
+    {
+      "name": "HL7 Costa Rica",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@hl7.or.cr"
+        }
+      ]
+    }
+  ],
+  "date": "2025-03-03",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CR",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Costa Rica"
+        }
+      ]
+    }
+  ],
+  "copyright": "Usado con el permiso de HL7 International, todos los derechos reservados en los Licencias de HL7 Internacional.",
+  "count": 218
+}

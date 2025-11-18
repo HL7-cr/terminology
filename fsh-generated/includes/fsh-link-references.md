@@ -1,0 +1,10 @@
+[CityCode]: CodeSystem-city-code.html
+[DistrictCode]: CodeSystem-district-code.html
+[SpecialityCode]: CodeSystem-speciality-code.html
+[PractitionerCode]: CodeSystem-practice-code.html
+[IdentifierType]: CodeSystem-identifier-type.html
+[OrganizationIdentifierTypeCodeSystem]: CodeSystem-organization-identifier-type.html
+[StateCode]: CodeSystem-state-code.html
+[PractitionerRoleCode]: CodeSystem-practitioner-role-code.html
+[OrganizationType]: CodeSystem-organization-type-code.html
+[VaccineAdministeredCodeSet]: CodeSystem-vaccine-administered-code-set.html

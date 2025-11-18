@@ -1,0 +1,11 @@
+Output File                                    Name                                  Type        FSH File                                      Lines
+CodeSystem-city-code.json                      CityCode                              CodeSystem  codeSystem/city-code.fsh                      16 - 118
+CodeSystem-district-code.json                  DistrictCode                          CodeSystem  codeSystem/district-code.fsh                  16 - 682
+CodeSystem-identifier-type.json                IdentifierType                        CodeSystem  codeSystem/identifier-type.fsh                15 - 24
+CodeSystem-organization-identifier-type.json   OrganizationIdentifierTypeCodeSystem  CodeSystem  codeSystem/organization-identifier-type.fsh   17 - 25
+CodeSystem-organization-type-code.json         OrganizationType                      CodeSystem  codeSystem/organization-type.fsh              17 - 76
+CodeSystem-practice-code.json                  PractitionerCode                      CodeSystem  codeSystem/practice-code.fsh                  16 - 771
+CodeSystem-practitioner-role-code.json         PractitionerRoleCode                  CodeSystem  codeSystem/practitioner-role-code.fsh         16 - 240
+CodeSystem-speciality-code.json                SpecialityCode                        CodeSystem  codeSystem/speciality-code.fsh                17 - 1519
+CodeSystem-state-code.json                     StateCode                             CodeSystem  codeSystem/state-code.fsh                     16 - 32
+CodeSystem-vaccine-administered-code-set.json  VaccineAdministeredCodeSet            CodeSystem  codeSystem/vaccine-administered-code-set.fsh  16 - 64

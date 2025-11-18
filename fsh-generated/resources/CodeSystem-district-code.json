@@ -1,0 +1,2518 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "DistrictCode",
+  "id": "district-code",
+  "title": "Distritos de Costa Rica",
+  "description": "Código de distrito en formato Zip Code",
+  "url": "https://hl7.or.cr/fhir/ig/terminology/CodeSystem/district-code",
+  "concept": [
+    {
+      "code": "10101",
+      "display": "Carmen",
+      "definition": "Distrito de Carmen"
+    },
+    {
+      "code": "10102",
+      "display": "Merced",
+      "definition": "Distrito de Merced"
+    },
+    {
+      "code": "10103",
+      "display": "Hospital",
+      "definition": "Distrito de Hospital"
+    },
+    {
+      "code": "10104",
+      "display": "Catedral",
+      "definition": "Distrito de Catedral"
+    },
+    {
+      "code": "10105",
+      "display": "Zapote",
+      "definition": "Distrito de Zapote"
+    },
+    {
+      "code": "10106",
+      "display": "San Francisco de Dos Ríos",
+      "definition": "Distrito de San Francisco de Dos Ríos"
+    },
+    {
+      "code": "10107",
+      "display": "Uruca",
+      "definition": "Distrito de Uruca"
+    },
+    {
+      "code": "10108",
+      "display": "Mata Redonda",
+      "definition": "Distrito de Mata Redonda"
+    },
+    {
+      "code": "10109",
+      "display": "Pavas",
+      "definition": "Distrito de Pavas"
+    },
+    {
+      "code": "10110",
+      "display": "Hatillo",
+      "definition": "Distrito de Hatillo"
+    },
+    {
+      "code": "10111",
+      "display": "San Sebastián",
+      "definition": "Distrito de San Sebastián"
+    },
+    {
+      "code": "10201",
+      "display": "Escazú",
+      "definition": "Distrito de Escazú"
+    },
+    {
+      "code": "10202",
+      "display": "San Antonio",
+      "definition": "Distrito de San Antonio"
+    },
+    {
+      "code": "10203",
+      "display": "San Rafael",
+      "definition": "Distrito de San Rafael"
+    },
+    {
+      "code": "10301",
+      "display": "Desamparados",
+      "definition": "Distrito de Desamparados"
+    },
+    {
+      "code": "10302",
+      "display": "San Miguel",
+      "definition": "Distrito de San Miguel"
+    },
+    {
+      "code": "10303",
+      "display": "San Juan de Dios",
+      "definition": "Distrito de San Juan de Dios"
+    },
+    {
+      "code": "10304",
+      "display": "San Rafael Arriba",
+      "definition": "Distrito de San Rafael Arriba"
+    },
+    {
+      "code": "10305",
+      "display": "San Antonio",
+      "definition": "Distrito de San Antonio"
+    },
+    {
+      "code": "10306",
+      "display": "Frailes",
+      "definition": "Distrito de Frailes"
+    },
+    {
+      "code": "10307",
+      "display": "Patarrá",
+      "definition": "Distrito de Patarrá"
+    },
+    {
+      "code": "10308",
+      "display": "San Cristóbal",
+      "definition": "Distrito de San Cristóbal"
+    },
+    {
+      "code": "10309",
+      "display": "Rosario",
+      "definition": "Distrito de Rosario"
+    },
+    {
+      "code": "10310",
+      "display": "Damas",
+      "definition": "Distrito de Damas"
+    },
+    {
+      "code": "10311",
+      "display": "San Rafael Abajo",
+      "definition": "Distrito de San Rafael Abajo"
+    },
+    {
+      "code": "10312",
+      "display": "Gravilias",
+      "definition": "Distrito de Gravilias"
+    },
+    {
+      "code": "10313",
+      "display": "Los Guido",
+      "definition": "Distrito de Los Guido"
+    },
+    {
+      "code": "10401",
+      "display": "Santiago",
+      "definition": "Distrito de Santiago"
+    },
+    {
+      "code": "10402",
+      "display": "Mercedes Sur",
+      "definition": "Distrito de Mercedes Sur"
+    },
+    {
+      "code": "10403",
+      "display": "Barbacoas",
+      "definition": "Distrito de Barbacoas"
+    },
+    {
+      "code": "10404",
+      "display": "Grifo Alto",
+      "definition": "Distrito de Grifo Alto"
+    },
+    {
+      "code": "10405",
+      "display": "San Rafael",
+      "definition": "Distrito de San Rafael"
+    },
+    {
+      "code": "10406",
+      "display": "Candelarita",
+      "definition": "Distrito de Candelarita"
+    },
+    {
+      "code": "10407",
+      "display": "Desamparaditos",
+      "definition": "Distrito de Desamparaditos"
+    },
+    {
+      "code": "10408",
+      "display": "San Antonio",
+      "definition": "Distrito de San Antonio"
+    },
+    {
+      "code": "10409",
+      "display": "Chires",
+      "definition": "Chires"
+    },
+    {
+      "code": "10501",
+      "display": "San Marcos",
+      "definition": "Distrito de San Marcos"
+    },
+    {
+      "code": "10502",
+      "display": "San Lorenzo",
+      "definition": "Distrito de San Lorenzo"
+    },
+    {
+      "code": "10503",
+      "display": "San Carlos",
+      "definition": "Distrito de San Carlos"
+    },
+    {
+      "code": "10601",
+      "display": "Aserrí",
+      "definition": "Distrito de Aserrí"
+    },
+    {
+      "code": "10602",
+      "display": "Tarbaca",
+      "definition": "Distrito de Tarbaca"
+    },
+    {
+      "code": "10603",
+      "display": "Vuelta de Jorco",
+      "definition": "Distrito de Vuelta de Jorco"
+    },
+    {
+      "code": "10604",
+      "display": "San Gabriel",
+      "definition": "Distrito de San Gabriel"
+    },
+    {
+      "code": "10605",
+      "display": "Legua",
+      "definition": "Distrito de Legua"
+    },
+    {
+      "code": "10606",
+      "display": "Monterrey",
+      "definition": "Distrito de Monterrey"
+    },
+    {
+      "code": "10607",
+      "display": "Salitrillos",
+      "definition": "Distrito de Salitrillos"
+    },
+    {
+      "code": "10701",
+      "display": "Ciudad Colón",
+      "definition": "Distrito de Ciudad Colón"
+    },
+    {
+      "code": "10702",
+      "display": "Guayabo",
+      "definition": "Distrito de Guayabo"
+    },
+    {
+      "code": "10703",
+      "display": "Tabarcia",
+      "definition": "Distrito de Tabarcia"
+    },
+    {
+      "code": "10704",
+      "display": "Piedras Negras",
+      "definition": "Distrito de Piedras Negras"
+    },
+    {
+      "code": "10705",
+      "display": "Picagres",
+      "definition": "Distrito de Picagres"
+    },
+    {
+      "code": "10706",
+      "display": "Jaris",
+      "definition": "Distrito de Jaris"
+    },
+    {
+      "code": "10707",
+      "display": "Quitirrisí",
+      "definition": "Distrito de Quitirrisí"
+    },
+    {
+      "code": "10801",
+      "display": "Goicoechea",
+      "definition": "Distrito de Goicoechea"
+    },
+    {
+      "code": "10802",
+      "display": "San Francisco",
+      "definition": "Distrito de San Francisco"
+    },
+    {
+      "code": "10803",
+      "display": "Calle Blancos",
+      "definition": "Distrito de Calle Blancos"
+    },
+    {
+      "code": "10804",
+      "display": "Mata de Plátano",
+      "definition": "Distrito de Mata de Plátano"
+    },
+    {
+      "code": "10805",
+      "display": "Ipís",
+      "definition": "Distrito de Ipís"
+    },
+    {
+      "code": "10806",
+      "display": "Rancho Redondo",
+      "definition": "Distrito de Rancho Redondo"
+    },
+    {
+      "code": "10807",
+      "display": "Purral",
+      "definition": "Distrito de Purral"
+    },
+    {
+      "code": "10901",
+      "display": "Santa Ana",
+      "definition": "Distrito de Santa Ana"
+    },
+    {
+      "code": "10902",
+      "display": "Salitral",
+      "definition": "Distrito de Salitral"
+    },
+    {
+      "code": "10903",
+      "display": "Pozos",
+      "definition": "Distrito de Pozos"
+    },
+    {
+      "code": "10904",
+      "display": "Uruca",
+      "definition": "Distrito de Uruca"
+    },
+    {
+      "code": "10905",
+      "display": "Piedades",
+      "definition": "Distrito de Piedades"
+    },
+    {
+      "code": "10906",
+      "display": "Brasil",
+      "definition": "Distrito de Brasil"
+    },
+    {
+      "code": "11001",
+      "display": "Alajuelita",
+      "definition": "Distrito de Alajuelita"
+    },
+    {
+      "code": "11002",
+      "display": "San Josecito",
+      "definition": "Distrito de San Josecito"
+    },
+    {
+      "code": "11003",
+      "display": "San Antonio",
+      "definition": "Distrito de San Antonio"
+    },
+    {
+      "code": "11004",
+      "display": "Concepción",
+      "definition": "Distrito de Concepción"
+    },
+    {
+      "code": "11005",
+      "display": "San Felipe",
+      "definition": "Distrito de San Felipe"
+    },
+    {
+      "code": "11101",
+      "display": "San Isidro",
+      "definition": "Distrito de San Isidro"
+    },
+    {
+      "code": "11102",
+      "display": "San Rafael",
+      "definition": "Distrito de San Rafael"
+    },
+    {
+      "code": "11103",
+      "display": "Dulce Nombre de Jesús",
+      "definition": "Distrito de Dulce Nombre de Jesús"
+    },
+    {
+      "code": "11104",
+      "display": "Patalillo",
+      "definition": "Distrito de Patalillo"
+    },
+    {
+      "code": "11105",
+      "display": "Cascajal",
+      "definition": "Distrito de Cascajal"
+    },
+    {
+      "code": "11201",
+      "display": "San Ignacio",
+      "definition": "Distrito de San Ignacio"
+    },
+    {
+      "code": "11202",
+      "display": "Guaitil",
+      "definition": "Distrito de Guaitil"
+    },
+    {
+      "code": "11203",
+      "display": "Palmichal",
+      "definition": "Distrito de Palmichal"
+    },
+    {
+      "code": "11204",
+      "display": "Cangrejal",
+      "definition": "Distrito de Cangrejal"
+    },
+    {
+      "code": "11205",
+      "display": "Sabanillas",
+      "definition": "Distrito de Sabanillas"
+    },
+    {
+      "code": "11301",
+      "display": "San Juan",
+      "definition": "Distrito de San Juan"
+    },
+    {
+      "code": "11302",
+      "display": "Cinco Esquinas",
+      "definition": "Distrito de Cinco Esquinas"
+    },
+    {
+      "code": "11303",
+      "display": "Anselmo Llorente",
+      "definition": "Distrito de Anselmo Llorente"
+    },
+    {
+      "code": "11304",
+      "display": "León XIII",
+      "definition": "Distrito de León XIII"
+    },
+    {
+      "code": "11305",
+      "display": "Colima",
+      "definition": "Distrito de Colima"
+    },
+    {
+      "code": "11401",
+      "display": "San Vicente",
+      "definition": "Distrito de San Vicente"
+    },
+    {
+      "code": "11402",
+      "display": "San Jerónimo",
+      "definition": "Distrito de San Jerónimo"
+    },
+    {
+      "code": "11403",
+      "display": "La Trinidad",
+      "definition": "Distrito de La Trinidad"
+    },
+    {
+      "code": "11501",
+      "display": "San Pedro",
+      "definition": "Distrito de San Pedro"
+    },
+    {
+      "code": "11502",
+      "display": "Sabanilla",
+      "definition": "Distrito de Sabanilla"
+    },
+    {
+      "code": "11503",
+      "display": "Mercedes",
+      "definition": "Distrito de Mercedes"
+    },
+    {
+      "code": "11504",
+      "display": "San Rafael",
+      "definition": "Distrito de San Rafael"
+    },
+    {
+      "code": "11601",
+      "display": "San Pablo",
+      "definition": "San Pablo"
+    },
+    {
+      "code": "11602",
+      "display": "San Pedro",
+      "definition": "San Pedro"
+    },
+    {
+      "code": "11603",
+      "display": "San Juan de Mata",
+      "definition": "San Juan de Mata"
+    },
+    {
+      "code": "11604",
+      "display": "San Luis",
+      "definition": "San Luis"
+    },
+    {
+      "code": "11605",
+      "display": "Carara",
+      "definition": "Carara"
+    },
+    {
+      "code": "11701",
+      "display": "Santa María",
+      "definition": "Santa María"
+    },
+    {
+      "code": "11702",
+      "display": "Jardín",
+      "definition": "Jardín"
+    },
+    {
+      "code": "11703",
+      "display": "Copey",
+      "definition": "Copey"
+    },
+    {
+      "code": "11801",
+      "display": "Curridabat",
+      "definition": "Curridabat"
+    },
+    {
+      "code": "11802",
+      "display": "Granadilla",
+      "definition": "Granadilla"
+    },
+    {
+      "code": "11803",
+      "display": "Sánchez",
+      "definition": "Sánchez"
+    },
+    {
+      "code": "11804",
+      "display": "Tirrases",
+      "definition": "Tirrases"
+    },
+    {
+      "code": "11901",
+      "display": "San Isidro de El General",
+      "definition": "San Isidro de El General"
+    },
+    {
+      "code": "11902",
+      "display": "El General",
+      "definition": "El General"
+    },
+    {
+      "code": "11903",
+      "display": "Daniel Flores",
+      "definition": "Daniel Flores"
+    },
+    {
+      "code": "11904",
+      "display": "Rivas",
+      "definition": "Rivas"
+    },
+    {
+      "code": "11905",
+      "display": "San Pedro",
+      "definition": "San Pedro"
+    },
+    {
+      "code": "11906",
+      "display": "Platanares",
+      "definition": "Platanares"
+    },
+    {
+      "code": "11907",
+      "display": "Pejibaye",
+      "definition": "Pejibaye"
+    },
+    {
+      "code": "11908",
+      "display": "Cajón",
+      "definition": "Cajón"
+    },
+    {
+      "code": "11909",
+      "display": "Barú",
+      "definition": "Barú"
+    },
+    {
+      "code": "11910",
+      "display": "Río Nuevo",
+      "definition": "Río Nuevo"
+    },
+    {
+      "code": "11911",
+      "display": "Páramo",
+      "definition": "Páramo"
+    },
+    {
+      "code": "11912",
+      "display": "La Amistad",
+      "definition": "La Amistad"
+    },
+    {
+      "code": "12001",
+      "display": "San Pablo",
+      "definition": "San Pablo"
+    },
+    {
+      "code": "12002",
+      "display": "San Andrés",
+      "definition": "San Andrés"
+    },
+    {
+      "code": "12003",
+      "display": "Llano Bonito",
+      "definition": "Llano Bonito"
+    },
+    {
+      "code": "12004",
+      "display": "San Isidro",
+      "definition": "San Isidro"
+    },
+    {
+      "code": "12005",
+      "display": "Santa Cruz",
+      "definition": "Santa Cruz"
+    },
+    {
+      "code": "12006",
+      "display": "San Antonio",
+      "definition": "San Antonio"
+    },
+    {
+      "code": "20101",
+      "display": "Alajuela",
+      "definition": "Alajuela"
+    },
+    {
+      "code": "20102",
+      "display": "San José",
+      "definition": "San José"
+    },
+    {
+      "code": "20103",
+      "display": "Carrizal",
+      "definition": "Carrizal"
+    },
+    {
+      "code": "20104",
+      "display": "San Antonio",
+      "definition": "San Antonio"
+    },
+    {
+      "code": "20105",
+      "display": "Guácima",
+      "definition": "Guácima"
+    },
+    {
+      "code": "20106",
+      "display": "San Isidro",
+      "definition": "San Isidro"
+    },
+    {
+      "code": "20107",
+      "display": "Sabanilla",
+      "definition": "Sabanilla"
+    },
+    {
+      "code": "20108",
+      "display": "San Rafael",
+      "definition": "San Rafael"
+    },
+    {
+      "code": "20109",
+      "display": "Río Segundo",
+      "definition": "Río Segundo"
+    },
+    {
+      "code": "20110",
+      "display": "Desamparados",
+      "definition": "Desamparados"
+    },
+    {
+      "code": "20111",
+      "display": "Turrúcares",
+      "definition": "Turrúcares"
+    },
+    {
+      "code": "20112",
+      "display": "Tambor",
+      "definition": "Tambor"
+    },
+    {
+      "code": "20113",
+      "display": "Garita",
+      "definition": "Garita"
+    },
+    {
+      "code": "20114",
+      "display": "Sarapiquí",
+      "definition": "Sarapiquí"
+    },
+    {
+      "code": "20201",
+      "display": "San Ramón",
+      "definition": "San Ramón"
+    },
+    {
+      "code": "20202",
+      "display": "Santiago",
+      "definition": "Santiago"
+    },
+    {
+      "code": "20203",
+      "display": "San Juan",
+      "definition": "San Juan"
+    },
+    {
+      "code": "20204",
+      "display": "Piedades Norte",
+      "definition": "Piedades Norte"
+    },
+    {
+      "code": "20205",
+      "display": "Piedades Sur",
+      "definition": "Piedades Sur"
+    },
+    {
+      "code": "20206",
+      "display": "San Rafael",
+      "definition": "San Rafael"
+    },
+    {
+      "code": "20207",
+      "display": "San Isidro",
+      "definition": "San Isidro"
+    },
+    {
+      "code": "20208",
+      "display": "Ángeles",
+      "definition": "Ángeles"
+    },
+    {
+      "code": "20209",
+      "display": "Alfaro",
+      "definition": "Alfaro"
+    },
+    {
+      "code": "20210",
+      "display": "Volio",
+      "definition": "Volio"
+    },
+    {
+      "code": "20211",
+      "display": "Concepción",
+      "definition": "Concepción"
+    },
+    {
+      "code": "20212",
+      "display": "Zapotal",
+      "definition": "Zapotal"
+    },
+    {
+      "code": "20213",
+      "display": "Peñas Blancas",
+      "definition": "Peñas Blancas"
+    },
+    {
+      "code": "20214",
+      "display": "San Lorenzo",
+      "definition": "San Lorenzo"
+    },
+    {
+      "code": "20301",
+      "display": "Grecia",
+      "definition": "Grecia"
+    },
+    {
+      "code": "20302",
+      "display": "San Isidro",
+      "definition": "San Isidro"
+    },
+    {
+      "code": "20303",
+      "display": "San José",
+      "definition": "San José"
+    },
+    {
+      "code": "20304",
+      "display": "San Roque",
+      "definition": "San Roque"
+    },
+    {
+      "code": "20305",
+      "display": "Tacares",
+      "definition": "Tacares"
+    },
+    {
+      "code": "20307",
+      "display": "Puente de Piedra",
+      "definition": "Puente de Piedra"
+    },
+    {
+      "code": "20308",
+      "display": "Bolívar",
+      "definition": "Bolívar"
+    },
+    {
+      "code": "20401",
+      "display": "San Mateo",
+      "definition": "San Mateo"
+    },
+    {
+      "code": "20402",
+      "display": "Desmonte",
+      "definition": "Desmonte"
+    },
+    {
+      "code": "20403",
+      "display": "Jesús María",
+      "definition": "Jesús María"
+    },
+    {
+      "code": "20404",
+      "display": "Labrador",
+      "definition": "Labrador"
+    },
+    {
+      "code": "20501",
+      "display": "Atenas",
+      "definition": "Atenas"
+    },
+    {
+      "code": "20502",
+      "display": "Jesús",
+      "definition": "Jesús"
+    },
+    {
+      "code": "20503",
+      "display": "Mercedes",
+      "definition": "Mercedes"
+    },
+    {
+      "code": "20504",
+      "display": "San Isidro",
+      "definition": "San Isidro"
+    },
+    {
+      "code": "20505",
+      "display": "Concepción",
+      "definition": "Concepción"
+    },
+    {
+      "code": "20506",
+      "display": "San José",
+      "definition": "San José"
+    },
+    {
+      "code": "20507",
+      "display": "Santa Eulalia",
+      "definition": "Santa Eulalia"
+    },
+    {
+      "code": "20508",
+      "display": "Escobal",
+      "definition": "Escobal"
+    },
+    {
+      "code": "20601",
+      "display": "Naranjo",
+      "definition": "Naranjo"
+    },
+    {
+      "code": "20602",
+      "display": "San Miguel",
+      "definition": "San Miguel"
+    },
+    {
+      "code": "20603",
+      "display": "San José",
+      "definition": "San José"
+    },
+    {
+      "code": "20604",
+      "display": "Cirrí Sur",
+      "definition": "Cirrí Sur"
+    },
+    {
+      "code": "20605",
+      "display": "San Jerónimo",
+      "definition": "San Jerónimo"
+    },
+    {
+      "code": "20606",
+      "display": "San Juan",
+      "definition": "San Juan"
+    },
+    {
+      "code": "20607",
+      "display": "El Rosario",
+      "definition": "El Rosario"
+    },
+    {
+      "code": "20608",
+      "display": "Palmitos",
+      "definition": "Palmitos"
+    },
+    {
+      "code": "20701",
+      "display": "Palmares",
+      "definition": "Palmares"
+    },
+    {
+      "code": "20702",
+      "display": "Zaragoza",
+      "definition": "Zaragoza"
+    },
+    {
+      "code": "20703",
+      "display": "Buenos Aires",
+      "definition": "Buenos Aires"
+    },
+    {
+      "code": "20704",
+      "display": "Santiago",
+      "definition": "Santiago"
+    },
+    {
+      "code": "20705",
+      "display": "Candelaria",
+      "definition": "Candelaria"
+    },
+    {
+      "code": "20706",
+      "display": "Esquipulas",
+      "definition": "Esquipulas"
+    },
+    {
+      "code": "20707",
+      "display": "La Granja",
+      "definition": "La Granja"
+    },
+    {
+      "code": "20801",
+      "display": "San Pedro",
+      "definition": "San Pedro"
+    },
+    {
+      "code": "20802",
+      "display": "San Juan",
+      "definition": "San Juan"
+    },
+    {
+      "code": "20803",
+      "display": "San Rafael",
+      "definition": "San Rafael"
+    },
+    {
+      "code": "20804",
+      "display": "Carrillos",
+      "definition": "Carrillos"
+    },
+    {
+      "code": "20805",
+      "display": "Sabana Redonda",
+      "definition": "Sabana Redonda"
+    },
+    {
+      "code": "20901",
+      "display": "Orotina",
+      "definition": "Orotina"
+    },
+    {
+      "code": "20902",
+      "display": "Mastate",
+      "definition": "Mastate"
+    },
+    {
+      "code": "20903",
+      "display": "Hacienda Vieja",
+      "definition": "Hacienda Vieja"
+    },
+    {
+      "code": "20904",
+      "display": "Coyolar",
+      "definition": "Coyolar"
+    },
+    {
+      "code": "20905",
+      "display": "La Ceiba",
+      "definition": "La Ceiba"
+    },
+    {
+      "code": "21001",
+      "display": "Quesada",
+      "definition": "Quesada"
+    },
+    {
+      "code": "21002",
+      "display": "Florencia",
+      "definition": "Florencia"
+    },
+    {
+      "code": "21003",
+      "display": "Buenavista",
+      "definition": "Buenavista"
+    },
+    {
+      "code": "21004",
+      "display": "Aguas Zarcas",
+      "definition": "Aguas Zarcas"
+    },
+    {
+      "code": "21005",
+      "display": "Venecia",
+      "definition": "Venecia"
+    },
+    {
+      "code": "21006",
+      "display": "Pital",
+      "definition": "Pital"
+    },
+    {
+      "code": "21007",
+      "display": "La Fortuna",
+      "definition": "La Fortuna"
+    },
+    {
+      "code": "21008",
+      "display": "La Tigra",
+      "definition": "La Tigra"
+    },
+    {
+      "code": "21009",
+      "display": "La Palmera",
+      "definition": "La Palmera"
+    },
+    {
+      "code": "21010",
+      "display": "Venado",
+      "definition": "Venado"
+    },
+    {
+      "code": "21011",
+      "display": "Cutris",
+      "definition": "Cutris"
+    },
+    {
+      "code": "21012",
+      "display": "Monterrey",
+      "definition": "Monterrey"
+    },
+    {
+      "code": "21013",
+      "display": "Pocosol",
+      "definition": "Pocosol"
+    },
+    {
+      "code": "21101",
+      "display": "Zarcero",
+      "definition": "Zarcero"
+    },
+    {
+      "code": "21102",
+      "display": "Laguna",
+      "definition": "Laguna"
+    },
+    {
+      "code": "21103",
+      "display": "Tapezco",
+      "definition": "Tapezco"
+    },
+    {
+      "code": "21104",
+      "display": "Guadalupe",
+      "definition": "Guadalupe"
+    },
+    {
+      "code": "21105",
+      "display": "Palmira",
+      "definition": "Palmira"
+    },
+    {
+      "code": "21106",
+      "display": "Zapote",
+      "definition": "Zapote"
+    },
+    {
+      "code": "21107",
+      "display": "Brisas",
+      "definition": "Brisas"
+    },
+    {
+      "code": "21201",
+      "display": "Sarchí Norte",
+      "definition": "Sarchí Norte"
+    },
+    {
+      "code": "21202",
+      "display": "Sarchí Sur",
+      "definition": "Sarchí Sur"
+    },
+    {
+      "code": "21203",
+      "display": "Toro Amarillo",
+      "definition": "Toro Amarillo"
+    },
+    {
+      "code": "21204",
+      "display": "San Pedro",
+      "definition": "San Pedro"
+    },
+    {
+      "code": "21205",
+      "display": "Rodríguez",
+      "definition": "Rodríguez"
+    },
+    {
+      "code": "21301",
+      "display": "Upala",
+      "definition": "Upala"
+    },
+    {
+      "code": "21302",
+      "display": "Aguas Claras",
+      "definition": "Aguas Claras"
+    },
+    {
+      "code": "21303",
+      "display": "San José (Pizote)",
+      "definition": "San José (Pizote)"
+    },
+    {
+      "code": "21304",
+      "display": "Bijagua",
+      "definition": "Bijagua"
+    },
+    {
+      "code": "21305",
+      "display": "Delicias",
+      "definition": "Delicias"
+    },
+    {
+      "code": "21306",
+      "display": "Dos Ríos",
+      "definition": "Dos Ríos"
+    },
+    {
+      "code": "21307",
+      "display": "Yolillal",
+      "definition": "Yolillal"
+    },
+    {
+      "code": "21308",
+      "display": "Canalete",
+      "definition": "Canalete"
+    },
+    {
+      "code": "21401",
+      "display": "Los Chiles",
+      "definition": "Los Chiles"
+    },
+    {
+      "code": "21402",
+      "display": "Caño Negro",
+      "definition": "Caño Negro"
+    },
+    {
+      "code": "21403",
+      "display": "El Amparo",
+      "definition": "El Amparo"
+    },
+    {
+      "code": "21404",
+      "display": "San Jorge",
+      "definition": "San Jorge"
+    },
+    {
+      "code": "21501",
+      "display": "San Rafael",
+      "definition": "San Rafael"
+    },
+    {
+      "code": "21502",
+      "display": "Buenavista",
+      "definition": "Buenavista"
+    },
+    {
+      "code": "21503",
+      "display": "Cote",
+      "definition": "Cote"
+    },
+    {
+      "code": "21504",
+      "display": "Katira",
+      "definition": "Katira"
+    },
+    {
+      "code": "21601",
+      "display": "Río Cuarto",
+      "definition": "Río Cuarto"
+    },
+    {
+      "code": "21602",
+      "display": "Santa Rita",
+      "definition": "Santa Rita"
+    },
+    {
+      "code": "21603",
+      "display": "Santa Isabel",
+      "definition": "Santa Isabel"
+    },
+    {
+      "code": "30101",
+      "display": "Cartago",
+      "definition": "Cartago"
+    },
+    {
+      "code": "30102",
+      "display": "Occidental",
+      "definition": "Occidental"
+    },
+    {
+      "code": "30103",
+      "display": "Carmen",
+      "definition": "Carmen"
+    },
+    {
+      "code": "30104",
+      "display": "San Nicolás",
+      "definition": "San Nicolás"
+    },
+    {
+      "code": "30105",
+      "display": "Aguacaliente",
+      "definition": "Aguacaliente"
+    },
+    {
+      "code": "30106",
+      "display": "Guadalupe o Arenilla",
+      "definition": "Guadalupe o Arenilla"
+    },
+    {
+      "code": "30107",
+      "display": "Corralillo",
+      "definition": "Corralillo"
+    },
+    {
+      "code": "30108",
+      "display": "Tierra Blanca",
+      "definition": "Tierra Blanca"
+    },
+    {
+      "code": "30109",
+      "display": "Dulce Nombre",
+      "definition": "Dulce Nombre"
+    },
+    {
+      "code": "30110",
+      "display": "Llano Grande",
+      "definition": "Llano Grande"
+    },
+    {
+      "code": "30111",
+      "display": "Quebradilla",
+      "definition": "Quebradilla"
+    },
+    {
+      "code": "30201",
+      "display": "Paraíso",
+      "definition": "Paraíso"
+    },
+    {
+      "code": "30202",
+      "display": "Santiago",
+      "definition": "Santiago"
+    },
+    {
+      "code": "30203",
+      "display": "Orosi",
+      "definition": "Orosi"
+    },
+    {
+      "code": "30204",
+      "display": "Cachí",
+      "definition": "Cachí"
+    },
+    {
+      "code": "30205",
+      "display": "Llanos de Santa Lucía",
+      "definition": "Llanos de Santa Lucía"
+    },
+    {
+      "code": "30206",
+      "display": "Birrisito",
+      "definition": "Birrisito"
+    },
+    {
+      "code": "30301",
+      "display": "Tres Ríos",
+      "definition": "Tres Ríos"
+    },
+    {
+      "code": "30302",
+      "display": "San Diego",
+      "definition": "San Diego"
+    },
+    {
+      "code": "30303",
+      "display": "San Juan",
+      "definition": "San Juan"
+    },
+    {
+      "code": "30304",
+      "display": "San Rafael",
+      "definition": "San Rafael"
+    },
+    {
+      "code": "30305",
+      "display": "Concepción",
+      "definition": "Concepción"
+    },
+    {
+      "code": "30306",
+      "display": "Dulce Nombre",
+      "definition": "Dulce Nombre"
+    },
+    {
+      "code": "30307",
+      "display": "San Ramón",
+      "definition": "San Ramón"
+    },
+    {
+      "code": "30308",
+      "display": "Río Azul",
+      "definition": "Río Azul"
+    },
+    {
+      "code": "30401",
+      "display": "Juan Viñas",
+      "definition": "Juan Viñas"
+    },
+    {
+      "code": "30402",
+      "display": "Tucurrique",
+      "definition": "Tucurrique"
+    },
+    {
+      "code": "30403",
+      "display": "Pejibaye",
+      "definition": "Pejibaye"
+    },
+    {
+      "code": "30404",
+      "display": "La Victoria",
+      "definition": "La Victoria"
+    },
+    {
+      "code": "30501",
+      "display": "Turrialba",
+      "definition": "Turrialba"
+    },
+    {
+      "code": "30502",
+      "display": "La Suiza",
+      "definition": "La Suiza"
+    },
+    {
+      "code": "30503",
+      "display": "Peralta",
+      "definition": "Peralta"
+    },
+    {
+      "code": "30504",
+      "display": "Santa Cruz",
+      "definition": "Santa Cruz"
+    },
+    {
+      "code": "30505",
+      "display": "Santa Teresita",
+      "definition": "Santa Teresita"
+    },
+    {
+      "code": "30506",
+      "display": "Pavones",
+      "definition": "Pavones"
+    },
+    {
+      "code": "30507",
+      "display": "Tuis",
+      "definition": "Tuis"
+    },
+    {
+      "code": "30508",
+      "display": "Tayutic",
+      "definition": "Tayutic"
+    },
+    {
+      "code": "30509",
+      "display": "Santa Rosa",
+      "definition": "Santa Rosa"
+    },
+    {
+      "code": "30510",
+      "display": "Tres Equis",
+      "definition": "Tres Equis"
+    },
+    {
+      "code": "30511",
+      "display": "La Isabel",
+      "definition": "La Isabel"
+    },
+    {
+      "code": "30512",
+      "display": "Chirripó",
+      "definition": "Chirripó"
+    },
+    {
+      "code": "30601",
+      "display": "Pacayas",
+      "definition": "Pacayas"
+    },
+    {
+      "code": "30602",
+      "display": "Cervantes",
+      "definition": "Cervantes"
+    },
+    {
+      "code": "30603",
+      "display": "Capellades",
+      "definition": "Capellades"
+    },
+    {
+      "code": "30701",
+      "display": "San Rafael",
+      "definition": "San Rafael"
+    },
+    {
+      "code": "30702",
+      "display": "Cot",
+      "definition": "Cot"
+    },
+    {
+      "code": "30703",
+      "display": "Potrero Cerrado",
+      "definition": "Potrero Cerrado"
+    },
+    {
+      "code": "30704",
+      "display": "Cipreses",
+      "definition": "Cipreses"
+    },
+    {
+      "code": "30705",
+      "display": "Santa Rosa",
+      "definition": "Santa Rosa"
+    },
+    {
+      "code": "30801",
+      "display": "El Tejar",
+      "definition": "El Tejar"
+    },
+    {
+      "code": "30802",
+      "display": "San Isidro",
+      "definition": "San Isidro"
+    },
+    {
+      "code": "30803",
+      "display": "Tobosi",
+      "definition": "Tobosi"
+    },
+    {
+      "code": "30804",
+      "display": "Patio de Agua",
+      "definition": "Patio de Agua"
+    },
+    {
+      "code": "40101",
+      "display": "Heredia",
+      "definition": "Heredia"
+    },
+    {
+      "code": "40102",
+      "display": "Mercedes",
+      "definition": "Mercedes"
+    },
+    {
+      "code": "40103",
+      "display": "San Francisco",
+      "definition": "San Francisco"
+    },
+    {
+      "code": "40104",
+      "display": "Ulloa",
+      "definition": "Ulloa"
+    },
+    {
+      "code": "40105",
+      "display": "Vara Blanca",
+      "definition": "Vara Blanca"
+    },
+    {
+      "code": "40201",
+      "display": "Barva",
+      "definition": "Barva"
+    },
+    {
+      "code": "40202",
+      "display": "San Pedro",
+      "definition": "San Pedro"
+    },
+    {
+      "code": "40203",
+      "display": "San Pablo",
+      "definition": "San Pablo"
+    },
+    {
+      "code": "40204",
+      "display": "San Roque",
+      "definition": "San Roque"
+    },
+    {
+      "code": "40205",
+      "display": "Santa Lucía",
+      "definition": "Santa Lucía"
+    },
+    {
+      "code": "40206",
+      "display": "San José de la Montaña",
+      "definition": "San José de la Montaña"
+    },
+    {
+      "code": "40207",
+      "display": "Puente Salas",
+      "definition": "Puente Salas"
+    },
+    {
+      "code": "40301",
+      "display": "Santo Domingo",
+      "definition": "Santo Domingo"
+    },
+    {
+      "code": "40302",
+      "display": "San Vicente",
+      "definition": "San Vicente"
+    },
+    {
+      "code": "40303",
+      "display": "San Miguel",
+      "definition": "San Miguel"
+    },
+    {
+      "code": "40304",
+      "display": "Paracito",
+      "definition": "Paracito"
+    },
+    {
+      "code": "40305",
+      "display": "Santo Tomás",
+      "definition": "Santo Tomás"
+    },
+    {
+      "code": "40306",
+      "display": "Santa Rosa",
+      "definition": "Santa Rosa"
+    },
+    {
+      "code": "40307",
+      "display": "Tures",
+      "definition": "Tures"
+    },
+    {
+      "code": "40308",
+      "display": "Pará",
+      "definition": "Pará"
+    },
+    {
+      "code": "40401",
+      "display": "Santa Bárbara",
+      "definition": "Santa Bárbara"
+    },
+    {
+      "code": "40402",
+      "display": "San Pedro",
+      "definition": "San Pedro"
+    },
+    {
+      "code": "40403",
+      "display": "San Juan",
+      "definition": "San Juan"
+    },
+    {
+      "code": "40404",
+      "display": "Jesús",
+      "definition": "Jesús"
+    },
+    {
+      "code": "40405",
+      "display": "Santo Domingo",
+      "definition": "Santo Domingo"
+    },
+    {
+      "code": "40406",
+      "display": "Purabá",
+      "definition": "Purabá"
+    },
+    {
+      "code": "40501",
+      "display": "San Rafael",
+      "definition": "San Rafael"
+    },
+    {
+      "code": "40502",
+      "display": "San Josecito",
+      "definition": "San Josecito"
+    },
+    {
+      "code": "40503",
+      "display": "Santiago",
+      "definition": "Santiago"
+    },
+    {
+      "code": "40504",
+      "display": "Ángeles",
+      "definition": "Ángeles"
+    },
+    {
+      "code": "40505",
+      "display": "Concepción",
+      "definition": "Concepción"
+    },
+    {
+      "code": "40601",
+      "display": "San Isidro",
+      "definition": "San Isidro"
+    },
+    {
+      "code": "40602",
+      "display": "San José",
+      "definition": "San José"
+    },
+    {
+      "code": "40603",
+      "display": "Concepción",
+      "definition": "Concepción"
+    },
+    {
+      "code": "40604",
+      "display": "San Francisco",
+      "definition": "San Francisco"
+    },
+    {
+      "code": "40701",
+      "display": "San Antonio",
+      "definition": "San Antonio"
+    },
+    {
+      "code": "40702",
+      "display": "La Ribera",
+      "definition": "La Ribera"
+    },
+    {
+      "code": "40703",
+      "display": "La Asunción",
+      "definition": "La Asunción"
+    },
+    {
+      "code": "40801",
+      "display": "San Joaquín",
+      "definition": "San Joaquín"
+    },
+    {
+      "code": "40802",
+      "display": "Barrantes",
+      "definition": "Barrantes"
+    },
+    {
+      "code": "40803",
+      "display": "Llorente",
+      "definition": "Llorente"
+    },
+    {
+      "code": "40901",
+      "display": "San Pablo",
+      "definition": "San Pablo"
+    },
+    {
+      "code": "40902",
+      "display": "Rincón de Sabanilla",
+      "definition": "Rincón de Sabanilla"
+    },
+    {
+      "code": "41001",
+      "display": "Puerto Viejo",
+      "definition": "Puerto Viejo"
+    },
+    {
+      "code": "41002",
+      "display": "La Virgen",
+      "definition": "La Virgen"
+    },
+    {
+      "code": "41003",
+      "display": "Horquetas",
+      "definition": "Horquetas"
+    },
+    {
+      "code": "41004",
+      "display": "Llanuras del Gaspar",
+      "definition": "Llanuras del Gaspar"
+    },
+    {
+      "code": "41005",
+      "display": "Cureña",
+      "definition": "Cureña"
+    },
+    {
+      "code": "50101",
+      "display": "Liberia",
+      "definition": "Liberia"
+    },
+    {
+      "code": "50102",
+      "display": "Cañas Dulces",
+      "definition": "Cañas Dulces"
+    },
+    {
+      "code": "50103",
+      "display": "Mayorga",
+      "definition": "Mayorga"
+    },
+    {
+      "code": "50104",
+      "display": "Nacascolo",
+      "definition": "Nacascolo"
+    },
+    {
+      "code": "50105",
+      "display": "Curubandé",
+      "definition": "Curubandé"
+    },
+    {
+      "code": "50201",
+      "display": "Nicoya",
+      "definition": "Nicoya"
+    },
+    {
+      "code": "50202",
+      "display": "Mansión",
+      "definition": "Mansión"
+    },
+    {
+      "code": "50203",
+      "display": "San Antonio",
+      "definition": "San Antonio"
+    },
+    {
+      "code": "50204",
+      "display": "Quebrada Honda",
+      "definition": "Quebrada Honda"
+    },
+    {
+      "code": "50205",
+      "display": "Sámara",
+      "definition": "Sámara"
+    },
+    {
+      "code": "50206",
+      "display": "Nosara",
+      "definition": "Nosara"
+    },
+    {
+      "code": "50207",
+      "display": "Belén de Nosarita",
+      "definition": "Belén de Nosarita"
+    },
+    {
+      "code": "50301",
+      "display": "Santa Cruz",
+      "definition": "Santa Cruz"
+    },
+    {
+      "code": "50302",
+      "display": "Bolsón",
+      "definition": "Bolsón"
+    },
+    {
+      "code": "50303",
+      "display": "Veintisiete de Abril",
+      "definition": "Veintisiete de Abril"
+    },
+    {
+      "code": "50304",
+      "display": "Tempate",
+      "definition": "Tempate"
+    },
+    {
+      "code": "50305",
+      "display": "Cartagena",
+      "definition": "Cartagena"
+    },
+    {
+      "code": "50306",
+      "display": "Cuajiniquil",
+      "definition": "Cuajiniquil"
+    },
+    {
+      "code": "50307",
+      "display": "Diriá",
+      "definition": "Diriá"
+    },
+    {
+      "code": "50308",
+      "display": "Cabo Velas",
+      "definition": "Cabo Velas"
+    },
+    {
+      "code": "50309",
+      "display": "Tamarindo",
+      "definition": "Tamarindo"
+    },
+    {
+      "code": "50401",
+      "display": "Bagaces",
+      "definition": "Bagaces"
+    },
+    {
+      "code": "50402",
+      "display": "La Fortuna",
+      "definition": "La Fortuna"
+    },
+    {
+      "code": "50403",
+      "display": "Mogote",
+      "definition": "Mogote"
+    },
+    {
+      "code": "50404",
+      "display": "Río Naranjo",
+      "definition": "Río Naranjo"
+    },
+    {
+      "code": "50501",
+      "display": "Filadelfia",
+      "definition": "Filadelfia"
+    },
+    {
+      "code": "50502",
+      "display": "Palmira",
+      "definition": "Palmira"
+    },
+    {
+      "code": "50503",
+      "display": "Sardinal",
+      "definition": "Sardinal"
+    },
+    {
+      "code": "50504",
+      "display": "Belén",
+      "definition": "Belén"
+    },
+    {
+      "code": "50601",
+      "display": "Cañas",
+      "definition": "Cañas"
+    },
+    {
+      "code": "50602",
+      "display": "Palmira",
+      "definition": "Palmira"
+    },
+    {
+      "code": "50603",
+      "display": "San Miguel",
+      "definition": "San Miguel"
+    },
+    {
+      "code": "50604",
+      "display": "Bebedero",
+      "definition": "Bebedero"
+    },
+    {
+      "code": "50605",
+      "display": "Porozal",
+      "definition": "Porozal"
+    },
+    {
+      "code": "50701",
+      "display": "Las Juntas",
+      "definition": "Las Juntas"
+    },
+    {
+      "code": "50702",
+      "display": "Sierra",
+      "definition": "Sierra"
+    },
+    {
+      "code": "50703",
+      "display": "San Juan",
+      "definition": "San Juan"
+    },
+    {
+      "code": "50704",
+      "display": "Colorado",
+      "definition": "Colorado"
+    },
+    {
+      "code": "50801",
+      "display": "Tilarán",
+      "definition": "Tilarán"
+    },
+    {
+      "code": "50802",
+      "display": "Quebrada Grande",
+      "definition": "Quebrada Grande"
+    },
+    {
+      "code": "50803",
+      "display": "Tronadora",
+      "definition": "Tronadora"
+    },
+    {
+      "code": "50804",
+      "display": "Santa Rosa",
+      "definition": "Santa Rosa"
+    },
+    {
+      "code": "50805",
+      "display": "Líbano",
+      "definition": "Líbano"
+    },
+    {
+      "code": "50806",
+      "display": "Tierras Morenas",
+      "definition": "Tierras Morenas"
+    },
+    {
+      "code": "50807",
+      "display": "Arenal",
+      "definition": "Arenal"
+    },
+    {
+      "code": "50808",
+      "display": "Cabeceras",
+      "definition": "Cabeceras"
+    },
+    {
+      "code": "50901",
+      "display": "Carmona",
+      "definition": "Carmona"
+    },
+    {
+      "code": "50902",
+      "display": "Santa Rita",
+      "definition": "Santa Rita"
+    },
+    {
+      "code": "50903",
+      "display": "Zapotal",
+      "definition": "Zapotal"
+    },
+    {
+      "code": "50904",
+      "display": "San Pablo",
+      "definition": "San Pablo"
+    },
+    {
+      "code": "50905",
+      "display": "Porvenir",
+      "definition": "Porvenir"
+    },
+    {
+      "code": "50906",
+      "display": "Bejuco",
+      "definition": "Bejuco"
+    },
+    {
+      "code": "51001",
+      "display": "La Cruz",
+      "definition": "La Cruz"
+    },
+    {
+      "code": "51002",
+      "display": "Santa Cecilia",
+      "definition": "Santa Cecilia"
+    },
+    {
+      "code": "51003",
+      "display": "La Garita",
+      "definition": "La Garita"
+    },
+    {
+      "code": "51004",
+      "display": "Santa Elena",
+      "definition": "Santa Elena"
+    },
+    {
+      "code": "51101",
+      "display": "Hojancha",
+      "definition": "Hojancha"
+    },
+    {
+      "code": "51102",
+      "display": "Monte Romo",
+      "definition": "Monte Romo"
+    },
+    {
+      "code": "51103",
+      "display": "Puerto Carrillo",
+      "definition": "Puerto Carrillo"
+    },
+    {
+      "code": "51104",
+      "display": "Huacas",
+      "definition": "Huacas"
+    },
+    {
+      "code": "51105",
+      "display": "Matambú",
+      "definition": "Matambú"
+    },
+    {
+      "code": "60101",
+      "display": "Puntarenas",
+      "definition": "Puntarenas"
+    },
+    {
+      "code": "60102",
+      "display": "Pitahaya",
+      "definition": "Pitahaya"
+    },
+    {
+      "code": "60103",
+      "display": "Chomes",
+      "definition": "Chomes"
+    },
+    {
+      "code": "60104",
+      "display": "Lepanto",
+      "definition": "Lepanto"
+    },
+    {
+      "code": "60105",
+      "display": "Paquera",
+      "definition": "Paquera"
+    },
+    {
+      "code": "60106",
+      "display": "Manzanillo",
+      "definition": "Manzanillo"
+    },
+    {
+      "code": "60107",
+      "display": "Guacimal",
+      "definition": "Guacimal"
+    },
+    {
+      "code": "60108",
+      "display": "Barranca",
+      "definition": "Barranca"
+    },
+    {
+      "code": "60110",
+      "display": "Isla del Coco",
+      "definition": "Isla del Coco"
+    },
+    {
+      "code": "60111",
+      "display": "Cóbano",
+      "definition": "Cóbano"
+    },
+    {
+      "code": "60112",
+      "display": "Chacarita",
+      "definition": "Chacarita"
+    },
+    {
+      "code": "60113",
+      "display": "Chira",
+      "definition": "Chira"
+    },
+    {
+      "code": "60114",
+      "display": "Acapulco",
+      "definition": "Acapulco"
+    },
+    {
+      "code": "60115",
+      "display": "El Roble",
+      "definition": "El Roble"
+    },
+    {
+      "code": "60116",
+      "display": "Arancibia",
+      "definition": "Arancibia"
+    },
+    {
+      "code": "60201",
+      "display": "Espíritu Santo",
+      "definition": "Espíritu Santo"
+    },
+    {
+      "code": "60202",
+      "display": "San Juan Grande",
+      "definition": "San Juan Grande"
+    },
+    {
+      "code": "60203",
+      "display": "Macacona",
+      "definition": "Macacona"
+    },
+    {
+      "code": "60204",
+      "display": "San Rafael",
+      "definition": "San Rafael"
+    },
+    {
+      "code": "60205",
+      "display": "San Jerónimo",
+      "definition": "San Jerónimo"
+    },
+    {
+      "code": "60206",
+      "display": "Caldera",
+      "definition": "Caldera"
+    },
+    {
+      "code": "60301",
+      "display": "Buenos Aires",
+      "definition": "Buenos Aires"
+    },
+    {
+      "code": "60302",
+      "display": "Volcán",
+      "definition": "Volcán"
+    },
+    {
+      "code": "60303",
+      "display": "Potrero Grande",
+      "definition": "Potrero Grande"
+    },
+    {
+      "code": "60304",
+      "display": "Boruca",
+      "definition": "Boruca"
+    },
+    {
+      "code": "60305",
+      "display": "Pilas",
+      "definition": "Pilas"
+    },
+    {
+      "code": "60306",
+      "display": "Colinas",
+      "definition": "Colinas"
+    },
+    {
+      "code": "60307",
+      "display": "Chánguena",
+      "definition": "Chánguena"
+    },
+    {
+      "code": "60308",
+      "display": "Biolley",
+      "definition": "Biolley"
+    },
+    {
+      "code": "60309",
+      "display": "Brunka",
+      "definition": "Brunka"
+    },
+    {
+      "code": "60401",
+      "display": "Miramar",
+      "definition": "Miramar"
+    },
+    {
+      "code": "60402",
+      "display": "La Unión",
+      "definition": "La Unión"
+    },
+    {
+      "code": "60403",
+      "display": "San Isidro",
+      "definition": "San Isidro"
+    },
+    {
+      "code": "60501",
+      "display": "Ciudad Cortés",
+      "definition": "Ciudad Cortés"
+    },
+    {
+      "code": "60502",
+      "display": "Palmar",
+      "definition": "Palmar"
+    },
+    {
+      "code": "60503",
+      "display": "Sierpe",
+      "definition": "Sierpe"
+    },
+    {
+      "code": "60504",
+      "display": "Bahía Ballena",
+      "definition": "Bahía Ballena"
+    },
+    {
+      "code": "60505",
+      "display": "Piedras Blancas",
+      "definition": "Piedras Blancas"
+    },
+    {
+      "code": "60506",
+      "display": "Bahía Drake",
+      "definition": "Bahía Drake"
+    },
+    {
+      "code": "60601",
+      "display": "Quepos",
+      "definition": "Quepos"
+    },
+    {
+      "code": "60602",
+      "display": "Savegre",
+      "definition": "Savegre"
+    },
+    {
+      "code": "60603",
+      "display": "Naranjito",
+      "definition": "Naranjito"
+    },
+    {
+      "code": "60701",
+      "display": "Golfito",
+      "definition": "Golfito"
+    },
+    {
+      "code": "60703",
+      "display": "Guaycará",
+      "definition": "Guaycará"
+    },
+    {
+      "code": "60704",
+      "display": "Pavón",
+      "definition": "Pavón"
+    },
+    {
+      "code": "60801",
+      "display": "San Vito",
+      "definition": "San Vito"
+    },
+    {
+      "code": "60802",
+      "display": "Sabalito",
+      "definition": "Sabalito"
+    },
+    {
+      "code": "60803",
+      "display": "Aguabuena",
+      "definition": "Aguabuena"
+    },
+    {
+      "code": "60804",
+      "display": "Limoncito",
+      "definition": "Limoncito"
+    },
+    {
+      "code": "60805",
+      "display": "Pittier",
+      "definition": "Pittier"
+    },
+    {
+      "code": "60806",
+      "display": "Gutiérrez Brown",
+      "definition": "Gutiérrez Brown"
+    },
+    {
+      "code": "60901",
+      "display": "Parrita",
+      "definition": "Parrita"
+    },
+    {
+      "code": "61001",
+      "display": "Corredor",
+      "definition": "Corredor"
+    },
+    {
+      "code": "61002",
+      "display": "La Cuesta",
+      "definition": "La Cuesta"
+    },
+    {
+      "code": "61003",
+      "display": "Paso Canoas",
+      "definition": "Paso Canoas"
+    },
+    {
+      "code": "61004",
+      "display": "Laurel",
+      "definition": "Laurel"
+    },
+    {
+      "code": "61101",
+      "display": "Jacó",
+      "definition": "Jacó"
+    },
+    {
+      "code": "61102",
+      "display": "Tárcoles",
+      "definition": "Tárcoles"
+    },
+    {
+      "code": "61103",
+      "display": "Lagunillas",
+      "definition": "Lagunillas"
+    },
+    {
+      "code": "61201",
+      "display": "Monteverde",
+      "definition": "Monteverde"
+    },
+    {
+      "code": "61301",
+      "display": "Puerto Jiménez",
+      "definition": "Puerto Jiménez"
+    },
+    {
+      "code": "70101",
+      "display": "Limón",
+      "definition": "Limón"
+    },
+    {
+      "code": "70102",
+      "display": "Valle La Estrella",
+      "definition": "Valle La Estrella"
+    },
+    {
+      "code": "70103",
+      "display": "Río Blanco",
+      "definition": "Río Blanco"
+    },
+    {
+      "code": "70104",
+      "display": "Matama",
+      "definition": "Matama"
+    },
+    {
+      "code": "70201",
+      "display": "Guápiles",
+      "definition": "Guápiles"
+    },
+    {
+      "code": "70202",
+      "display": "Jiménez",
+      "definition": "Jiménez"
+    },
+    {
+      "code": "70203",
+      "display": "La Rita",
+      "definition": "La Rita"
+    },
+    {
+      "code": "70204",
+      "display": "Roxana",
+      "definition": "Roxana"
+    },
+    {
+      "code": "70205",
+      "display": "Cariari",
+      "definition": "Cariari"
+    },
+    {
+      "code": "70206",
+      "display": "Colorado",
+      "definition": "Colorado"
+    },
+    {
+      "code": "70207",
+      "display": "La Colonia",
+      "definition": "La Colonia"
+    },
+    {
+      "code": "70301",
+      "display": "Siquirres",
+      "definition": "Siquirres"
+    },
+    {
+      "code": "70302",
+      "display": "Pacuarito",
+      "definition": "Pacuarito"
+    },
+    {
+      "code": "70303",
+      "display": "Florida",
+      "definition": "Florida"
+    },
+    {
+      "code": "70304",
+      "display": "Germania",
+      "definition": "Germania"
+    },
+    {
+      "code": "70305",
+      "display": "Cairo",
+      "definition": "Cairo"
+    },
+    {
+      "code": "70306",
+      "display": "Alegría",
+      "definition": "Alegría"
+    },
+    {
+      "code": "70307",
+      "display": "Reventazón",
+      "definition": "Reventazón"
+    },
+    {
+      "code": "70401",
+      "display": "Bratsi",
+      "definition": "Distrito de Bratsi"
+    },
+    {
+      "code": "70402",
+      "display": "Sixaola",
+      "definition": "Distrito de Sixaola"
+    },
+    {
+      "code": "70403",
+      "display": "Cahuita",
+      "definition": "Distrito de Cahuita"
+    },
+    {
+      "code": "70404",
+      "display": "Telire",
+      "definition": "Distrito de Telire"
+    },
+    {
+      "code": "70501",
+      "display": "Matina",
+      "definition": "Distrito de Matina"
+    },
+    {
+      "code": "70502",
+      "display": "Batán",
+      "definition": "Distrito de Batán"
+    },
+    {
+      "code": "70503",
+      "display": "Carrandi",
+      "definition": "Distrito de Carrandi"
+    },
+    {
+      "code": "70601",
+      "display": "Guácimo",
+      "definition": "Distrito de Guácimo"
+    },
+    {
+      "code": "70602",
+      "display": "Mercedes",
+      "definition": "Distrito de Mercedes"
+    },
+    {
+      "code": "70603",
+      "display": "Pocora",
+      "definition": "Distrito de Pocora"
+    },
+    {
+      "code": "70604",
+      "display": "Río Jiménez",
+      "definition": "Distrito de Río Jiménez"
+    },
+    {
+      "code": "70605",
+      "display": "Duacarí",
+      "definition": "Distrito de Duacarí"
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 0
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "draft"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "pc"
+    }
+  ],
+  "language": "es",
+  "version": "0.1.1",
+  "experimental": false,
+  "caseSensitive": true,
+  "compositional": false,
+  "versionNeeded": true,
+  "publisher": "HL7 Costa Rica",
+  "contact": [
+    {
+      "name": "HL7 Costa Rica",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@hl7.or.cr"
+        }
+      ]
+    }
+  ],
+  "date": "2025-03-03",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CR",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Costa Rica"
+        }
+      ]
+    }
+  ],
+  "copyright": "Usado con el permiso de HL7 International, todos los derechos reservados en los Licencias de HL7 Internacional.",
+  "count": 492
+}
