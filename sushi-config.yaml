@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.cr.terminology
 packageId: hl7.fhir.cr.terminology
-canonical: https://hl7.or.cr/fhir/ig/terminology
+canonical: https://hl7.or.cr/fhir/terminology
 name: CRTerminology
 
 title: HL7 FHIR Costa Rica Terminología
@@ -31,7 +31,7 @@ copyright: >-
 
 releaseLabel: draft
 license: CC-BY-4.0
-jurisdiction: 'urn:iso:std:iso:3166#CR'
+jurisdiction: urn:iso:std:iso:3166#CR "Costa Rica"
 publisher:
   name: Iniciativa HL7 Costa Rica
   url: https://hl7.or.cr
@@ -92,6 +92,11 @@ pages:
 #
 parameters:
   excludettl: true
+  show-inherited-invariants: false
+  find-other-resources: true
+  apply-jurisdiction: true
+  apply-publisher: true
+  autoload-resources: true
 
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
