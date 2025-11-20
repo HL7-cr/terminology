@@ -14,12 +14,13 @@
 --------------------------------------------------------------------*/
 
 
-CodeSystem: OrganizationType
-Id: organization-type-code
+CodeSystem: OrganizationTypeCodes
+Id: organization-type
 Title: "Tipo de organización"
-Description: "Tipos de organizaciones de salud utilizados en Costa Rica basado en la clasificación del Ministerio de Salud"
+Description: "Listado de tipos de organizaciones de salud basado en la clasificación del Ministerio de Salud"
 
 * insert CodeSystemMeta
+* insert RuleSetStatus (0, draft, pc)
 
 // Centros de diagnóstico y tratamiento
 * #centro-diagnostico-tratamiento "Centros de Diagnóstico y Tratamiento" "Incluyen laboratorios clínicos, centros de imagenología, entre otros."

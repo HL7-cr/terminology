@@ -33,7 +33,8 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
     npm config set fund false && npm config set audit false && \
     rm -rf /var/lib/apt/lists/*
 
-RUN npm i -g fsh-sushi fhir
+RUN npm install -g npm@latest && \
+    npm i -g fsh-sushi fhir
 
 # Jekyll/Bundler (si tu IG usa Jekyll)
 RUN gem install bundler jekyll --no-document

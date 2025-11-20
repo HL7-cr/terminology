@@ -14,12 +14,13 @@
 --------------------------------------------------------------------*/
 
 
-CodeSystem: OrganizationIdentifierTypeCodeSystem
+CodeSystem: OrganizationIdentifierTypeCodes
 Id: organization-identifier-type
 Title: "Identificadores para Organizaciones"
-Description: "Identificadores para organizaciones utilizados en Costa Rica"
+Description: "Listado de identificadores para organizaciones utilizados en Costa Rica"
 
 * insert CodeSystemMeta
+* insert RuleSetStatus (0, draft, pc)
 
 * #cedula-juridica "Cédula Jurídica" "Identificador único asignado a personas jurídicas en Costa Rica por el Registro Nacional"
 * #codigo-prestador "Código de Prestador" "Código asignado a prestadores de servicios de salud en Costa Rica"

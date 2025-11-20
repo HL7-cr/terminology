@@ -13,10 +13,10 @@
                 - Global Life-Centered Hub
 --------------------------------------------------------------------*/
 
-CodeSystem:     CityCode
-Id:             city-code
+CodeSystem:     CityCodes
+Id:             city-codes
 Title:          "Cantones de Costa Rica"
-Description:    "Código de cantón en formato Zip Code"
+Description:    "Listado de cantones en formato Zip Code"
 
 * insert CodeSystemMeta
 * insert RuleSetStatus (0, draft, pc)

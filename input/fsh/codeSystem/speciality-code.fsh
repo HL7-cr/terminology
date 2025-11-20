@@ -14,12 +14,13 @@
 --------------------------------------------------------------------*/
 
 
-CodeSystem: SpecialityCode
-Id: speciality-code
+CodeSystem: PractitionerSpecialityCodes
+Id: practitioner-speciality
 Title: "Especialidades de profesionales"
-Description: "Código de especialidad de profesionales de salud en Costa Rica"
+Description: "Listado de especialidad de profesionales de salud en Costa Rica"
 
 * insert CodeSystemMeta
+* insert RuleSetStatus (0, draft, pc)
 
 * #5 "Audiología (bachiller)" "Audiología (bachiller)"
   * ^definition = "Audiología (bachiller)"

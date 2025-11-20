@@ -14,11 +14,12 @@
 --------------------------------------------------------------------*/
 
 CodeSystem:     PractitionerRoleCode
-Id:             practitioner-role-code
+Id:             practitioner-role
 Title:          "Roles de los profesionales"
-Description:    "Código de roles de los profesionales de la salud"
+Description:    "Listado de roles de los profesionales de la salud"
 
 * insert CodeSystemMeta
+* insert RuleSetStatus (0, draft, pc)
 
 * #2611 "Abogados" "Abogados"
 * #2522 "Administradores de sistemas" "Administradores de sistemas"
