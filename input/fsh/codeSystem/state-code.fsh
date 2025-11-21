@@ -16,7 +16,7 @@
 CodeSystem:     StateCode
 Id:             state-code
 Title:          "Provincias de Costa Rica"
-Description:    "Código de provincia en formato Zip Code"
+Description:    "Listado de provincia en formato Zip Code"
 
 * insert CodeSystemMeta
 * insert RuleSetStatus (0, draft, pc)

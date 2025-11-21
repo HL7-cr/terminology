@@ -13,10 +13,11 @@
                 - Global Life-Centered Hub
 --------------------------------------------------------------------*/
 
-CodeSystem:     DistrictCode
-Id:             district-code
+
+CodeSystem:     DistrictCodes
+Id:             district-codes
 Title:          "Distritos de Costa Rica"
-Description:    "Código de distrito en formato Zip Code"
+Description:    "Listado de distritos en formato Zip Code"
 
 * insert CodeSystemMeta
 * insert RuleSetStatus (0, draft, pc)

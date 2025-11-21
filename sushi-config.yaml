@@ -1,11 +1,6 @@
-# ╭─────────────────────────Commonly Used ImplementationGuide Properties───────────────────────────╮
-# │  The properties below are used to create the ImplementationGuide resource. The most commonly   │
-# │  used properties are included. For a list of all supported properties and their functions,     │
-# │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.cr.terminology
 packageId: hl7.fhir.cr.terminology
-canonical: https://hl7.or.cr/fhir/ig/terminology
+canonical: https://hl7.or.cr/fhir/terminology
 name: CRTerminology
 
 title: HL7 FHIR Costa Rica Terminología
@@ -21,17 +16,17 @@ extension:
     valueInteger: 0
 
 status: draft
-version: 0.1.1
+version: 0.0.1-ballot
 fhirVersion: 5.0.0
 language: es
 copyrightYear: 2025+
-date: 2025-11-13
+date: 2025-11-16
 copyright: >-
   Utilizado con permiso de HL7 International, todos los derechos reservados Licencia Creative Commons
 
-releaseLabel: draft
+releaseLabel: ci-build
 license: CC-BY-4.0
-jurisdiction: 'urn:iso:std:iso:3166#CR'
+jurisdiction: urn:iso:std:iso:3166#CR "Costa Rica"
 publisher:
   name: Iniciativa HL7 Costa Rica
   url: https://hl7.or.cr
@@ -51,36 +46,24 @@ contact:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-# dependencies:
-#   hl7.terminology.r5: 1.0.0
+dependencies:
+  hl7.terminology.r5:
+    id: hl7tx
+    uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
+    version: 7.0.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
 #     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
 #     version: 1.0.0
-#
-#
-# The pages property corresponds to IG.definition.page. SUSHI can
-# auto-generate the page list, but if the author includes pages in
-# this file, it is assumed that the author will fully manage the
-# pages section and SUSHI will not generate any page entries.
-# The page file name is used as the key. If title is not provided,
-# then the title will be generated from the file name.  If a
-# generation value is not provided, it will be inferred from the
-# file name extension.  Any subproperties that are valid filenames
-# with supported extensions (e.g., .md/.xml) will be treated as
-# sub-pages.
-#
+
 pages:
   index.md:
     title: Inicio
-  history.md:
-    title: Historial de Versiones
   licenses.md:
     title: Licencias
   credits.md:
     title: Créditos
-#
-#
+
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
 # resource), the code is the YAML key. If a parameter allows repeating
@@ -92,36 +75,14 @@ pages:
 #
 parameters:
   excludettl: true
-  path-resource:
-    - input/resources
-    - fsh-generated/resources
-  path-pages:
-    - input/pagecontent
-  path-tx-cache: input-cache/txcache
-  resource-language-policy: all-ig
-  
-  active-tables: false
-  apply-contact: true
+  show-inherited-invariants: false
   apply-jurisdiction: true
   apply-publisher: true
-  apply-version: true
-  show-inherited-invariants: false
-  usage-stats-opt-out: true
-  tabbed-snapshots: false
+  autoload-resources: true
 
-#
-# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
-# │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
-# │ as a simple structure where the YAML key is the menu item name and the value is the URL.       │
-# │ The IG publisher currently only supports one level deep on sub-menus. To provide a             │
-# │ custom menu.xml file, do not include this property and include a `menu.xml` file in            │
-# │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
-# │ property below.                                                                                │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Inicio: index.html
   Artefactos: artifacts.html
-  Historial: history.html
   Licencias: licenses.html
   Créditos: credits.html
 
@@ -134,55 +95,13 @@ menu:
 # contact directly and follow the format outlined in the ImplementationGuide resource and
 # ContactDetail.
 #
-# contact:
-#   - name: Bob Smith
-#     telecom:
-#       - system: email # phone | fax | email | pager | url | sms | other
-#         value: bobsmith@example.org
-#         use: work
-#
-#
-# The global property corresponds to the IG.global property, but it
-# uses the type as the YAML key and the profile as its value. Since
-# FHIR does not explicitly disallow more than one profile per type,
-# neither do we; the value can be a single profile URL or an array
-# of profile URLs. If a value is an id or name, SUSHI will replace
-# it with the correct canonical when generating the IG JSON.
-#
-# global:
-#   Patient: http://example.org/fhir/StructureDefinition/my-patient-profile
-#   Encounter: http://example.org/fhir/StructureDefinition/my-encounter-profile
-#
-#
-# The resources property corresponds to IG.definition.resource.
-# SUSHI can auto-generate all of the resource entries based on
-# the FSH definitions and/or information in any user-provided
-# JSON or XML resource files. If the generated entries are not
-# sufficient or complete, however, the author can add entries
-# here. If the reference matches a generated entry, it will
-# replace the generated entry. If it doesn't match any generated
-# entries, it will be added to the generated entries. The format
-# follows IG.definition.resource with the following differences:
-#   * use IG.definition.resource.reference.reference as the YAML key.
-#   * if the key is an id or name, SUSHI will replace it with the
-#     correct URL when generating the IG JSON.
-#   * specify "omit" to omit a FSH-generated resource from the
-#     resource list.
-#   * if the exampleCanonical is an id or name, SUSHI will replace
-#     it with the correct canonical when generating the IG JSON.
-#   * groupingId can be used, but top-level groups syntax may be a
-#     better option (see below).
-# The following are simple examples to demonstrate what this might
-# look like:
-#
-# resources:
-#   Patient/my-example-patient:
-#     name: My Example Patient
-#     description: An example Patient
-#     exampleBoolean: true
-#   Patient/bad-example: omit
-#
-#
+contact:
+  - name: Alejandro Benavides
+    telecom:
+      - system: email # phone | fax | email | pager | url | sms | other
+        value: info@hl7.or.cr
+        use: work
+
 # Groups can control certain aspects of the IG generation.  The IG
 # documentation recommends that authors use the default groups that
 # are provided by the templating framework, but if authors want to

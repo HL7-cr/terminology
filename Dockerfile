@@ -1,4 +1,4 @@
-# docker run --rm -it -v "$(pwd)/terminology:/ig" -w /ig -u "$(id -u):$(id -g)" -e HOME=/ig -e XDG_CACHE_HOME=/ig/.cache terminology-ig:dev bash
+# docker run --rm -it -v "$(pwd)/ig/terminology.git:/ig" ig-terminology:v1 bash
 
 # Ubuntu 24.04 (Noble)
 FROM ubuntu:24.04
@@ -33,7 +33,8 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
     npm config set fund false && npm config set audit false && \
     rm -rf /var/lib/apt/lists/*
 
-RUN npm i -g fsh-sushi fhir
+RUN npm install -g npm@latest && \
+    npm i -g fsh-sushi fhir
 
 # Jekyll/Bundler (si tu IG usa Jekyll)
 RUN gem install bundler jekyll --no-document

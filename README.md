@@ -1,48 +1,55 @@
-# Guía de Implementación FHIR de Terminologías – Costa Rica
+# HL7 FHIR Costa Rica Terminología
 
-Este repositorio contiene la **Guía de Implementación HL7 FHIR R5** para el uso de terminologías clínicas y medicamentosas en Costa Rica, desarrollada por la **Iniciativa HL7 Costa Rica** en colaboración con expertos nacionales e internacionales.
+Esta guía de implementación define los recursos de terminología FHIR utilizados por la Iniciativa HL7 Costa Rica.
 
-## 📚 Objetivo
+## Recursos
 
-Proporcionar una guía estandarizada para representar, consultar e interoperar conceptos clínicos, diagnósticos, procedimientos, medicamentos y otras terminologías de salud utilizando el estándar HL7 FHIR, en conformidad con la normativa nacional y las recomendaciones internacionales.
+- **CI Build**: [https://build.fhir.org/ig/HL7-cr/terminology](https://build.fhir.org/ig/HL7-cr/terminology)
+- **Canonical**: https://hl7.or.cr/fhir/terminology
+- **Versión Actual**: 0.0.1-ballot
 
-## 📦 Package
+## Desarrollo
 
-- **Package ID:** `hl7.fhir.cr.terminology`
-- **Canonical URL:** `https://fhir.hl7.or.cr/ig/terminology`
-- **FHIR Version:** `R5`
+### Requisitos
 
-## 🔍 Contenido
+- SUSHI (para procesar archivos FSH)
+- IG Publisher (para generar la guía de implementación)
 
-Esta guía incluye:
+### Construir la Guía de Implementación
 
-- Perfiles FHIR para el uso de `CodeSystem`, `ValueSet` y `ConceptMap`.
-- Extensiones nacionales para codificación y mapeo de conceptos.
-- Ejemplos de uso con SNOMED CT, LOINC, CIE-10, WHODrug, MedDRA y otros.
-- Reglas de validación y convenciones locales para interoperabilidad.
+```bash
+# Ejecutar SUSHI para procesar archivos FSH
+sushi .
 
-## 🚀 Publicación
+# Generar la guía completa
+./_genonce.sh
+```
 
-La guía puede consultarse públicamente en:
+### Herramientas de Desarrollo
 
-👉 [https://fhir.hl7.or.cr/ig/terminology](https://fhir.hl7.or.cr/ig/terminology)
+#### Generar Descripciones de Pull Request
 
-## 🛠️ Herramientas usadas
+El repositorio incluye una herramienta para ayudar a generar descripciones de PR basadas en commits:
 
-- [FHIR Shorthand (FSH)](https://hl7.org/fhir/tools/fsh.html)
-- [SUSHI](https://github.com/FHIR/sushi) para compilación del contenido FSH
-- [IG Publisher](https://github.com/HL7/ig-publisher) para la generación del sitio web
+```bash
+./generate-pr-description.sh
+```
 
-## 🤝 Contribuciones
+Para más información, consulta la [Guía de Descripciones de PR](docs/pr-description-guide.md).
 
-Las contribuciones son bienvenidas. Por favor abra un _issue_ o envíe un _pull request_ para sugerencias, correcciones o mejoras.
+## Contribuir
 
-## 📄 Licencia
+Por favor lee las siguientes guías antes de contribuir:
 
-Distribuido bajo la licencia [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- [Guía de Descripciones de PR](docs/pr-description-guide.md) - Cómo crear buenas descripciones de Pull Request
+- [Plantilla de PR](.github/PULL_REQUEST_TEMPLATE.md) - Plantilla a seguir al crear PRs
 
----
+## Licencia
 
-**HL7 Costa Rica**  
-Contacto: [info@hl7.or.cr](mailto:info@hl7.or.cr)  
-Sitio web: [https://hl7.or.cr](https://hl7.or.cr)
+Este proyecto está licenciado bajo CC-BY-4.0. Ver el archivo LICENSE para más detalles.
+
+## Contacto
+
+- **Organización**: Iniciativa HL7 Costa Rica
+- **Web**: https://hl7.or.cr
+- **Email**: info@hl7.or.cr

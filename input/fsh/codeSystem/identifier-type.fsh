@@ -12,12 +12,15 @@
                 - Cámara de Tecnologías de Información y Comunicación
                 - Global Life-Centered Hub
 --------------------------------------------------------------------*/
-CodeSystem:     IdentifierType
+
+
+CodeSystem:     IdentifierTypeCodes
 Id:             identifier-type
 Title:          "Identificador de Personas"
-Description:    "Sistema de códigos para tipos de identificadores para personas."
+Description:    "Listado de tipos de identificadores para personas."
 
 * insert CodeSystemMeta
+* insert RuleSetStatus (0, draft, pc)
 
 * #cedula-nacional "Cédula Nacional" "Identificador oficial para ciudadanos costarricenses."
 * #pasaporte "Pasaporte" "Identificador para pasaporte."

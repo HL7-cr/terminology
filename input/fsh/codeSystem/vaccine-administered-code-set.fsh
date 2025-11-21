@@ -13,10 +13,10 @@
                 - Global Life-Centered Hub
 --------------------------------------------------------------------*/
 
-CodeSystem:     VaccineAdministeredCodeSet
-Id:             vaccine-administered-code-set
+CodeSystem:     VaccineAdministeredCodes
+Id:             vaccine-administered
 Title:          "Vacunas de uso administrado en Costa Rica"
-Description:    "Catalogo de vacunas administradas en Costa Rica para el contexto de la salud"
+Description:    "Listado de vacunas administradas en Costa Rica para el contexto de la salud"
 
 * insert CodeSystemMeta
 * insert RuleSetStatus (0, draft, pc)
