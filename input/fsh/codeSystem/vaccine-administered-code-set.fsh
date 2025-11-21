@@ -13,6 +13,10 @@
                 - Global Life-Centered Hub
 --------------------------------------------------------------------*/
 
+// REVIEW:  No se requiere tener aún el listado publicado como un ValueSet de vacunas. 
+//          Una estrategia más efectiva es crear el ValueSet de las vacunas administradas basado en este CodeSystem 
+//          y referenciarlo directamente en los perfiles que lo requieran.
+
 CodeSystem:     VaccineAdministeredCodes
 Id:             vaccine-administered
 Title:          "Vacunas de uso administrado en Costa Rica"

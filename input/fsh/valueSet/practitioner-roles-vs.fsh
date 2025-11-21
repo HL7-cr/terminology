@@ -15,7 +15,7 @@
 
 ValueSet: CRPractitionerRolesSet
 Id: cr-practitioner-roles
-Title: "Roles de Profesionales de la Salud"
+Title: "Tipos de Roles de Profesionales de la Salud"
 Description: "Listado de roles de los profesionales de la salud en Costa Rica"
 
 * insert ValueSetMeta
