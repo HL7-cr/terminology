@@ -73,23 +73,23 @@ declare -A change_types
 while IFS= read -r commit; do
     commit_msg=$(echo "$commit" | cut -d' ' -f2-)
     
-    if [[ $commit_msg =~ ^feat[\(:].*  ]]; then
+    if [[ $commit_msg =~ ^feat[\(:] ]]; then
         change_types["feat"]=1
-    elif [[ $commit_msg =~ ^fix[\(:].*  ]]; then
+    elif [[ $commit_msg =~ ^fix[\(:] ]]; then
         change_types["fix"]=1
-    elif [[ $commit_msg =~ ^docs[\(:].*  ]]; then
+    elif [[ $commit_msg =~ ^docs[\(:] ]]; then
         change_types["docs"]=1
-    elif [[ $commit_msg =~ ^style[\(:].*  ]]; then
+    elif [[ $commit_msg =~ ^style[\(:] ]]; then
         change_types["style"]=1
-    elif [[ $commit_msg =~ ^refactor[\(:].*  ]]; then
+    elif [[ $commit_msg =~ ^refactor[\(:] ]]; then
         change_types["refactor"]=1
-    elif [[ $commit_msg =~ ^perf[\(:].*  ]]; then
+    elif [[ $commit_msg =~ ^perf[\(:] ]]; then
         change_types["perf"]=1
-    elif [[ $commit_msg =~ ^test[\(:].*  ]]; then
+    elif [[ $commit_msg =~ ^test[\(:] ]]; then
         change_types["test"]=1
-    elif [[ $commit_msg =~ ^chore[\(:].*  ]]; then
+    elif [[ $commit_msg =~ ^chore[\(:] ]]; then
         change_types["chore"]=1
-    elif [[ $commit_msg =~ ^ci[\(:].*  ]]; then
+    elif [[ $commit_msg =~ ^ci[\(:] ]]; then
         change_types["ci"]=1
     fi
 done <<< "$COMMITS"
@@ -104,7 +104,7 @@ for type_key in feat fix docs style refactor perf test chore ci; do
         echo "### Commits tipo '$type_key':"
         while IFS= read -r commit; do
             commit_msg=$(echo "$commit" | cut -d' ' -f2-)
-            if [[ $commit_msg =~ ^${type_key}[\(:].*  ]]; then
+            if [[ $commit_msg =~ ^${type_key}[\(:] ]]; then
                 echo "- $commit_msg"
             fi
         done <<< "$COMMITS"
@@ -118,7 +118,7 @@ while IFS= read -r commit; do
     commit_msg=$(echo "$commit" | cut -d' ' -f2-)
     is_typed=0
     for type_key in feat fix docs style refactor perf test chore ci; do
-        if [[ $commit_msg =~ ^${type_key}[\(:].*  ]]; then
+        if [[ $commit_msg =~ ^${type_key}[\(:] ]]; then
             is_typed=1
             break
         fi
