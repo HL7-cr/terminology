@@ -3,6 +3,5 @@
   "git.inputValidationSubjectLength": 72,
   "git.inputValidationLength": 500,
   "github.copilot.editor.enableAutoCompletions": true,
-  "scm.inputFontFamily": "monospace",
   "scm.defaultViewMode": "tree"
 }
