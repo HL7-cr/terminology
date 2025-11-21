@@ -1,8 +1,8 @@
 /* ------------------------------------------------------------------ 
- @type:         FSH-File for a FHIR® CodeSystem Resource
+ @type:         FSH-File for a FHIR® ValueSet Resource
  @about:        HL7® FHIR® TERMINOLOGY Costa Rica
  @created by:   National Working Group for FHIR® - Costa Rica
- @date:         2025-09-22
+ @date:         2025-11-20
  @fhir version: 5.0.0
  @authors:      - Ministerio de Salud
                 - Caja Costarricense de Seguro Social
@@ -13,20 +13,12 @@
                 - Global Life-Centered Hub
 --------------------------------------------------------------------*/
 
-CodeSystem:     StateCode
-Id:             state-code
-Title:          "Provincias de Costa Rica"
-Description:    "Listado de provincia en formato Zip Code"
+ValueSet: CRProvinces
+Id: cr-provinces
+Title: "Provincias de Costa Rica"
+Description: "Códigos de provincias de Costa Rica basados en ISO 3166-2:CR"
 
-* insert CodeSystemMeta
-* insert RuleSetStatus (0, draft, pc)
+* insert ValueSetMeta
+* ^url = "https://hl7.or.cr/fhir/terminology/ValueSet/cr-provinces"
 
-// Incluimos todos los códigos de provincias
-
-* #1 "San José" "San José"
-* #2 "Alajuela" "Alajuela"
-* #3 "Cartago" "Cartago"
-* #4 "Heredia" "Heredia"
-* #5 "Guanacaste" "Guanacaste"
-* #6 "Puntarenas" "Puntarenas"
-* #7 "Limon" "Limon"
+* include codes from system https://hl7.or.cr/fhir/terminology/CodeSystem/province-codes
