@@ -15,7 +15,7 @@
 
 CodeSystem:     CityCodes
 Id:             city-codes
-Title:          "Cantones de Costa Rica"
+Title:          "Cantones"
 Description:    "Listado de cantones en formato Zip Code"
 
 * insert CodeSystemMeta

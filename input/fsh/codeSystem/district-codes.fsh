@@ -16,7 +16,7 @@
 
 CodeSystem:     DistrictCodes
 Id:             district-codes
-Title:          "Distritos de Costa Rica"
+Title:          "Distritos"
 Description:    "Listado de distritos en formato Zip Code"
 
 * insert CodeSystemMeta
