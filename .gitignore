@@ -3,4 +3,5 @@ input-cache
 output
 temp
 template
-_genonce.bat
+*.bat
+*.sh
