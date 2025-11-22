@@ -2,7 +2,7 @@ Instance: NamingSystemHClientRegistryIdentifier
 InstanceOf: NamingSystem
 Usage: #definition
 Title: "Sistema de Identificadores del Client Registry"
-Description: "Sistema que define los identificadores utilizados el modelo OpenHIE Client Registry"
+Description: "Sistema que define los identificadores utilizados en el modelo OpenHIE Client Registry"
 
 * name = "ClientRegistryIdentifier"
 * status = #draft
