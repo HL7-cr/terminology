@@ -22,7 +22,7 @@ Description: "Listado de tipos de organizaciones de salud basado en la clasifica
 * insert RuleSetStatus (0, draft, pc)
 
 * #centro-diagnostico-tratamiento "Centros de Diagnóstico y Tratamiento" "Incluyen laboratorios clínicos, centros de imagenología, entre otros."
-* #centro-espacializado "Centro Especializado" "Incluyen el Banco Nacional de Sangre, Centro Nacional de Imágenes Médicas, Clínica Oftalmológica, entre otros."
+* #centro-especializado "Centro Especializado" "Incluyen el Banco Nacional de Sangre, Centro Nacional de Imágenes Médicas, Clínica Oftalmológica, entre otros."
 * #clinica-privada "Clínica Privada" "Brindan atención médica integral o en áreas específicas de la salud de segundo o tercer nivel de atención."
 * #clinica-t1 "Clínica Pública Tipo 1" "Clínica con capacidad básica para atención ambulatoria en medicina general y algunas especialidades básicas (como pediatría o ginecología). Cuenta con consultorios médicos, farmacia, laboratorio clínico básico y servicio limitado de urgencias. Generalmente comunidades pequeñas o urbanas con baja densidad."
 * #clinica-t2 "Clínica Pública Tipo 2" "Clínica con mayor complejidad y número de especialidades en relación con la Tipo I. Incluye imagenología básica (rayos X), laboratorio ampliado, mayor personal de salud y atención en más especialidades médicas. Zonas urbanas más grandes o regiones con población de mediana densidad."
