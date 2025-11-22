@@ -11,7 +11,7 @@ Description: "Sistema que define los identificadores utilizados en Hacienda"
 * extension[=].valueCode = #draft
 
 * kind = #identifier
-* date = "2025-11-22"
+* date = "2025-11-20"
 * publisher = "Ministerio de Hacienda"
 * responsible = "Ministerio de Hacienda"
 * description = "Sistema que define los identificadores oficiales de la población usuaria de Hacienda"
