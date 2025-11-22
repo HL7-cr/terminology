@@ -16,3 +16,87 @@ El número Build de las versiones publicadas casi siempre se mantiene en cero, s
 
 ### Cambios y mejoras en la terminología
 Para solicitar cambios en el contenido de estas páginas y participar en el proceso, consulte la información sobre participación y registro en las páginas de Mantenimiento del vocabulario HL7 para el contexto de Costa Rica.
+
+### Política de Soporte de Versiones
+
+La comunidad de HL7 Costa Rica mantiene un esquema de soporte de versiones balanceado entre innovación y estabilidad:
+
+#### Versiones Soportadas
+
+**Versión Activa (Current)**
+- Versión más reciente con todas las funcionalidades y correcciones
+- Soporte completo: actualizaciones, correcciones y nuevas características
+- Recomendada para nuevas implementaciones
+
+**Versión en Soporte (Deprecated)**
+- Versión anterior inmediata (n-1)
+- Soporte durante **12 meses** desde la nueva versión mayor
+- Solo correcciones críticas de seguridad y bugs
+- Transición gradual hacia la versión activa
+
+**Versión Legacy (Critical Only)**
+- Versión anterior a la deprecated (n-2)
+- Soporte durante **6 meses** adicionales solo para problemas críticos
+- Sin nuevas características ni correcciones menores
+- Recomendada migración inmediata
+
+#### Ciclo de Vida de Versiones
+
+<div style="max-width: 800px; margin: 20px 0;">
+  <table style="width: 100%; border-collapse: collapse; text-align: center;">
+    <thead>
+      <tr style="background-color: #003D5B; color: white;">
+        <th style="padding: 12px; border: 1px solid #ddd;">Versión</th>
+        <th style="padding: 12px; border: 1px solid #ddd;">Estado</th>
+        <th style="padding: 12px; border: 1px solid #ddd;">Fecha Publicación</th>
+        <th style="padding: 12px; border: 1px solid #ddd;">Fin de Soporte</th>
+        <th style="padding: 12px; border: 1px solid #ddd;">Duración Soporte</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #2C6E49; color: white;">
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.0.0</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">✓ Activa</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Próxima versión</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">—</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Soporte Completo</strong></td>
+      </tr>
+      <tr style="background-color: #C17817; color: white;">
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.9.x</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">⚠ Deprecated</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Versión anterior</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">+12 meses</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Solo Crítico</strong></td>
+      </tr>
+      <tr style="background-color: #5B4B8A; color: white;">
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.8.x</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">⊗ Legacy</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Versión n-2</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">+6 meses</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Seguridad únicamente</strong></td>
+      </tr>
+      <tr style="background-color: #6B7280; color: white;">
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>&lt; 0.8.x</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">✕ Sin Soporte</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">—</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Finalizado</td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Migración Obligatoria</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+**Leyenda de Estados:**
+- 🟢 **Activa**: Todas las actualizaciones, nuevas características y correcciones
+- 🟠 **Deprecated**: Solo correcciones críticas de seguridad y bugs mayores (12 meses)
+- 🟣 **Legacy**: Solo parches de seguridad crítica (6 meses adicionales)
+- ⚫ **Sin Soporte**: Migración inmediata requerida
+
+#### Recomendaciones para Implementadores
+
+- **Nuevas implementaciones**: usar siempre la versión activa
+- **Sistemas en producción**: planificar actualización durante periodo deprecated
+- **Sistemas legacy**: migración obligatoria antes de fin de soporte
+- **Pruebas**: validar compatibilidad con versión activa antes de deprecación
+
+Esta política asegura que la comunidad pueda evolucionar la terminología mientras proporciona tiempo razonable para que los implementadores actualicen sus sistemas.
