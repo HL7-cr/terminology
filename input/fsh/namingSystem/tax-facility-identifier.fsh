@@ -14,7 +14,7 @@ Description: "Sistema que define los identificadores utilizados en Hacienda"
 * date = "2025-11-22"
 * publisher = "Ministerio de Hacienda"
 * responsible = "Ministerio de Hacienda"
-* description = "Sistema que define los identificadores oficiales de la población usuaria del Hacienda"
+* description = "Sistema que define los identificadores oficiales de la población usuaria de Hacienda"
 * usage = "Utilizado en Organization.identifier.system, Patient.identifier.system, etc."
 
 * uniqueId[0].type = #uri
