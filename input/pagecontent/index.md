@@ -87,10 +87,10 @@ La comunidad de HL7 Costa Rica mantiene un esquema de soporte de versiones balan
 </div>
 
 **Leyenda de Estados:**
-- 🟢 **Activa**: Todas las actualizaciones, nuevas características y correcciones
-- 🟠 **Deprecated**: Solo correcciones críticas de seguridad y bugs mayores (12 meses)
-- 🟣 **Legacy**: Solo parches de seguridad crítica (6 meses adicionales)
-- ⚫ **Sin Soporte**: Migración inmediata requerida
+- ✓ **Activa**: Todas las actualizaciones, nuevas características y correcciones
+- ⚠ **Deprecated**: Solo correcciones críticas de seguridad y bugs mayores (12 meses)
+- ⊗ **Legacy**: Solo parches de seguridad crítica (6 meses adicionales)
+- ✕ **Sin Soporte**: Migración inmediata requerida
 
 #### Recomendaciones para Implementadores
 
