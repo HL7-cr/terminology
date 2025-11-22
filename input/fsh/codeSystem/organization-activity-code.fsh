@@ -78,7 +78,7 @@ Description:    "Códigos para clasificar los tipos de actividades de atención 
 * #8600 #8690 #8690.9 #8690.9.14 "Servicios ambulatorios de atención en enfermería" "Cuidados de enfermería en modalidad ambulatoria"
 * #8600 #8690 #8690.9 #8690.9.15 "Servicios de consulta farmacéutica." "Asesoría farmacológica y seguimiento farmacoterapéutico"
 * #8600 #8690 #8690.9 #8690.9.16 "Servicios de terapia del lenguaje." "Evaluación y rehabilitación de trastornos del habla y lenguaje"
-* #8600 #8690 #8690.9 #8690.9.17 "Servicios de terapia  ocupacional" "Rehabilitación de habilidades para actividades de la vida diaria"
+* #8600 #8690 #8690.9 #8690.9.17 "Servicios de terapia ocupacional" "Rehabilitación de habilidades para actividades de la vida diaria"
 * #8600 #8720 "Actividades de atención residencial para el cuidado de la salud" "Atención en establecimientos residenciales de salud"
 * #8600 #8720 #8720.0 "Servicios residenciales de salud" "Servicios de salud con alojamiento de larga estancia"
 * #8600 #8720 #8720.0 #8720.0.01 "Servicios de desintoxicación para personas con problemas con el consumo de alcohol y otras drogas" "Tratamiento residencial para desintoxicación de sustancias"
