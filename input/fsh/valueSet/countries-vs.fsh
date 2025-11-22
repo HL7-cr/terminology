@@ -13,8 +13,8 @@
                 - Global Life-Centered Hub
 --------------------------------------------------------------------*/
 
-ValueSet:       CoutryCode3Alpha
-Id:             coutry-code-3-alpha
+ValueSet:       CountryCode3Alpha
+Id:             country-code-3-alpha
 Title:          "Países"
 Description:    "Código de país en formato ISO 3166-1 alpha-3"
 
