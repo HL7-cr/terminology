@@ -1,8 +1,8 @@
 /* ------------------------------------------------------------------ 
- @type:         FSH-File for a FHIR® CodeSystem Resource
+ @type:         FSH-File for a FHIR® ValueSet Resource
  @about:        HL7® FHIR® TERMINOLOGY Costa Rica
  @created by:   National Working Group for FHIR® - Costa Rica
- @date:         2025-11-20
+ @date:         2025-11-21
  @fhir version: 5.0.0
  @authors:      - Ministerio de Salud
                 - Caja Costarricense de Seguro Social
@@ -13,14 +13,12 @@
                 - Global Life-Centered Hub
 --------------------------------------------------------------------*/
 
+ValueSet: CROrganizationActivitySet
+Id: cr-organization-activity
+Title: "Tipos de Actividades de Organizaciones"
+Description: "Listado de tipos de actividades para organizaciones en Costa Rica"
 
-CodeSystem: OrganizationIdentifierTypeCodes
-Id: organization-identifier-type
-Title: "Identificadores para Organizaciones"
-Description: "Listado de identificadores para organizaciones utilizados en Costa Rica"
+* insert ValueSetMeta
+* ^url = "https://hl7.or.cr/fhir/terminology/ValueSet/cr-organization-activity"
 
-* insert CodeSystemMeta
-* insert RuleSetStatus (0, draft, pc)
-
-* #cedula-juridica "Cédula Jurídica" "Identificador único asignado a personas jurídicas en Costa Rica por el Registro Nacional"
-* #codigo-prestador "Código de Prestador" "Código asignado a prestadores de servicios de salud en Costa Rica"
+* include codes from system https://hl7.or.cr/fhir/terminology/CodeSystem/organization-activity-code
