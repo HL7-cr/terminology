@@ -82,4 +82,4 @@ Description:    "Códigos para clasificar los tipos de actividades de atención 
 * #8600 #8720 "Actividades de atención residencial para el cuidado de la salud" "Atención en establecimientos residenciales de salud"
 * #8600 #8720 #8720.0 "Servicios residenciales de salud" "Servicios de salud con alojamiento de larga estancia"
 * #8600 #8720 #8720.0 #8720.0.01 "Servicios de desintoxicación para personas con problemas con el consumo de alcohol y otras drogas" "Tratamiento residencial para desintoxicación de sustancias"
-* #8600 #8720 #8720.0 #8720.0.07 "Servicios de atención  residencial para personas con problemas con el consumo de alcohol y otras drogas" "Atención residencial para tratamiento de adicciones"
+* #8600 #8720 #8720.0 #8720.0.07 "Servicios de atención residencial para personas con problemas con el consumo de alcohol y otras drogas" "Atención residencial para tratamiento de adicciones"
