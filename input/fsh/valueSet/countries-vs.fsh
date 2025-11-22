@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------ 
- @type:         FSH-File for a FHIR® CodeSystem Resource
+ @type:         FSH-File for a FHIR® ValueSet Resource
  @about:        HL7® FHIR® TERMINOLOGY Costa Rica
  @created by:   National Working Group for FHIR® - Costa Rica
  @date:         2025-11-20
@@ -13,14 +13,13 @@
                 - Global Life-Centered Hub
 --------------------------------------------------------------------*/
 
+ValueSet:       CountryCode3Alpha
+Id:             country-code-3-alpha
+Title:          "Países"
+Description:    "Código de país en formato ISO 3166-1 alpha-3"
 
-CodeSystem: OrganizationIdentifierTypeCodes
-Id: organization-identifier-type
-Title: "Identificadores para Organizaciones"
-Description: "Listado de identificadores para organizaciones utilizados en Costa Rica"
-
-* insert CodeSystemMeta
+* insert ValueSetMeta
 * insert RuleSetStatus (0, draft, pc)
 
-* #cedula-juridica "Cédula Jurídica" "Identificador único asignado a personas jurídicas en Costa Rica por el Registro Nacional"
-* #codigo-prestador "Código de Prestador" "Código asignado a prestadores de servicios de salud en Costa Rica"
+// Incluimos todos los códigos de países
+* include codes from valueset http://hl7.org/fhir/ValueSet/iso3166-1-3

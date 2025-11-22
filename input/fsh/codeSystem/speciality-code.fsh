@@ -2,7 +2,7 @@
  @type:         FSH-File for a FHIR® CodeSystem Resource
  @about:        HL7® FHIR® TERMINOLOGY Costa Rica
  @created by:   National Working Group for FHIR® - Costa Rica
- @date:         2025-09-22
+ @date:         2025-11-20
  @fhir version: 5.0.0
  @authors:      - Ministerio de Salud
                 - Caja Costarricense de Seguro Social
@@ -21,6 +21,7 @@ Description: "Listado de especialidad de profesionales de salud en Costa Rica"
 
 * insert CodeSystemMeta
 * insert RuleSetStatus (0, draft, pc)
+* ^hierarchyMeaning = #is-a
 
 * #01 "Audiología" "Audiología"
 * #01 #01.01 "Audiología - Bachiller" "Audiología - Bachiller"
