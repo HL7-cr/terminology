@@ -56,28 +56,28 @@ La comunidad de HL7 Costa Rica mantiene un esquema de soporte de versiones balan
     <tbody>
       <tr style="background-color: #2C6E49; color: white;">
         <td style="padding: 10px; border: 1px solid #ddd;"><strong>1.0.0</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">✓ Activa</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Activa</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Próxima versión</td>
         <td style="padding: 10px; border: 1px solid #ddd;">—</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><strong>Soporte Completo</strong></td>
       </tr>
       <tr style="background-color: #C17817; color: white;">
         <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.9.x</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">⚠ Deprecated</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Deprecated</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Versión anterior</td>
         <td style="padding: 10px; border: 1px solid #ddd;">+12 meses</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><strong>Solo Crítico</strong></td>
       </tr>
       <tr style="background-color: #5B4B8A; color: white;">
         <td style="padding: 10px; border: 1px solid #ddd;"><strong>0.8.x</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">⊗ Legacy</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Legacy</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Versión n-2</td>
         <td style="padding: 10px; border: 1px solid #ddd;">+6 meses</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><strong>Seguridad únicamente</strong></td>
       </tr>
       <tr style="background-color: #6B7280; color: white;">
         <td style="padding: 10px; border: 1px solid #ddd;"><strong>&lt; 0.8.x</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">✕ Sin Soporte</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Sin Soporte</td>
         <td style="padding: 10px; border: 1px solid #ddd;">—</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Finalizado</td>
         <td style="padding: 10px; border: 1px solid #ddd;"><strong>Migración Obligatoria</strong></td>
@@ -87,10 +87,10 @@ La comunidad de HL7 Costa Rica mantiene un esquema de soporte de versiones balan
 </div>
 
 **Leyenda de Estados:**
-- ✓ **Activa**: Todas las actualizaciones, nuevas características y correcciones
-- ⚠ **Deprecated**: Solo correcciones críticas de seguridad y bugs mayores (12 meses)
-- ⊗ **Legacy**: Solo parches de seguridad crítica (6 meses adicionales)
-- ✕ **Sin Soporte**: Migración inmediata requerida
+- <span style="color: #2C6E49;">●</span> **Activa**: Todas las actualizaciones, nuevas características y correcciones
+- <span style="color: #C17817;">●</span> **Deprecated**: Solo correcciones críticas de seguridad y bugs mayores (12 meses)
+- <span style="color: #5B4B8A;">●</span> **Legacy**: Solo parches de seguridad crítica (6 meses adicionales)
+- <span style="color: #6B7280;">●</span> **Sin Soporte**: Migración inmediata requerida
 
 #### Recomendaciones para Implementadores
 
