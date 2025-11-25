@@ -1,0 +1,22 @@
+{
+    "package-id" : "hl7.fhir.cr.terminology",
+    "title" : "HL7 FHIR Costa Rica - Terminología",
+    "canonical" : "https://hl7.or.cr/fhir/terminology",
+    "introduction" : "Esta guía describe los sistemas de códigos y conjuntos de valores para el contexto costarricense, siguiendo los estándares HL7 FHIR.",
+    "list" : [{
+        "version" : "current",
+        "desc" : "Compilación de Integración Continua (última en control de versiones)",
+        "path" : "http://build.fhir.org/ig/HL7-cr/terminology/branches/main",
+        "status" : "ci-build",
+        "current" : true
+    },{
+        "version" : "0.0.1-ballot",
+        "date" : "2025-11-16",
+        "desc" : "Primer ballot público de la terminología de Costa Rica",
+        "path" : "https://hl7.or.cr/fhir/terminology/terminology",
+        "status" : "ballot",
+        "sequence" : "Ballot Público 1",
+        "fhirversion" : "5.0.0",
+        "current" : true
+    }]
+}
