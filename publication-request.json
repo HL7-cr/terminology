@@ -4,7 +4,7 @@
   "path" : "https://hl7.or.cr/fhir/terminology/0.0.1-ballot",
   "ci-build" : "https://build.fhir.org/ig/HL7-cr/terminology",
   "status" : "draft",
-  "first": true,
+  "first": false,
   "title" : "HL7 Costa Rica Terminology",
   "category" : "Terminology",
   "sequence" : "2025-11",
