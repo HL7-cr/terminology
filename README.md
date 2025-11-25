@@ -1,3 +1,5 @@
+<!-- https://confluence.hl7.org/spaces/HAFWG/pages/218825999/Step+By+Step+running+publisher+-go-publish -->
+
 # HL7 FHIR Costa Rica Terminología
 
 Esta guía de implementación define los recursos de terminología FHIR utilizados por la Iniciativa HL7 Costa Rica.
@@ -25,17 +27,6 @@ sushi .
 ./_genonce.sh
 ```
 
-### Herramientas de Desarrollo
-
-#### Generar Descripciones de Pull Request
-
-El repositorio incluye una herramienta para ayudar a generar descripciones de PR basadas en commits:
-
-```bash
-./generate-pr-description.sh
-```
-
-Para más información, consulta la [Guía de Descripciones de PR](docs/pr-description-guide.md).
 
 ## Contribuir
 
