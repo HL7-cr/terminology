@@ -19,6 +19,8 @@ Id:             district-codes
 Title:          "Distritos"
 Description:    "Listado de distritos en formato Zip Code"
 
+/* language = #es */ // Esta línea se considera redundante y se eliminará
+
 * insert CodeSystemMeta
 * insert RuleSetStatus (0, draft, pc)
 
@@ -258,7 +260,6 @@ Description:    "Listado de distritos en formato Zip Code"
 * #20703 "Buenos Aires" "Buenos Aires" 
 * #20704 "Santiago" "Santiago"
 * #20705 "Candelaria" "Candelaria"
-* #20706 "Esquipulas" "Esquipulas"
 * #20707 "La Granja" "La Granja"
 
 // Distritos del Cantón de Poás

@@ -18,6 +18,7 @@ Id:             city-codes
 Title:          "Cantones"
 Description:    "Listado de cantones en formato Zip Code"
 
+/* Definicion de los valores del CodeSystem */
 * insert CodeSystemMeta
 * insert RuleSetStatus (0, draft, pc)
 
@@ -71,7 +72,7 @@ Description:    "Listado de cantones en formato Zip Code"
 * #307 "Oreamuno" "Cantón de Oreamuno, provincia de Cartago"
 * #308 "El Guarco" "Cantón de El Guarco, provincia de Cartago"
 
-// HEREDIA
+// HER
 * #401 "Heredia" "Cantón de Heredia, provincia de Heredia"
 * #402 "Barva" "Cantón de Barva, provincia de Heredia"
 * #403 "Santo Domingo" "Cantón de Santo Domingo, provincia de Heredia"
