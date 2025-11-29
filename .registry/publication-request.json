@@ -2,7 +2,7 @@
   "package-id" : "hl7.fhir.cr.terminology",
   "version" : "0.0.1-ballot",
   "path" : "https://hl7.or.cr/fhir/terminology/0.0.1-ballot",
-  "ci-build" : "https://build.fhir.org/ig/HL7-cr/terminology",
+  "ci-build" : "http://build.fhir.org/ig/HL7-cr/terminology",
   "status" : "draft",
   "first": true,
   "title" : "HL7 Costa Rica Terminology",

@@ -11,7 +11,7 @@
         "current" : true
     },{
         "version" : "0.0.1-ballot",
-        "date" : "2025-11-16",
+        "date" : "2025-11-29",
         "desc" : "Primer ballot público de la terminología de Costa Rica",
         "path" : "https://hl7.or.cr/fhir/terminology/terminology",
         "status" : "ballot",
