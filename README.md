@@ -6,7 +6,7 @@ Esta guía de implementación define los recursos de terminología FHIR utilizad
 
 ## Recursos
 
-- **CI Build**: [https://build.fhir.org/ig/HL7-cr/terminology](https://build.fhir.org/ig/HL7-cr/terminology)
+- **CI Build**: [http://build.fhir.org/ig/HL7-cr/terminology](http://build.fhir.org/ig/HL7-cr/terminology)
 - **Canonical**: https://hl7.or.cr/fhir/terminology
 - **Versión Actual**: 0.0.1-ballot
 

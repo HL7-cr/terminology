@@ -271,7 +271,7 @@ La promoción de cambios de `develop` a `main` es responsabilidad exclusiva de l
 
 ### Documentación
 
-- [FHIR Shorthand (FSH)](https://build.fhir.org/ig/HL7/fhir-shorthand/)
+- [FHIR Shorthand (FSH)](http://build.fhir.org/ig/HL7/fhir-shorthand/)
 - [FHIR R5 Specification](https://hl7.org/fhir/R5/)
 - [SUSHI Documentation](https://fshschool.org/)
 - [IG Publisher Documentation](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation)
