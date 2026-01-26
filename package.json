@@ -1,0 +1,8 @@
+{
+  "name": "hl7.fhir.cr.terminology",
+  "version": "0.0.1-ballot",
+  "description": "Costa Rica Terminology Implementation Guide",
+  "keywords": ["fhir", "hl7", "terminology", "costa-rica"],
+  "author": "HL7 Costa Rica",
+  "license": "CC0-1.0"
+}
