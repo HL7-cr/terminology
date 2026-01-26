@@ -1,5 +1,5 @@
 {
-	"name": "cr-template",
+	"name": "template-cr",
 	"version": "0.1",
 	"type": "fhir.template",
 	"license": "CC0-1.0",

@@ -1,0 +1,8 @@
+# Incluir recursos generados
+!fsh-generated/resources/
+!package/
+
+# Excluir otros directorios generados
+output/
+temp/
+input-cache/
