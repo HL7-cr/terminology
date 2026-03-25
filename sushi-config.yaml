@@ -64,6 +64,8 @@ pages:
     title: Licencias
   credits.md:
     title: Créditos
+  downloads.md:
+    title: Descargas
 
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -90,6 +92,7 @@ menu:
   Artefactos: artifacts.html
   Licencias: licenses.html
   Créditos: credits.html
+  Descargas: downloads.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
