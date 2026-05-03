@@ -3,10 +3,10 @@ packageId: hl7.fhir.cr.terminology
 canonical: https://hl7.or.cr/fhir/terminology
 name: CRTerminology
 
-title: HL7 FHIR Costa Rica - Terminología
+title: HL7® FHIR® Costa Rica - Terminología
 description: >-
-  Guía de implementación de terminología FHIR de HL7 Costa Rica que incluye
-  ValueSets y CodeSystems utilizados en implementaciones FHIR en Costa Rica.
+  Guía de implementación de terminología FHIR® de HL7® Costa Rica que incluye
+  ValueSets y CodeSystems utilizados en implementaciones FHIR® en Costa Rica.
 
 extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
@@ -23,18 +23,18 @@ language: es
 copyrightYear: 2025+
 date: 2025-11-16
 copyright: >-
-  Derechos de autor (c) 2025+, Iniciativa HL7 Costa Rica. Este trabajo se distribuye bajo la licencia CC-BY-4.0. HL7®, FHIR® y el logotipo FHIR (diseño de llama) son marcas registradas de Health Level Seven International. Su uso no implica respaldo por parte de HL7. El contenido normativo de FHIR es © HL7.org 2011+. Todos los derechos reservados.
+  Derechos de autor (c) 2025+, Iniciativa HL7® Costa Rica. Este trabajo se distribuye bajo la licencia CC-BY-4.0. HL7®, FHIR® y el logotipo FHIR (diseño de llama) son marcas registradas de Health Level Seven International. Su uso no implica respaldo por parte de HL7®. El contenido normativo de FHIR® es © HL7.org 2011+. Todos los derechos reservados.
 
 releaseLabel: ci-build
 license: CC-BY-4.0
 jurisdiction: urn:iso:std:iso:3166#CR "Costa Rica"
 publisher:
-  name: Iniciativa HL7 Costa Rica
+  name: Iniciativa HL7® Costa Rica
   url: https://hl7.or.cr
   email: info@hl7.or.cr
 
 contact:
-  - name: Iniciativa HL7 Costa Rica
+  - name: Iniciativa HL7® Costa Rica
     telecom:
       - system: email
         value: info@hl7.or.cr
