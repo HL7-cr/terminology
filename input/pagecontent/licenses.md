@@ -1,4 +1,6 @@
-Esta sección describe los términos de licencia para todo el contenido de estas páginas de Terminología desarrolladas por la Iniciativa HL7 Costa Rica, pero no incluye ningún contenido desarrollado por terceros que pueda estar disponible en estas páginas.
+Esta sección describe los términos de licencia para todo el contenido de estas páginas de Terminología desarrolladas por la Iniciativa HL7® Costa Rica, pero no incluye ningún contenido desarrollado por terceros que pueda estar disponible en estas páginas.
+
+> **Aviso de Marcas Registradas:** HL7®, FHIR® y el logotipo FHIR (diseño de llama) son marcas registradas de Health Level Seven International. Su uso en esta guía no implica respaldo por parte de HL7. Para más información, consulte la [Política de Propiedad Intelectual de HL7](https://www.hl7.org/legal/ippolicy.cfm){:target="_blank"}. El contenido normativo de FHIR es © HL7.org 2011+. Todos los derechos reservados.
 
 ### Descargo de responsabilidad y advertencia de uso
 El contenido terminológico de HL7® (Health Level Seven, Inc.) desarrollado por HL7 se deriva de la experiencia colectiva de sus miembros y de la retroalimentación de la comunidad en el desarrollo y la aplicación de diversas soluciones de interoperabilidad sanitaria. Sin embargo, dado que la terminología de HL7 admite múltiples contextos de uso, es responsabilidad de las personas u organizaciones que utilizan este contenido garantizar que su uso sea adecuado para su propósito específico, incluyendo la validación para uso clínico y operativo.
@@ -10,7 +12,7 @@ El contenido terminológico de HL7® (Health Level Seven, Inc.) desarrollado por
 - No puede afirmar que la Iniciativa HL7 Costa Rica o alguno de sus miembros avala su [cosa] derivada porque utiliza contenido de esta especificación.
 - Ni la Iniciativa de HL7 Costa Rica ni ninguno de los colaboradores de esta especificación aceptan responsabilidad alguna por el uso que usted haga de la Terminología.
 - No puede publicar una versión modificada de la Terminología de la Iniciativa de HL7 Costa Rica a menos que se identifique claramente que se trata de un trabajo derivado, no de la Terminología de la Iniciativa de HL7 Costa Rica en sí.
-- Los trabajos derivados no pueden redefinir el significado de la conformidad con los estándares HL7 (incluido FHIR).
+- Los trabajos derivados no pueden redefinir el significado de la conformidad con los estándares HL7® (incluido FHIR®).
 - La Iniciativa de HL7 Costa Rica no se responsabiliza de identificar las patentes que puedan requerir una licencia para implementar la Terminología ni de realizar investigaciones sobre la validez legal o el alcance de las patentes que se le notifiquen (Manual de Gobernanza y Operaciones).
 
 ### Artefactos y terminologías de terceros
