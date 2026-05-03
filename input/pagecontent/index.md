@@ -1,11 +1,13 @@
 ### Introducción
 
-Esta es la página principal de acceso a la terminología de la Iniciativa HL7 Costa Rica. Este material comprende los sistemas de códigos y conjuntos de valores citados en los artefactos publicados de HL7 (estándares internacionales y guías de implementación) en un formato fácil de navegar.
+Esta es la página principal de acceso a la terminología de la Iniciativa HL7® Costa Rica. Este material comprende los sistemas de códigos y conjuntos de valores citados en los artefactos publicados de HL7® (estándares internacionales y guías de implementación) en un formato fácil de navegar.
 
-Como parte del enfoque de la Iniciativa HL7 Costa Rica para proporcionar una gobernanza unificada y facilitar el acceso consistente a la terminología y el vocabulario publicados, se pretende acceder en estas páginas a todos los sistemas de códigos y conjuntos de valores publicados de las principales familias de productos HL7 dispuestos para Costa Rica. Tenga en cuenta que la unificación completa de todo el contenido terminológico de los sistemas de códigos HL7 será un esfuerzo continuo. Existe la opción de descargar la terminología junto con componentes adicionales e información de referencia. Los usuarios pueden explorar y descargar la terminología HL7 en estas páginas.
+Como parte del enfoque de la Iniciativa HL7® Costa Rica para proporcionar una gobernanza unificada y facilitar el acceso consistente a la terminología y el vocabulario publicados, se pretende acceder en estas páginas a todos los sistemas de códigos y conjuntos de valores publicados de las principales familias de productos HL7® dispuestos para Costa Rica. Tenga en cuenta que la unificación completa de todo el contenido terminológico de los sistemas de códigos HL7® será un esfuerzo continuo. Existe la opción de descargar la terminología junto con componentes adicionales e información de referencia. Los usuarios pueden explorar y descargar la terminología HL7® en estas páginas.
+
+> **Aviso de marcas registradas:** HL7®, FHIR® y el logotipo FHIR (diseño de llama) son marcas registradas de Health Level Seven International. Su uso en esta guía no implica respaldo por parte de HL7.
 
 #### Licencias
-Este contenido está disponible bajo la designación CC-BY-4.0. Para más información, consulte la página de detalles de la licencia de la terminologías.
+Este contenido está disponible bajo la designación CC-BY-4.0. Para más información, consulte la página de detalles de la licencia de las terminologías.
 
 ### Identificación de versiones
 Las versiones de la Terminología incluyen un identificador de versión de tres partes, con el formato Major.Minor.Build (similar al esquema de versiones semánticas comúnmente utilizado). En las versiones de la Terminología, el número Major indica una nueva versión principal y se actualizará ocasionalmente cuando se añada contenido nuevo significativo, se produzcan cambios sustanciales de diseño y formato, o se publiquen cambios que puedan afectar la compatibilidad con versiones anteriores. Tras una nueva versión principal, el número Minor se incrementará en uno, y tanto el número Minor como el de Build se restablecerán a cero.
