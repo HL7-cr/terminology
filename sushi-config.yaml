@@ -3,7 +3,7 @@ packageId: hl7.fhir.cr.terminology
 canonical: https://hl7.or.cr/fhir/terminology
 name: CRTerminology
 
-title: HL7® FHIR® Costa Rica - Terminología
+title: Terminología Costa Rica FHIR®
 description: >-
   Guía de implementación de terminología FHIR® de HL7® Costa Rica que incluye
   ValueSets y CodeSystems utilizados en implementaciones FHIR® en Costa Rica.
