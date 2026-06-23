@@ -1,8 +1,8 @@
 <!-- https://confluence.hl7.org/spaces/HAFWG/pages/218825999/Step+By+Step+running+publisher+-go-publish -->
 
-# HL7 FHIR Costa Rica Terminología
+# HL7® FHIR® Costa Rica Terminología
 
-Esta guía de implementación define los recursos de terminología FHIR utilizados por la Iniciativa HL7 Costa Rica.
+Esta guía de implementación define los recursos de terminología FHIR® utilizados por la Iniciativa HL7 Costa Rica.
 
 ## Recursos
 
@@ -41,6 +41,6 @@ Este proyecto está licenciado bajo CC-BY-4.0. Ver el archivo LICENSE para más 
 
 ## Contacto
 
-- **Organización**: Iniciativa HL7 Costa Rica
+- **Organización**: Iniciativa HL7® Costa Rica
 - **Web**: https://hl7.or.cr
 - **Email**: info@hl7.or.cr
